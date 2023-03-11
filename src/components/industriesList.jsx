@@ -5,6 +5,7 @@ import {
   BsArrowRightCircleFill,
 } from "react-icons/bs";
 
+
 export default function IndustriesList() {
   const industryComp = () => {
     return (

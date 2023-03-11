@@ -3,7 +3,7 @@ import React from "react";
 export default function NavBar() {
   return (
     <div className="w-[100vw] h-[80px] bg-white">
-      <div className="w-full flex flex-row justify-between items-center px-10 py-5 shadow-md">
+      <div className="w-full flex flex-row justify-between items-center px-10 py-5 shadow-sm">
         <img
           src="https://www.schemaxtech.com/imgs/logo.png"
           alt="logo"
