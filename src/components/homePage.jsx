@@ -9,7 +9,7 @@ import Benefits from "./benefits";
 import Traction from "./traction";
 import FooterBar from "./footer";
 import VisionMissionSection from "./visionMission";
-import LandingSlide from "./landing_slide";
+import LandingSlide, { Navbarr } from "./landing_slide";
 
 export default function HomePage() {
   const space = () => {
@@ -18,7 +18,8 @@ export default function HomePage() {
 
   return (
     <div className="bg-slate-100 gil-reg">
-      <NavBar />
+      {/* <NavBar /> */}
+      {/* <Navbarr /> */}
 
       <LandingSlide />
       {space()}
