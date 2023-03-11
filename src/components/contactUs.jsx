@@ -13,47 +13,63 @@ import {
   AiOutlineMobile,
 } from "react-icons/ai";
 import { FaFacebook, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import HoverButton from "./reusableComponent/hoverButton";
 
 export default function ContactUs() {
   return (
     <div className="w-[100vw] h-[550px] text-black">
       <div className="m-auto w-[80%] bg-white h-full flex flex-row items-center justify-center rounded-sm">
-        <div className="h-full w-[40%]">
-          <img
-            src="https://img.freepik.com/free-vector/contact-us-concept-illustration_114360-2299.jpg?w=2000"
+        <div
+          className="h-full w-[30%]"
+          style={{
+            backgroundImage: `url("https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          {/* <img
+            src="https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             alt="contact us"
             className="h-[70%] w-full object-cover"
-          />
-          <div className="absolute flex flex-col pl-6 text-black">
+          /> */}
+          <div className="h-full flex flex-row items-end">
+          <div className="flex flex-col pl-6 text-black pb-4">
             <div className="text-3xl gil-med text">Schemax</div>
             <p className="gil-light text-xs opacity-70 w-[70%]">
               Lorem ipsum dolor sit amet, consectetur <br /> adipisicing elit.
               Voluptatibus saepe nostrum accusantium! Labore iure
             </p>
             <div className="flex flex-row w-[60%] pt-4 justify-between">
-              <div className="w-[40px] h-[40px] bg-slate-200 flex flex-col items-center justify-center cursor-pointer ">
+              <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer ">
                 <AiOutlineTwitter size="1.6rem" />
               </div>
-              <div className="w-[40px] h-[40px] bg-slate-200 flex flex-col items-center justify-center cursor-pointer">
+              <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
                 <FaLinkedinIn size="1.4rem" />
               </div>
-              <div className="w-[40px] h-[40px] bg-slate-200 flex flex-col items-center justify-center cursor-pointer">
+              <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
                 <AiFillInstagram size="1.6rem" />
               </div>
-              <div className="w-[40px] h-[40px] bg-slate-200 flex flex-col items-center justify-center cursor-pointer">
+              <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
                 <FaFacebookF size="1.4rem" />
               </div>
             </div>
+            </div>
           </div>
         </div>
-        <div className="h-full w-[60%] gil-reg">
-          <div className="h-full w-full p-8">
+        <div className="h-full w-[70%] gil-reg">
+          <div className="h-full w-full m-auto p-8">
+            <div className="flex flex-col items-center justify-between">
+              <div className="flex flex-col items-start w-[90%]">
             <p className="gil-reg text-2xl">
               GET IN <span className="gil-bold">TOUCH</span>
             </p>
-            <p className="opacity-30 text-sm">24/7 We will answer your questions & problems</p>
-            <div className="flex flex-row items-center w-full pt-6">
-              <div class="relative mb-6 w-[45%] pr-2">
+            <p className="opacity-30 text-sm">
+              24/7 We will answer your questions & problems
+            </p>
+            </div>
+            <div className="w-[90%] flex flex-row items-center justify-between pt-6">
+              <div class="relative mb-6 w-[45%]">
                 <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                   <AiOutlineUser />
                 </div>
@@ -107,12 +123,11 @@ export default function ContactUs() {
                 placeholder="Description"
               />
             </div>
-  
+
             <div className="flex flex-row justify-end w-[90%]">
-              <button className="gil-med text-white text-sm bg-[#4ac8ed] h-[50px] w-full">
-                Submit
-              </button>
+             <HoverButton text="Submit" className="w-full h-12" />
             </div>
+          </div>
           </div>
         </div>
       </div>

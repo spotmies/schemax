@@ -31,7 +31,7 @@ export default function Services() {
   };
   const items = (
     <div
-      className="h-[460px] text-white w-[330px] rounded-sm flex flex-col items-center justify-end p-4"
+      className="h-[460px] text-white w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4"
       style={{
         backgroundImage: `url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80")`,
         backgroundSize: "cover",
