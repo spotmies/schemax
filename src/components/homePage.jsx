@@ -10,6 +10,9 @@ import Traction from "./traction";
 import FooterBar from "./footer";
 import VisionMissionSection from "./visionMission";
 import LandingSlide, { Navbarr } from "./landing_slide";
+import Faq from "./faq";
+import Career from "./careers";
+import TermsAndConditionsPage from "./termsConditions";
 
 export default function HomePage() {
   const space = () => {
@@ -40,7 +43,15 @@ export default function HomePage() {
       {space()}
       <ContactUs />
       {space()}
-     
+      <Faq />
+
+      {space()}
+
+      <Career />
+      {space()}
+
+      <TermsAndConditionsPage />
+      {space()}
 
       <FooterBar />
     </div>

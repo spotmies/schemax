@@ -41,9 +41,9 @@ export const Navbarr = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img
-            src="https://www.spotmies.com/spotmies_banner.png"
+            src="/assets/images/schemax_logo.png"
             alt="Logo"
-            className="h-10"
+            className="h-10 cursor-pointer"
           />
         </div>
         <div className="flex items-center">

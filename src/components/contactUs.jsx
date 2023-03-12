@@ -69,8 +69,8 @@ export default function ContactUs() {
             </p>
             </div>
             <div className="w-[90%] flex flex-row items-center justify-between pt-6">
-              <div class="relative mb-6 w-[45%]">
-                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <div className="relative mb-6 w-[45%]">
+                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                   <AiOutlineUser />
                 </div>
                 <input
@@ -80,8 +80,8 @@ export default function ContactUs() {
                   placeholder="First name"
                 />
               </div>
-              <div class="relative mb-6 w-[45%]">
-                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+              <div className="relative mb-6 w-[45%]">
+                <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                   <AiOutlineUser />
                 </div>
                 <input
@@ -92,8 +92,8 @@ export default function ContactUs() {
                 />
               </div>
             </div>
-            <div class="relative mb-6 w-[90%]">
-              <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <div className="relative mb-6 w-[90%]">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <AiOutlineMail />
               </div>
               <input
@@ -103,8 +103,8 @@ export default function ContactUs() {
                 placeholder="your@email.com"
               />
             </div>
-            <div class="relative mb-6 w-[90%]">
-              <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+            <div className="relative mb-6 w-[90%]">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                 <AiOutlineMobile />
               </div>
               <input
@@ -114,7 +114,7 @@ export default function ContactUs() {
                 placeholder="9876543210"
               />
             </div>
-            <div class="relative mb-6 w-[90%]">
+            <div className="relative mb-6 w-[90%]">
               <textarea
                 rows={5}
                 type="text"
