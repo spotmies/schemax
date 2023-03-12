@@ -13,6 +13,8 @@ import LandingSlide, { Navbarr } from "./landing_slide";
 import Faq from "./faq";
 import Career from "./careers";
 import TermsAndConditionsPage from "./termsConditions";
+import AboutUs from "./aboutUs";
+import TeamSlide from "./team";
 
 export default function HomePage() {
   const space = () => {
@@ -43,6 +45,8 @@ export default function HomePage() {
       {space()}
       <ContactUs />
       {space()}
+      <AboutUs />
+      {space()}
       <Faq />
 
       {space()}
@@ -51,6 +55,9 @@ export default function HomePage() {
       {space()}
 
       <TermsAndConditionsPage />
+      {space()}
+
+      <TeamSlide />
       {space()}
 
       <FooterBar />
