@@ -44,7 +44,7 @@ export default function Benefits() {
   return (
     <div className="w-[100vw] min-h-[100vh] h-fit">
       <p className="text-4xl text-center gil-bold">Benefit of choosing us</p>
-      <div className="flex flex-row items-center justify-between w-[80%] m-auto pt-12">
+      <div className="flex flex-row items-center justify-between w-[90%] m-auto pt-12">
         {item}
         {item}
         {item}
@@ -52,9 +52,9 @@ export default function Benefits() {
       <img
         src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
         alt="industry"
-        className=" mt-8 w-[80%] h-[500px] object-cover rounded-md m-auto"
+        className=" mt-8 w-[90%] h-[500px] object-cover rounded-md m-auto"
       />
-      <div className="pt-[70px] m-auto w-[80%]">
+      <div className="pt-[70px] m-auto w-[90%]">
         <Carousel
           responsive={responsive2}
           arrows={false}

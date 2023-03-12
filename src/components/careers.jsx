@@ -23,7 +23,7 @@ function CareerSection() {
   return (
     <div className="w-[100vw]">
       <div
-        className="relative bg-cover bg-center bg-gray-800 py-24 w-[80%] m-auto rounded-sm"
+        className="relative bg-cover bg-center bg-gray-800 py-24 w-[90%] m-auto rounded-sm"
         style={{
             // blur the background image
          

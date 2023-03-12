@@ -7,14 +7,14 @@ export default function FooterBar() {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between mb-12">
             <div className="w-full md:w-1/3 lg:w-1/4">
-              <h2 className="text-lg font-bold mb-4">About Us</h2>
+              <h2 className="text-lg gil-bold mb-4">About Us</h2>
               <p className="mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
                 eget mi euismod, dignissim lorem id, congue justo.
               </p>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/4">
-              <h2 className="text-lg font-bold mb-4">Useful Links</h2>
+              <h2 className="text-lg gil-bold mb-4">Useful Links</h2>
               <ul className="list-reset">
                 <li className="mb-2">
                   <a href="#" className="hover:text-white">
@@ -39,7 +39,7 @@ export default function FooterBar() {
               </ul>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/4">
-              <h2 className="text-lg font-bold mb-4">More</h2>
+              <h2 className="text-lg gil-bold mb-4">More</h2>
               <ul className="list-reset">
                 <li className="mb-2">
                   <a href="#" className="hover:text-white">
@@ -64,7 +64,7 @@ export default function FooterBar() {
               </ul>
             </div>
             <div className="w-full md:w-1/3 lg:w-1/4">
-              <h2 className="text-lg font-bold mb-4">Newsletter</h2>
+              <h2 className="text-lg gil-bold mb-4">Newsletter</h2>
               <p className="mb-4">
                 Sign up for our newsletter and stay up-to-date with our latest
                 news and offers.
@@ -76,7 +76,7 @@ export default function FooterBar() {
                   placeholder="Enter your email"
                 />
                 <button
-                  className="bg-primary hover:bg-primary-dark text-white font-bold py-2 px-4 rounded"
+                  className="bg-primary hover:bg-primary-dark text-white gil-bold py-2 px-4 rounded"
                   type="submit"
                 >
                   Subscribe

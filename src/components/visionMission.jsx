@@ -12,9 +12,9 @@ const VisionMissionSection = () => {
             <img
               src={visionImage}
               alt="Vision"
-              className="object-cover h-64 w-full rounded-lg mb-4"
+              className="object-cover h-64 w-full rounded-sm mb-4"
             />
-            <h2 className="text-4xl font-bold mb-4">Our Vision</h2>
+            <h2 className="text-4xl gil-bold mb-4">Our Vision</h2>
             <p className="text-gray-700 mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
               lorem et augue porta aliquet. Nam ut ornare orci. Nullam ut augue
@@ -31,9 +31,9 @@ const VisionMissionSection = () => {
             <img
               src={missionImage}
               alt="Mission"
-              className="object-cover h-64 w-full rounded-lg mb-4"
+              className="object-cover h-64 w-full rounded-sm mb-4"
             />
-            <h2 className="text-4xl font-bold mb-4">Our Mission</h2>
+            <h2 className="text-4xl gil-bold mb-4">Our Mission</h2>
             <p className="text-gray-700 mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
               lorem et augue porta aliquet. Nam ut ornare orci. Nullam ut augue

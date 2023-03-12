@@ -13,7 +13,7 @@ const AboutUsSection = () => {
 
   return (
     <div className="w-[100vw]">
-      <section className="relative w-[80%] m-auto">
+      <section className="relative w-[90%] m-auto">
         <img
           id="aboutUsImg"
           className="absolute w-full h-full object-cover"
@@ -24,7 +24,7 @@ const AboutUsSection = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         <div className="relative flex justify-center items-center h-screen">
           <div className="text-center text-white z-10">
-            <h1 className="text-4xl font-bold mb-4">About Us</h1>
+            <h1 className="text-4xl gil-bold mb-4">About Us</h1>
             <p className="text-lg mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
               odio ac sapien rhoncus auctor sed vel mi. Pellentesque dictum
@@ -32,7 +32,7 @@ const AboutUsSection = () => {
             </p>
             <a
               href="#"
-              className="bg-white text-black px-8 py-3 rounded-lg hover:bg-black hover:text-white transition-all duration-300 ease-in-out"
+              className="bg-white text-black px-8 py-3 rounded-sm hover:bg-black hover:text-white transition-all duration-300 ease-in-out"
             >
               Learn More
             </a>

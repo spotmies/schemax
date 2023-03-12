@@ -4,7 +4,7 @@ const TermsAndConditionsPage = () => {
   return (
     <div className="w-[100vw]">
       <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12 w-full">
-        <div className="relative py-3 w-[80%] m-auto">
+        <div className="relative py-3 w-[90%] m-auto">
           <div className="relative px-4 py-10 bg-white shadow-sm sm:rounded-sm sm:p-20">
             <div className="w-full m-auto">
               <h1 className="text-4xl font-semibold text-gray-800 text-center mb-5">

@@ -9,24 +9,24 @@ import {
 export default function IndustriesList() {
   const industryComp = () => {
     return (
-      <div className="text-black bg-white flex flex-col items-start  min-h-[430px] w-[350px] rounded-sm  p-3">
+      <div className="text-black bg-white flex flex-col items-start  min-h-[430px] w-[400px] rounded-sm  p-3">
         <img
           src="https://wallpaperaccess.com/full/1944457.jpg"
           alt="industry"
           className=" w-full object-cover rounded-sm"
         />
         <div className="flex flex-col items-start justify-center pt-4 pl-2">
-          <p className="text-xs text-[#4ac8ed] opacity-70">29 july, 2022</p>
+          <p className="text-xs text-primary opacity-70">29 july, 2022</p>
           <p className="text-2xl pb-2 pt-6">Manufacturing</p>
           <p className="opacity-70 text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             iusto unde, nemo tempore iusto unde, nemo tempore
           </p>
           <div className="flex flex-row items-center justify-start pt-6">
-            <p className="font-bold text-sm text-[#4ac8ed]">READ MORE</p>
+            <p className="gil-bold text-sm text-primary">READ MORE</p>
             <BsArrowRightCircleFill
-              color="#4ac8ed"
-              className="inline-block text-xl ml-2"
+         
+              className="inline-block text-md ml-2 text-primary"
             />
           </div>
         </div>
@@ -83,19 +83,19 @@ export default function IndustriesList() {
 
   return (
     <div className="pt-10 w-full text-black gil-reg">
-      <div className="w-[80%] m-auto">
+      <div className="w-[90%] m-auto">
         <div className="flex flex-row justify-between items-center w-full pb-8">
           <p className="gil-bold text-2xl">
             Follow the latest articles & news
           </p>
           <div className="flex flex-row items-center">
             <BsArrowLeftCircle
-              color="#4ac8ed"
-              className="inline-block text-3xl mr-2 "
+              // color="primary"
+              className="inline-block text-3xl mr-2 text-primary cursor-pointer"
             />
             <BsArrowRightCircleFill
-              color="#4ac8ed"
-              className="inline-block text-3xl"
+              // color="primary"
+              className="inline-block text-3xl text-primary cursor-pointer"
             />
           </div>
         </div>

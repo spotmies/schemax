@@ -5,7 +5,7 @@ import { MdOutlineArrowBack, MdOutlineArrowForward } from "react-icons/md";
 export default function Testimonials() {
   return (
     <div className="w-[100vw] h-[80vh] bg-sky-100 p-6">
-      <div className="w-[80%] h-full m-auto flex flex-row items-center justify-between">
+      <div className="w-[90%] h-full m-auto flex flex-row items-center justify-between">
         <div className="w-[50%] h-full flex flex-col items-start">
           <div className="text-4xl gil-bold">
             What our clients say <br /> About us
@@ -15,7 +15,7 @@ export default function Testimonials() {
               {" "}
               <CgQuote color="#4ac8ed" size="5rem" />
             </div>
-            <div className="flex flex-col items-end w-[80%]">
+            <div className="flex flex-col items-end w-[90%]">
               <p className="text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus consequuntur fugiat, voluptatem ut incidunt fuga

@@ -78,15 +78,15 @@ function Faq() {
 
   return (
     <div className="w-[100vw]">
-      <div className="w-[80%] container mx-auto py-12 bg-slate-200 rounded-sm">
+      <div className="w-[90%] container mx-auto py-12 bg-slate-200 rounded-sm">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4 text-center">
+          <h2 className="text-3xl gil-bold mb-4 text-center">
             Frequently Asked Questions
           </h2>
           {faqs.map((faq) => (
             <div
               key={faq.id}
-              className="bg-white rounded-lg shadow-sm overflow-hidden mb-4"
+              className="bg-white rounded-sm shadow-sm overflow-hidden mb-4"
             >
               <button
                 onClick={() => toggleQuestion(faq.id)}

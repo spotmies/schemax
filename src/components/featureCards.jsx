@@ -5,7 +5,7 @@ import { MdSecurityUpdateGood } from "react-icons/md";
 export default function FeatureCards() {
   return (
     <div className="w-full h-[30vh] bg-slate-200">
-      <div className="w-[80%] h-full m-auto flex flex-col items-center justify-center">
+      <div className="w-[90%] h-full m-auto flex flex-col items-center justify-center">
         <div className="flex flex-row justify-between w-full">
           <div className="flex flex-row  bg-white items-center p-2 h-[90px] w-[270px] rounded-none">
             <div className="w-[20%]">
