@@ -79,36 +79,46 @@ function Faq() {
   return (
     <div className="w-[100vw]">
       <div className="w-[90%] container mx-auto py-12 bg-slate-200 rounded-sm">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl gil-bold mb-4 text-center">
-            Frequently Asked Questions
-          </h2>
-          {faqs.map((faq) => (
-            <div
-              key={faq.id}
-              className="bg-white rounded-sm shadow-sm overflow-hidden mb-4"
-            >
-              <button
-                onClick={() => toggleQuestion(faq.id)}
-                className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold"
+        <h2 className="text-3xl gil-bold mb-8 text-center">
+          Frequently Asked Questions
+        </h2>
+        <div className="flex flex-row justify-between w-[90%] items-center m-auto h-full">
+          <img
+            src="https://images.unsplash.com/photo-1544535830-9df3f56fff6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            alt="faq"
+            className="w-[40%] object-cover rounded-md h-[630px] mt-[-10px]"
+          />
+          <div className="max-w-xl mx-auto">
+            {/* <h2 className="text-3xl gil-bold mb-4 text-center">
+              Frequently Asked Questions
+            </h2> */}
+            {faqs.map((faq) => (
+              <div
+                key={faq.id}
+                className="bg-white rounded-sm shadow-sm overflow-hidden mb-4"
               >
-                {faq.question}
-                {selectedId === faq.id ? (
-                  <AiOutlineMinus className="text-2xl" />
-                ) : (
-                  <AiOutlinePlus className="text-2xl" />
-                )}
-              </button>
+                <button
+                  onClick={() => toggleQuestion(faq.id)}
+                  className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold"
+                >
+                  {faq.question}
+                  {selectedId === faq.id ? (
+                    <AiOutlineMinus className="text-2xl" />
+                  ) : (
+                    <AiOutlinePlus className="text-2xl" />
+                  )}
+                </button>
 
-              <motion.div
-                variants={variants}
-                animate={selectedId === faq.id ? "open" : "closed"}
-                className="px-4"
-              >
-                <p className="text-gray-600 pb-4">{faq.answer}</p>
-              </motion.div>
-            </div>
-          ))}
+                <motion.div
+                  variants={variants}
+                  animate={selectedId === faq.id ? "open" : "closed"}
+                  className="px-4"
+                >
+                  <p className="text-gray-600 pb-4">{faq.answer}</p>
+                </motion.div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

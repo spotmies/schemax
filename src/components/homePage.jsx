@@ -15,6 +15,8 @@ import Career from "./careers";
 import TermsAndConditionsPage from "./termsConditions";
 import AboutUs from "./aboutUs";
 import TeamSlide from "./team";
+import AboutUsSlide from "./stuff";
+import Testimonials2 from "./testimonials2";
 
 export default function HomePage() {
   const space = () => {
@@ -58,6 +60,12 @@ export default function HomePage() {
       {space()}
 
       <TeamSlide />
+      {space()}
+
+      <AboutUsSlide />
+      {space()}
+
+      <Testimonials2 />
       {space()}
 
       <FooterBar />
