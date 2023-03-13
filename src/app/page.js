@@ -2,11 +2,16 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "./page.module.css";
 import HomePage from "@/components/homePage";
+import { Navbarr } from "@/components/landing_slide";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <HomePage />
+    <div className="relative">
+      {/* <Navbarr /> */}
+
+      <HomePage />
+    </div>
     // <main className={styles.main}>
     //   <div className={styles.description}>
     //     <h1 className="text-3xl gil-bold underline">Hello world!</h1>

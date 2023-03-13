@@ -17,6 +17,7 @@ import AboutUs from "./aboutUs";
 import TeamSlide from "./team";
 import AboutUsSlide from "./stuff";
 import Testimonials2 from "./testimonials2";
+import IndustriesSection from "./industries";
 
 export default function HomePage() {
   const space = () => {
@@ -66,6 +67,9 @@ export default function HomePage() {
       {space()}
 
       <Testimonials2 />
+      {space()}
+
+      <IndustriesSection />
       {space()}
 
       <FooterBar />
