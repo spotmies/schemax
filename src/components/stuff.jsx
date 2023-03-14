@@ -32,7 +32,7 @@ const AboutUsSlide = () => {
       icon: <AiOutlineExperiment size="3rem" className="text-amber-400 mb-2" />,
     },
     {
-      title: "Custom Integration",
+      title: "Easy Integration",
       description:
         "We specialize in building custom web applications to meet your business needs.",
       icon: <AiOutlineApi size="3rem" className="text-red-400 mb-2" />,
