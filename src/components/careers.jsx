@@ -21,26 +21,15 @@ function CareerSection() {
   };
 
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100vw] h-[100vh]">
       <div
         className="relative bg-cover bg-center bg-gray-800 py-24 w-[90%] m-auto rounded-sm"
         style={{
-            // blur the background image
-         
-          backgroundImage: "url(https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+          backgroundImage:
+            "url(https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         }}
       >
-        {/* <div className="absolute inset-0 bg-gray-800 opacity-10"></div> */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-row items-end justify-end">
-          {/* <div className="relative">
-            <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Join our team
-            </h1>
-            <p className="mt-4 max-w-3xl text-xl text-gray-300">
-              We're always looking for talented individuals to help us build
-              amazing things.
-            </p>
-          </div> */}
           <div className="mt-2">
             <div className="">
               <h1 className="text-5xl gil-med tracking-tight text-white sm:text-5xl lg:text-6xl">
@@ -154,13 +143,6 @@ function CareerSection() {
                   className="bg-transparent border border-white hover:bg-white hover:text-black"
                   icon={true}
                 />
-                {/* <button
-                  type="submit"
-                  className="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-lg font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                  disabled={submitting}
-                >
-                  {submitting ? "Submitting..." : "Submit"}
-                </button> */}
               </div>
             </form>
           </div>

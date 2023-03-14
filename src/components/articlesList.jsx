@@ -5,7 +5,6 @@ import {
   BsArrowRightCircleFill,
 } from "react-icons/bs";
 
-
 export default function ArticlesList() {
   const industryComp = () => {
     return (
@@ -24,10 +23,7 @@ export default function ArticlesList() {
           </p>
           <div className="flex flex-row items-center justify-start pt-6">
             <p className="gil-bold text-sm text-primary">READ MORE</p>
-            <BsArrowRightCircleFill
-         
-              className="inline-block text-md ml-2 text-primary"
-            />
+            <BsArrowRightCircleFill className="inline-block text-md ml-2 text-primary" />
           </div>
         </div>
       </div>
@@ -82,27 +78,34 @@ export default function ArticlesList() {
   };
 
   return (
-    <div className="pt-10 w-full text-black gil-reg">
-      <div className="w-[90%] m-auto">
-        <div className="flex flex-row justify-between items-center w-full pb-8">
-          <p className="gil-bold text-5xl text-primary">
-            Follow the latest articles & news
-          </p>
-          <div className="flex flex-row items-center">
-            <BsArrowLeftCircle
-              // color="primary"
-              className="inline-block text-3xl mr-2 text-primary cursor-pointer"
-            />
-            <BsArrowRightCircleFill
-              // color="primary"
-              className="inline-block text-3xl text-primary cursor-pointer"
-            />
+    <div className="min-h-[100vh] h-fit w-[100vw]">
+      <div className="pt-10 w-full text-black gil-reg">
+        <div className="w-[90%] m-auto">
+          <div className="flex flex-row justify-between items-center w-full pb-8">
+            <p className="gil-bold text-5xl text-primary">
+              Follow the latest articles & news
+            </p>
+            <div className="flex flex-row items-center">
+              <BsArrowLeftCircle
+                // color="primary"
+                className="inline-block text-3xl mr-2 text-primary cursor-pointer"
+              />
+              <BsArrowRightCircleFill
+                // color="primary"
+                className="inline-block text-3xl text-primary cursor-pointer"
+              />
+            </div>
           </div>
-        </div>
-        <div className="flex flex-row w-full items-center justify-between">
-          {industryComp()}
-          {industryComp()}
-          {industryComp()}
+          <div className="flex flex-row w-full items-center justify-between">
+            {industryComp()}
+            {industryComp()}
+            {industryComp()}
+          </div>
+          <div className="flex flex-row w-full items-center justify-between mt-6">
+            {industryComp()}
+            {industryComp()}
+            {industryComp()}
+          </div>
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ export default function Traction() {
 
   return (
     <div className="w-[100vw] h-[40vh]">
-      <div className="w-[90%] h-[80%] flex flex-row items-between m-auto items-center">
+      <div className="w-[90%] h-full flex flex-row justify-between m-auto items-center">
         <div className="w-[60%]">
           <p className="gil-bold text-5xl text-primary">
             We Are Spread All <br />

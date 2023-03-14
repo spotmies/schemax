@@ -2,7 +2,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { clients, testimonials } from "../constants";
+import { clients, dummyClients, testimonials } from "../constants";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { staggerContainer, fadeIn } from "../utils/motion";
@@ -55,13 +55,16 @@ export default function Testimonials2() {
   };
 
   return (
-    <section className={`${styles.paddings} relative z-10 bg-primary`} id="testimonials">
+    <section
+      className={`${styles.paddings} relative z-10 bg-primary`}
+      id="testimonials"
+    >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} mx-auto flex flex-col`}
+        className={`${styles.innerWidth} h-[100vh] mx-auto flex flex-col`}
       >
         <p className="w-[100%] md:w-[70%] gil-bold text-5xl text-white">
           Helping our client to succeed with speed
@@ -89,6 +92,28 @@ export default function Testimonials2() {
               )}
             </Carousel>
             {/* </div> */}
+            <p className="w-[100%] md:w-[70%] gil-bold text-5xl text-white mt-[50px]">
+                Our collabrations
+              </p>
+            <div className="pt-[100px] m-auto w-full">
+             
+              <Carousel
+                responsive={responsive2}
+                arrows={false}
+                infinite={true}
+                autoPlay={true}
+              >
+                {dummyClients.map((testimonial, index) => (
+                  <div key={index}>
+                    <img
+                      src={testimonial.image}
+                      alt=""
+                      className="cursor-pointer h-[60px] w-[160px] object-contain m-auto "
+                    />
+                  </div>
+                ))}
+              </Carousel>
+            </div>
           </motion.div>
         </motion.div>
       </motion.div>
@@ -111,13 +136,17 @@ export default function Testimonials2() {
               className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] object-cover rounded-full"
             />
             <div className="flex flex-col ml-1 md:ml-4">
-              <p className="text-primary font-bold text-md md:text-xl">{name}</p>
+              <p className="text-primary font-bold text-md md:text-xl">
+                {name}
+              </p>
               <p className="text-primary opacity-50 text-xs md:text-md">
                 {position}
               </p>
             </div>
           </div>
-          <p className="text-primary opacity-20 text-[9px] md:text-xs">{when}</p>
+          <p className="text-primary opacity-20 text-[9px] md:text-xs">
+            {when}
+          </p>
         </div>
         {/* </div> */}
       </div>
