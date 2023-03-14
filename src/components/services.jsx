@@ -54,8 +54,8 @@ export default function Services() {
   return (
     <div className="w-[100vw] h-[100vh] bg-slate-200">
       <div className="pt-10 m-auto w-[90%]">
-        <p className="text-5xl gil-bold pb-4"> Our services</p>
-        <p className="text-lg opacity-60 pb-5 w-[60%]">
+        <p className="text-5xl gil-bold pb-4 text-primary"> Our services</p>
+        <p className="text-lg opacity-60 pb-5 w-[60%] text-primary">
           lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
           lorem et augue porta aliquet.lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Duis non lorem et augue porta aliquet.

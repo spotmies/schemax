@@ -43,7 +43,7 @@ function CareerSection() {
           </div> */}
           <div className="mt-2">
             <div className="">
-              <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+              <h1 className="text-5xl gil-med tracking-tight text-white sm:text-5xl lg:text-6xl">
                 Join our team
               </h1>
               <p className="mt-4 max-w-3xl text-xl text-gray-300">

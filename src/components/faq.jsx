@@ -79,10 +79,10 @@ function Faq() {
   return (
     <div className="w-[100vw] bg-slate-200">
       <div className="w-[90%] container mx-auto py-12  rounded-sm">
-        <h2 className="text-4xl gil-bold mb-8 text-center">
+        <h2 className="text-5xl gil-bold mb-8 text-center">
           Frequently Asked Questions
         </h2>
-        <div className="flex flex-row justify-between w-[90%] items-center m-auto h-full">
+        <div className="flex flex-row justify-between w-full items-center m-auto h-full">
           <img
             src="https://images.unsplash.com/photo-1544535830-9df3f56fff6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             alt="faq"

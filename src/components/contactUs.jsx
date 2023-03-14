@@ -34,13 +34,13 @@ export default function ContactUs() {
             className="h-[70%] w-full object-cover"
           /> */}
           <div className="h-full flex flex-row items-end">
-          <div className="flex flex-col pl-6 text-black pb-4">
+          <div className="flex flex-col pl-6 text-primary pb-4">
             <div className="text-3xl gil-med text">Schemax</div>
             <p className="gil-light text-xs opacity-70 w-[70%]">
               Lorem ipsum dolor sit amet, consectetur <br /> adipisicing elit.
               Voluptatibus saepe nostrum accusantium! Labore iure
             </p>
-            <div className="flex flex-row w-[60%] pt-4 justify-between">
+            <div className="flex flex-row w-[50%] pt-4 justify-between">
               <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer ">
                 <AiOutlineTwitter size="1.6rem" />
               </div>
@@ -61,10 +61,10 @@ export default function ContactUs() {
           <div className="h-full w-full m-auto p-8">
             <div className="flex flex-col items-center justify-between">
               <div className="flex flex-col items-start w-[90%]">
-            <p className="gil-reg text-2xl">
+            <p className="gil-reg text-2xl text-primary">
               GET IN <span className="gil-bold">TOUCH</span>
             </p>
-            <p className="opacity-30 text-sm">
+            <p className="opacity-30 text-sm text-primary">
               24/7 We will answer your questions & problems
             </p>
             </div>
@@ -76,7 +76,7 @@ export default function ContactUs() {
                 <input
                   type="text"
                   id="input-group-1"
-                  className="h-[50px] outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
+                  className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
                   placeholder="First name"
                 />
               </div>
@@ -87,7 +87,7 @@ export default function ContactUs() {
                 <input
                   type="text"
                   id="input-group-1"
-                  className="h-[50px] outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
+                  className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
                   placeholder="Last name"
                 />
               </div>
@@ -99,7 +99,7 @@ export default function ContactUs() {
               <input
                 type="text"
                 id="input-group-1"
-                className="h-[50px] outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
+                className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
                 placeholder="your@email.com"
               />
             </div>
@@ -110,7 +110,7 @@ export default function ContactUs() {
               <input
                 type="text"
                 id="input-group-1"
-                className="h-[50px] outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
+                className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-none block w-full pl-10 p-2.5 "
                 placeholder="9876543210"
               />
             </div>
@@ -119,7 +119,7 @@ export default function ContactUs() {
                 rows={5}
                 type="text"
                 id="input-group-1"
-                className="outline-none bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-none block w-full p-2.5 "
+                className="outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-none block w-full p-2.5 "
                 placeholder="Description"
               />
             </div>
