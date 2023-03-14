@@ -4,8 +4,50 @@ import "react-multi-carousel/lib/styles.css";
 
 import React from "react";
 import { AiOutlineRead } from "react-icons/ai";
+const strategy = "/assets/images/strategy3.jpg";
+const product = "/assets/images/design.jpg";
+const web = "/assets/images/web-designs.jpg";
+const mobile = "/assets/images/mobile2.jpg";
+const support = "/assets/images/support.jpg";
+const augmentation = "/assets/images/augmentation.jpg";
+const industry = "/assets/images/industry.jpg";
 
 export default function Services() {
+  const services = [
+    {
+      title: "It strategy & Technology consultancy",
+      image: strategy,
+    },
+    {
+      title: "Custom Product Development",
+      image: product,
+    },
+    {
+      title: "Web Application Development",
+      image: web,
+    },
+    {
+      title: "Mobile Application Development",
+      image: mobile,
+    },
+    {
+      title: "Custom Industrial IOT Solutions",
+      image: industry,
+    },
+    {
+      title: "Application / Product Maintenance & Support",
+      image: support,
+    },
+    {
+      title: "IT Infrastructure Management",
+      image: strategy,
+    },
+    {
+      title: "Resource Augmentation",
+      image: augmentation,
+    },
+  ];
+
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -29,28 +71,7 @@ export default function Services() {
       partialVisibilityGutter: 0,
     },
   };
-  const items = (
-    <div
-      className="h-[500px] text-white w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
-      style={{
-        backgroundImage: `url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80")`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <p className="text-4xl gil-med">
-        It strategy & <br /> Technology consultancy
-      </p>
-      <p className="text-xs opacity-60 pt-4">
-        We work closely with our clients to formulate an effective approach
-      </p>
-      <div className="flex flex-row items-center w-full justify-start pt-4">
-        <AiOutlineRead />
-        <p className="pl-2 opacity-60"> Learn More</p>
-      </div>
-    </div>
-  );
+
   return (
     <div className="w-[100vw] h-[100vh] bg-slate-200">
       <div className="pt-10 m-auto w-[90%]">
@@ -61,12 +82,29 @@ export default function Services() {
           adipiscing elit. Duis non lorem et augue porta aliquet.
         </p>
         <Carousel responsive={responsive} partialVisible={true}>
-          {items}
-          {items}
-          {items}
-          {items}
-          {items}
-          {items}
+          {services.map((service) => (
+            <div className="relative industry-card">
+              {/* <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div> */}
+              <div
+                className="h-[500px]  text-white w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
+                style={{
+                  backgroundImage: `url(${service.image})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}>
+                <p className="text-4xl gil-med">{service.title}</p>
+                <p className="text-xs opacity-60 pt-4">
+                  We work closely with our clients to formulate an effective
+                  approach
+                </p>
+                <div className="flex flex-row items-center w-full justify-start pt-4">
+                  <AiOutlineRead />
+                  <p className="pl-2 opacity-60"> Learn More</p>
+                </div>
+              </div>
+            </div>
+          ))}
         </Carousel>
       </div>
     </div>
