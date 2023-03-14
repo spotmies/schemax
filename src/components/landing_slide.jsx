@@ -2,6 +2,8 @@ import React from "react";
 import HoverButton from "./reusableComponent/hoverButton";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
+const video = "/assets/images/video.mp4";
+
 const LandingSlide = () => {
   return (
     <section className="h-screen w-full flex flex-col justify-center items-center relative">
@@ -9,7 +11,8 @@ const LandingSlide = () => {
         <Navbarr />
       </div>
       <video
-        src="https://player.vimeo.com/external/428425058.sd.mp4?s=a1b35b8cda28e107f6bfdbf893bbc5d150af2fdb&profile_id=164&oauth2_token_id=57447761"
+        // src="https://player.vimeo.com/external/428425058.sd.mp4?s=a1b35b8cda28e107f6bfdbf893bbc5d150af2fdb&profile_id=164&oauth2_token_id=57447761"
+        src={video}
         autoPlay
         loop
         muted
@@ -37,7 +40,7 @@ const LandingSlide = () => {
 
 export const Navbarr = () => {
   return (
-    <nav className="bg-transparent py-4" >
+    <nav className="bg-transparent py-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <img
@@ -49,38 +52,32 @@ export const Navbarr = () => {
         <div className="flex items-center">
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Services
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Industries
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Career
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Blogs
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             About Us
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Contact Us
           </a>
         </div>
