@@ -78,17 +78,18 @@ function Faq() {
 
   return (
     <div className="w-[100vw] bg-slate-200">
-      <div className="w-[90%] container mx-auto py-12  rounded-sm">
+      <div className="w-[90%] container mx-auto py-12  rounded-sm m-auto ">
         <h2 className="text-5xl gil-bold mb-8 text-center text-primary">
           Frequently Asked Questions
         </h2>
-        <div className="flex flex-row justify-between w-full items-center m-auto h-full">
+        <div className="flex flex-row justify-between w-full items-center m-auto h-full ">
           <img
             src="https://images.unsplash.com/photo-1544535830-9df3f56fff6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
             alt="faq"
-            className="w-[40%] object-cover rounded-md h-[630px] mt-[-10px]"
+            className="w-[45%] object-cover rounded-md h-[630px] mt-[-10px]"
           />
-          <div className="max-w-xl mx-auto">
+
+          <div className="max-w-xl">
             {/* <h2 className="text-3xl gil-bold mb-4 text-center">
               Frequently Asked Questions
             </h2> */}
