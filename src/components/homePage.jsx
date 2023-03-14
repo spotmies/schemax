@@ -1,5 +1,5 @@
 import React from "react";
-import IndustriesList from "./industriesList";
+import ArticlesList from "./articlesList";
 import NavBar from "./navBar";
 import ContactUs from "./contactUs";
 import Testimonials from "./testimonials";
@@ -18,6 +18,7 @@ import TeamSlide from "./team";
 import AboutUsSlide from "./stuff";
 import Testimonials2 from "./testimonials2";
 import IndustriesSection from "./industries";
+import ProductsListSlide from "./productsList";
 
 export default function HomePage() {
   const space = () => {
@@ -26,52 +27,40 @@ export default function HomePage() {
 
   return (
     <div className="bg-slate-100 gil-reg">
-      {/* <NavBar /> */}
-      {/* <Navbarr /> */}
-
       <LandingSlide />
-      {space()}
-      <IndustriesList />
-
-      {/* {space()}
-      <Testimonials /> */}
-      {/* {space()}
-      <FeatureCards /> */}
-      {space()}
+      {/* {space()} */}
       <Services />
+      {/* {space()} */}
+      <IndustriesSection />
+      {space()}
+      <AboutUsSlide />
+      {space()}
+      <VisionMissionSection />
+      {space()}
+      <ProductsListSlide />
       {space()}
       <Benefits />
       {space()}
       <Traction />
       {space()}
-      <VisionMissionSection />
-      {space()}
-      <ContactUs />
-      {space()}
-      <AboutUs />
-      {space()}
-      <Faq />
 
-      {space()}
-
-      <Career />
-      {space()}
-
-      <TermsAndConditionsPage />
-      {space()}
-
+      {/* <AboutUs />
+      {space()} */}
+      {/* <TermsAndConditionsPage />
+      {space()} */}
       <TeamSlide />
       {space()}
-
-      <AboutUsSlide />
-      {space()}
-
       <Testimonials2 />
       {space()}
-
-      <IndustriesSection />
+      <ArticlesList />
       {space()}
+      <Career />
+      {space()}
+      <Faq />
+      {space()}
+      <ContactUs />
 
+      {space()}
       <FooterBar />
     </div>
   );

@@ -7,7 +7,7 @@ export default function Testimonials() {
     <div className="w-[100vw] h-[80vh] bg-sky-100 p-6">
       <div className="w-[90%] h-full m-auto flex flex-row items-center justify-between">
         <div className="w-[50%] h-full flex flex-col items-start">
-          <div className="text-4xl gil-bold">
+          <div className="text-5xl gil-bold">
             What our clients say <br /> About us
           </div>
           <div className="w-full h-[250px] flex flex-row rounded-sm bg-white mt-4 items-start justify-between gil-reg p-6">

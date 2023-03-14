@@ -7,7 +7,7 @@ const TermsAndConditionsPage = () => {
         <div className="relative py-3 w-[90%] m-auto">
           <div className="relative px-4 py-10 bg-white shadow-sm sm:rounded-sm sm:p-20">
             <div className="w-full m-auto">
-              <h1 className="text-4xl font-semibold text-gray-800 text-center mb-5">
+              <h1 className="text-5xl font-semibold text-gray-800 text-center mb-5">
                 Terms and Conditions
               </h1>
               <p className="text-gray-600 text-center mb-8">

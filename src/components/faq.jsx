@@ -77,9 +77,9 @@ function Faq() {
   };
 
   return (
-    <div className="w-[100vw]">
-      <div className="w-[90%] container mx-auto py-12 bg-slate-200 rounded-sm">
-        <h2 className="text-3xl gil-bold mb-8 text-center">
+    <div className="w-[100vw] bg-slate-200">
+      <div className="w-[90%] container mx-auto py-12  rounded-sm">
+        <h2 className="text-4xl gil-bold mb-8 text-center">
           Frequently Asked Questions
         </h2>
         <div className="flex flex-row justify-between w-[90%] items-center m-auto h-full">

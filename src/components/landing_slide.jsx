@@ -16,7 +16,7 @@ const LandingSlide = () => {
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl gil-bold mb-4">
+        <h1 className="text-7xl gil-bold mb-4">
           Creative solutions for better business
         </h1>
         <p className="text-lg mb-8">

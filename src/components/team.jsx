@@ -1,8 +1,12 @@
 import React from "react";
-const teamMember1 = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember2 = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember3 = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember4 = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember1 =
+  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember2 =
+  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember3 =
+  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember4 =
+  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 
 const TeamSlide = () => {
   const teamMembers = [
@@ -13,59 +17,65 @@ const TeamSlide = () => {
   ];
 
   return (
-    <div className="py-10 bg-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl gil-bold tracking-tight text-gray-900 sm:text-4xl">
-          Meet Our Team
-        </h2>
-        <p className="mt-4 max-w-2xl text-xl text-gray-500">
+    <div className="w-[100vw] bg-white">
+      <div className="py-10  w-[90%] m-auto">
+        <div className="w-full">
+          <h2 className="text-3xl gil-bold tracking-tight text-gray-900 sm:text-5xl">
+            Meet Our Team
+          </h2>
+          <p className="mt-4 max-w-2xl text-xl text-gray-500">
             Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
             voluptatum cupiditate veritatis in accusamus quisquam.
-        </p>
-        
-        <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-          {teamMembers.map((member) => (
-            <div
-              key={member.name}
-              className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
-            >
-              <div className="overflow-hidden rounded-sm shadow-lg">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-56 object-cover object-center hover:scale-105 group-hover:opacity-75 transition-all duration-500 ease-in-out"
-                />
+          </p>
+
+          <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            {teamMembers.map((member) => (
+              <div
+                key={member.name}
+                className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
+              >
+                <div className="overflow-hidden rounded-sm shadow-lg">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-56 object-cover object-center hover:scale-105 group-hover:opacity-75 transition-all duration-500 ease-in-out"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-lg gil-med text-gray-900">
+                    {member.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">
+                    {member.position}
+                  </p>
+                </div>
               </div>
-              <div className="mt-4">
-                <h3 className="text-lg gil-med text-gray-900">
-                  {member.name}
-                </h3>
-                <p className="mt-2 text-sm text-gray-500">{member.position}</p>
+            ))}
+          </div>
+          <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+            {teamMembers.map((member) => (
+              <div
+                key={member.name}
+                className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
+              >
+                <div className="overflow-hidden rounded-sm shadow-lg">
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-56 object-cover object-center group-hover:opacity-75 transition-all duration-500 ease-in-out"
+                  />
+                </div>
+                <div className="mt-4">
+                  <h3 className="text-lg gil-med text-gray-900">
+                    {member.name}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-500">
+                    {member.position}
+                  </p>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-        <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-          {teamMembers.map((member) => (
-            <div
-              key={member.name}
-              className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
-            >
-              <div className="overflow-hidden rounded-sm shadow-lg">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-56 object-cover object-center group-hover:opacity-75 transition-all duration-500 ease-in-out"
-                />
-              </div>
-              <div className="mt-4">
-                <h3 className="text-lg gil-med text-gray-900">
-                  {member.name}
-                </h3>
-                <p className="mt-2 text-sm text-gray-500">{member.position}</p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -65,8 +65,8 @@ const IndustriesSection = () => {
   return (
     <div className="w-[100vw] bg-white">
       <section className="bg-white py-12 m-auto w-[90%]">
-        <div className="container mx-auto">
-          <h2 className="text-4xl gil-bold text-gray-800 mb-8 ml-4">
+        <div className="container mx-auto w-full">
+          <h2 className="text-5xl gil-bold text-gray-800 mb-8 ml-4">
             Industries We Serve
           </h2>
           <p className="text-gray-600 text-justify ml-4 w-[60%]">

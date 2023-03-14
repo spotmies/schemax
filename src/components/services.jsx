@@ -31,7 +31,7 @@ export default function Services() {
   };
   const items = (
     <div
-      className="h-[460px] text-white w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
+      className="h-[500px] text-white w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
       style={{
         backgroundImage: `url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80")`,
         backgroundSize: "cover",
@@ -54,20 +54,13 @@ export default function Services() {
   return (
     <div className="w-[100vw] h-[100vh] bg-slate-200">
       <div className="pt-10 m-auto w-[90%]">
-        <p className="text-4xl gil-bold pb-4"> Our services</p>
+        <p className="text-5xl gil-bold pb-4"> Our services</p>
         <p className="text-lg opacity-60 pb-5 w-[60%]">
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non lorem
-          et augue porta aliquet.lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non lorem
-          et augue porta aliquet.
-          
-
-
-          
-
-
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
+          lorem et augue porta aliquet.lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Duis non lorem et augue porta aliquet.
         </p>
         <Carousel responsive={responsive} partialVisible={true}>
-          {items}
           {items}
           {items}
           {items}

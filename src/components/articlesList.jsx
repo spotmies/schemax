@@ -6,7 +6,7 @@ import {
 } from "react-icons/bs";
 
 
-export default function IndustriesList() {
+export default function ArticlesList() {
   const industryComp = () => {
     return (
       <div className="text-black bg-white flex flex-col items-start  min-h-[430px] w-[400px] rounded-sm  p-3">
@@ -85,7 +85,7 @@ export default function IndustriesList() {
     <div className="pt-10 w-full text-black gil-reg">
       <div className="w-[90%] m-auto">
         <div className="flex flex-row justify-between items-center w-full pb-8">
-          <p className="gil-bold text-2xl">
+          <p className="gil-bold text-5xl">
             Follow the latest articles & news
           </p>
           <div className="flex flex-row items-center">

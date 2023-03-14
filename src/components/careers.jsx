@@ -33,7 +33,7 @@ function CareerSection() {
         {/* <div className="absolute inset-0 bg-gray-800 opacity-10"></div> */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-row items-end justify-end">
           {/* <div className="relative">
-            <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+            <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
               Join our team
             </h1>
             <p className="mt-4 max-w-3xl text-xl text-gray-300">
@@ -43,7 +43,7 @@ function CareerSection() {
           </div> */}
           <div className="mt-2">
             <div className="">
-              <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+              <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
                 Join our team
               </h1>
               <p className="mt-4 max-w-3xl text-xl text-gray-300">

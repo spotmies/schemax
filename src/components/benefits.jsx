@@ -42,8 +42,8 @@ export default function Benefits() {
     </div>
   );
   return (
-    <div className="w-[100vw] min-h-[100vh] h-fit">
-      <p className="text-4xl text-center gil-bold">Benefit of choosing us</p>
+    <div className="w-[100vw] min-h-[100vh] h-fit bg-white py-14">
+      <p className="text-5xl text-center gil-bold">Benefit of choosing us</p>
       <div className="flex flex-row items-center justify-between w-[90%] m-auto pt-12">
         {item}
         {item}

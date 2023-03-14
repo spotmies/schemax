@@ -36,7 +36,7 @@ const AboutUsSlide = () => {
             />
             {/* <div className="absolute top-0 left-0 w-full h-full bg-white bg-opacity-50 z-10"></div> */}
             <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center z-20">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2">
+              <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold text-white mb-2">
                 Who We Are
               </h1>
               <p className="text-xl lg:text-2xl font-semibold text-white">
