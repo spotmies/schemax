@@ -17,7 +17,7 @@ const Image6 =
 const ProductsListSlide = () => {
   const imgComp = (
     <motion.div
-      whileHover={{ scale: 1.05 }}
+      whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
       className="relative"
     >
@@ -45,7 +45,7 @@ const ProductsListSlide = () => {
           //   }}
         >
           <motion.div
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
             className="relative h-[200px]"
           >
@@ -86,7 +86,7 @@ const ProductsListSlide = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="col-span-2 sm:col-span-1">
               <motion.div
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
                 className="relative h-full"
               >
@@ -107,7 +107,7 @@ const ProductsListSlide = () => {
 
             <div className="col-span-2 sm:col-span-1">
               <motion.div
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
                 className="relative h-1/2"
               >
@@ -126,7 +126,7 @@ const ProductsListSlide = () => {
             </div>
             <div className="col-span-2 sm:col-span-1">
               <motion.div
-                whileHover={{ scale: 1.05 }}
+                whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
                 className="relative h-1/2"
               >
