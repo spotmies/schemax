@@ -14,8 +14,8 @@ export default function Traction() {
       <div className="grid grid-cols-2 grid-rows-2 gap-4">
         {data.map((item) => (
           <div key={item.label} className="p-4 text-start">
-            <div className="text-3xl gil-bold">{item.value}K+</div>
-            <div className="text-gray-500 text-sm opacity-60">{item.label}</div>
+            <div className="text-3xl gil-bold text-primary">{item.value}K+</div>
+            <div className="text-primary text-sm opacity-60">{item.label}</div>
           </div>
         ))}
       </div>
@@ -26,11 +26,11 @@ export default function Traction() {
     <div className="w-[100vw] h-[40vh]">
       <div className="w-[90%] h-[80%] flex flex-row items-between m-auto items-center">
         <div className="w-[60%]">
-          <p className="gil-bold text-5xl ">
+          <p className="gil-bold text-5xl text-primary">
             We Are Spread All <br />
             Over The World
           </p>
-          <p className="gil-reg text-sm opacity-40 pt-4 w-[60%]">
+          <p className="gil-reg text-sm opacity-40 pt-4 w-[60%] text-primary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptatem expedita officia Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Quisquam voluptatem expedita officia

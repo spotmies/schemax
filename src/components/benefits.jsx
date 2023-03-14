@@ -32,10 +32,10 @@ export default function Benefits() {
   const item = (
     <div className="flex flex-col items-start w-[30%] ">
       <p className="gil-bold text-3xl text-primary">01</p>
-      <p className="gil-med text-xl">
+      <p className="gil-med text-xl text-primary">
         Access to <br /> exclusive projects
       </p>
-      <p className="opacity-40 text-sm">
+      <p className="opacity-40 text-sm text-primary">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
         voluptatem expedita officia
       </p>
@@ -43,7 +43,7 @@ export default function Benefits() {
   );
   return (
     <div className="w-[100vw] min-h-[100vh] h-fit bg-white py-14">
-      <p className="text-5xl text-center gil-bold">Benefit of choosing us</p>
+      <p className="text-5xl text-center gil-bold text-primary">Benefit of choosing us</p>
       <div className="flex flex-row items-center justify-between w-[90%] m-auto pt-12">
         {item}
         {item}

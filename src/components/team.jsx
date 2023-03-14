@@ -20,10 +20,10 @@ const TeamSlide = () => {
     <div className="w-[100vw] bg-white">
       <div className="py-10  w-[90%] m-auto">
         <div className="w-full">
-          <h2 className="text-3xl gil-bold tracking-tight text-gray-900 sm:text-5xl">
+          <h2 className="text-3xl gil-bold tracking-tight text-primary sm:text-5xl">
             Meet Our Team
           </h2>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500">
+          <p className="mt-4 max-w-2xl text-xl text-primary opacity-60">
             Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
             voluptatum cupiditate veritatis in accusamus quisquam.
           </p>
@@ -42,10 +42,10 @@ const TeamSlide = () => {
                   />
                 </div>
                 <div className="mt-4">
-                  <h3 className="text-lg gil-med text-gray-900">
+                  <h3 className="text-lg gil-med text-primary">
                     {member.name}
                   </h3>
-                  <p className="mt-2 text-sm text-gray-500">
+                  <p className="mt-2 text-sm text-primary opacity-60">
                     {member.position}
                   </p>
                 </div>

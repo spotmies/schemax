@@ -75,8 +75,8 @@ const ProductsListSlide = () => {
   return (
     <div className="w-[100vw]">
       <div className="w-[90%] m-auto">
-        <p className="gil-bold text-5xl">Products We offer</p>
-        <p className="gil-reg text-md opacity-60 w-[50%] pt-4">
+        <p className="gil-bold text-5xl text-primary">Products We offer</p>
+        <p className="gil-reg text-md opacity-60 w-[50%] pt-4 text-primary">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
           consequuntur deserunt dignissimos iure hic quas asperiores, in nostrum
           a vero, porro velit voluptas deleniti nam repellat aliquam saepe quo

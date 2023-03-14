@@ -72,10 +72,10 @@ const IndustriesSection = () => {
     <div className="w-[100vw] bg-white">
       <section className="bg-white py-12 m-auto w-[90%]">
         <div className="container mx-auto w-full">
-          <h2 className="text-5xl gil-bold text-gray-800 mb-8 ml-4">
+          <h2 className="text-5xl gil-bold text-primary mb-8 ml-4">
             Industries We Serve
           </h2>
-          <p className="text-gray-600 text-justify ml-4 w-[60%]">
+          <p className="text-primary opacity-60 text-justify ml-4 w-[60%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
             voluptas, quod, quia, voluptate quae voluptates quibusdam
             voluptatibus quos quas quidem quia voluptates quibusdam

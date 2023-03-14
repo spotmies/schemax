@@ -9,7 +9,7 @@ import {
 export default function ArticlesList() {
   const industryComp = () => {
     return (
-      <div className="text-black bg-white flex flex-col items-start  min-h-[430px] w-[400px] rounded-sm  p-3">
+      <div className="text-primary bg-white flex flex-col items-start  min-h-[430px] w-[400px] rounded-sm  p-3">
         <img
           src="https://wallpaperaccess.com/full/1944457.jpg"
           alt="industry"
@@ -17,8 +17,8 @@ export default function ArticlesList() {
         />
         <div className="flex flex-col items-start justify-center pt-4 pl-2">
           <p className="text-xs text-primary opacity-70">29 july, 2022</p>
-          <p className="text-2xl pb-2 pt-6">Manufacturing</p>
-          <p className="opacity-70 text-sm">
+          <p className="text-2xl pb-2 pt-6 text-primary">Manufacturing</p>
+          <p className="opacity-70 text-sm text-primary">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             iusto unde, nemo tempore iusto unde, nemo tempore
           </p>
@@ -85,7 +85,7 @@ export default function ArticlesList() {
     <div className="pt-10 w-full text-black gil-reg">
       <div className="w-[90%] m-auto">
         <div className="flex flex-row justify-between items-center w-full pb-8">
-          <p className="gil-bold text-5xl">
+          <p className="gil-bold text-5xl text-primary">
             Follow the latest articles & news
           </p>
           <div className="flex flex-row items-center">

@@ -99,7 +99,7 @@ export default function Testimonials2() {
     return (
       <div className="bg-slate-100 flex flex-col justify-between w-[80vw] min-h-[300px] max-h-[350px] md:max-h-[350px] md:min-h-[300px] md:w-[500px] gradient-05 rounded-md m-2 md:p-6 p-4 shadow-sm">
         {/* <div className="flex flex-col h-full justify-between"> */}
-        <p className="text-black opacity-80 text-md  md:text-xl  text-justify text-ellipsis">
+        <p className="text-primary opacity-80 text-md  md:text-xl  text-justify text-ellipsis">
           "{text}"
         </p>
 
@@ -111,13 +111,13 @@ export default function Testimonials2() {
               className="w-[35px] h-[35px] md:w-[50px] md:h-[50px] object-cover rounded-full"
             />
             <div className="flex flex-col ml-1 md:ml-4">
-              <p className="text-black font-bold text-md md:text-xl">{name}</p>
-              <p className="text-black opacity-50 text-xs md:text-md">
+              <p className="text-primary font-bold text-md md:text-xl">{name}</p>
+              <p className="text-primary opacity-50 text-xs md:text-md">
                 {position}
               </p>
             </div>
           </div>
-          <p className="text-black opacity-20 text-[9px] md:text-xs">{when}</p>
+          <p className="text-primary opacity-20 text-[9px] md:text-xs">{when}</p>
         </div>
         {/* </div> */}
       </div>
