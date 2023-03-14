@@ -29,7 +29,7 @@ const LandingSlide = () => {
         <div className="w-full flex flex-row items-center justify-center">
           <HoverButton
             text="Read More"
-            className="bg-transparent border border-white"
+            className="bg-transparent  border hover:text-primary hover:bg-white border-white hover:border-white"
             icon={<AiOutlineArrowRight className="ml-2" />}
           />
         </div>
