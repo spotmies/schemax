@@ -79,7 +79,7 @@ function Faq() {
   return (
     <div className="w-[100vw] bg-slate-200">
       <div className="w-[90%] container mx-auto py-12  rounded-sm">
-        <h2 className="text-5xl gil-bold mb-8 text-center">
+        <h2 className="text-5xl gil-bold mb-8 text-center text-primary">
           Frequently Asked Questions
         </h2>
         <div className="flex flex-row justify-between w-full items-center m-auto h-full">
@@ -99,7 +99,7 @@ function Faq() {
               >
                 <button
                   onClick={() => toggleQuestion(faq.id)}
-                  className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold"
+                  className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold text-primary"
                 >
                   {faq.question}
                   {selectedId === faq.id ? (
