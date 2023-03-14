@@ -1,17 +1,17 @@
 import React from "react";
-const teamMember1 =
-  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember2 =
-  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember3 =
-  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember4 =
-  "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember1 = "/assets/images/team1.jpg";
+// "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember2 = "/assets/images/team2.jpg";
+// "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember3 = "/assets/images/team3.jpg";
+// "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+const teamMember4 = "/assets/images/team4.jpg";
+// "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 
 const TeamSlide = () => {
   const teamMembers = [
-    { name: "John Doe", position: "CEO", image: teamMember1 },
-    { name: "Jane Doe", position: "COO", image: teamMember2 },
+    { name: "Naidu Sunkari", position: "CEO", image: teamMember1 },
+    { name: "Ravi Eswarapu", position: "COO", image: teamMember2 },
     { name: "Bob Smith", position: "CTO", image: teamMember3 },
     { name: "Samantha Johnson", position: "CMO", image: teamMember4 },
   ];
@@ -38,8 +38,7 @@ const TeamSlide = () => {
             {teamMembers.map((member) => (
               <div
                 key={member.name}
-                className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
-              >
+                className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out">
                 <div className="overflow-hidden rounded-sm shadow-lg">
                   <img
                     src={member.image}

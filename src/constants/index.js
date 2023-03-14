@@ -1,5 +1,9 @@
 import { MdPhone } from "react-icons/md";
 
+const satish = "/assets/images/testi1.jpg";
+const ravi = "/assets/images/testi2.jpg";
+const surya = "/assets/images/testi3.jpg";
+
 export const exploreWorlds = [
   {
     id: "world-1",
@@ -154,16 +158,16 @@ export const testimonials = [
     name: "Satish Kumar",
     position: "CEO at Spotmies",
     when: "8 months ago",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=6572dc5b-d900-4060-88f7-e3feff77d479",
+    image: satish,
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=6572dc5b-d900-4060-88f7-e3feff77d479",
     text: "Schemax team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
   },
   {
     name: "Ravi",
     position: "Web3 Entrepreneur",
     when: "1 months ago",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
+    image: ravi,
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the cloud devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
@@ -171,8 +175,8 @@ export const testimonials = [
     name: "surya",
     position: "Surya Technologies",
     when: "2 months ago",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
+    image: surya,
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
     text: "We chose Schemax because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
   },
 ];
