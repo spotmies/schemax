@@ -6,29 +6,40 @@ import {
 } from "react-icons/bs";
 
 export default function ArticlesList() {
-  const industryComp = () => {
-    return (
-      <div className="text-primary bg-white flex flex-col items-start  min-h-[430px] w-[400px] rounded-sm  p-3">
-        <img
-          src="https://wallpaperaccess.com/full/1944457.jpg"
-          alt="industry"
-          className=" w-full object-cover rounded-sm"
-        />
-        <div className="flex flex-col items-start justify-center pt-4 pl-2">
-          <p className="text-xs text-primary opacity-70">29 july, 2022</p>
-          <p className="text-2xl pb-2 pt-6 text-primary">Manufacturing</p>
-          <p className="opacity-70 text-sm text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-            iusto unde, nemo tempore iusto unde, nemo tempore
-          </p>
-          <div className="flex flex-row items-center justify-start pt-6">
-            <p className="gil-bold text-sm text-primary">READ MORE</p>
-            <BsArrowRightCircleFill className="inline-block text-md ml-2 text-primary" />
-          </div>
-        </div>
-      </div>
-    );
-  };
+  // const industryComp = () => {
+  //   return (
+
+  //   );
+  // };
+  const article = [
+    {
+      title: "Manufacturing",
+      image: "/assets/images/industry3.jpg",
+    },
+    {
+      title: "City Infrastructure",
+      image: "/assets/images/factory.jpg",
+    },
+    {
+      title: "Shippind & Logistics",
+      image: "/assets/images/ship.jpg",
+    },
+  ];
+
+  const article2 = [
+    {
+      title: "Shipping Indutry",
+      image: "/assets/images/ship2.jpg",
+    },
+    {
+      title: "City Highlights",
+      image: "/assets/images/city2.jpg",
+    },
+    {
+      title: "Stock Market",
+      image: "/assets/images/factory2.jpg",
+    },
+  ];
 
   const responsive = {
     superLargeDesktop: {
@@ -97,14 +108,62 @@ export default function ArticlesList() {
             </div>
           </div>
           <div className="flex flex-row w-full items-center justify-between">
-            {industryComp()}
-            {industryComp()}
-            {industryComp()}
+            {article.map((item, index) => (
+              <div
+                key={index}
+                className="text-primary bg-white flex flex-col items-start  min-h-[430px] w-[400px] rounded-sm  p-3">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className=" w-full object-cover rounded-sm"
+                />
+                <div className="flex flex-col items-start justify-center pt-4 pl-2">
+                  <p className="text-xs text-primary opacity-70">
+                    29 july, 2022
+                  </p>
+                  <p className="text-2xl pb-2 pt-6 text-primary">
+                    {item.title}
+                  </p>
+                  <p className="opacity-70 text-sm text-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat iusto unde, nemo tempore iusto unde, nemo tempore
+                  </p>
+                  <div className="flex flex-row items-center justify-start pt-6">
+                    <p className="gil-bold text-sm text-primary">READ MORE</p>
+                    <BsArrowRightCircleFill className="inline-block text-md ml-2 text-primary" />
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
           <div className="flex flex-row w-full items-center justify-between mt-6">
-            {industryComp()}
-            {industryComp()}
-            {industryComp()}
+            {article2.map((item, index) => (
+              <div
+                key={index}
+                className="text-primary bg-white flex flex-col items-start  min-h-[430px] w-[400px] rounded-sm  p-3">
+                <img
+                  src={item.image}
+                  alt="industry"
+                  className=" w-full object-cover rounded-sm"
+                />
+                <div className="flex flex-col items-start justify-center pt-4 pl-2">
+                  <p className="text-xs text-primary opacity-70">
+                    29 july, 2022
+                  </p>
+                  <p className="text-2xl pb-2 pt-6 text-primary">
+                    {item.title}
+                  </p>
+                  <p className="opacity-70 text-sm text-primary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat iusto unde, nemo tempore iusto unde, nemo tempore
+                  </p>
+                  <div className="flex flex-row items-center justify-start pt-6">
+                    <p className="gil-bold text-sm text-primary">READ MORE</p>
+                    <BsArrowRightCircleFill className="inline-block text-md ml-2 text-primary" />
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

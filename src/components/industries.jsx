@@ -10,43 +10,50 @@ import {
   FaCogs,
 } from "react-icons/fa";
 
+const manufacturing = "/assets/images/manufacturing.jpg";
+const retail = "/assets/images/retail2.jpg";
+const healthcare = "/assets/images/health.jpg";
+const logistics = "/assets/images/logistics3.jpg";
+// const government = "/assets/images/government.jpg";
+const edutech = "/assets/images/edu.jpg";
+
 const IndustriesSection = () => {
   const industries = [
     {
       icon: <FaBuilding />,
-      title: "Real Estate",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
-      image:
-        "https://images.unsplash.com/photo-1511454493857-0a29f2c023c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-    },
-    {
-      icon: <FaIndustry />,
       title: "Manufacturing",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
-      image:
-        "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      image: manufacturing,
+      // image:
+      //   "https://images.unsplash.com/photo-1511454493857-0a29f2c023c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+    },
+    {
+      icon: <FaIndustry />,
+      title: "Retail",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
+      image: retail,
+      // image:
+      //   "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
     },
     {
       icon: <FaGlobe />,
-      title: "Information Technology",
+      title: "Health Care",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
-      image:
-        "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      image: healthcare,
     },
     {
       icon: <FaUsers />,
-      title: "Human Resources",
+      title: "Logistics & Warehouse",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
-      image:
-        "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      image: logistics,
     },
     {
       icon: <FaLaptop />,
-      title: "Software Development",
+      title: "Government",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
       image:
@@ -54,11 +61,10 @@ const IndustriesSection = () => {
     },
     {
       icon: <FaCogs />,
-      title: "Engineering",
+      title: "EduTech",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
-      image:
-        "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      image: edutech,
     },
   ];
 
@@ -80,17 +86,15 @@ const IndustriesSection = () => {
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 p-6 flex flex-col"
                 // whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
+                whileTap={{ scale: 0.95 }}>
                 <div className="flex-2 bg-white  rounded-b-none overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
-                    <p className="text-white gil-med text-4xl">Manufacturing</p>
+                    <p className="text-white gil-med text-4xl">
+                      {industry.title}
+                    </p>
                     <p className="opacity-70 text-white text-sm onHoverShow text-justify pt-4">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Quas deleniti mollitia, nostrum perferendis cumque minus
-                      nobis, id possimus iusto animi recusandae autem quo
-                      expedita explicabo ad ullam, dignissimos eos quia.
+                      {industry.description}
                     </p>
                     <BsArrowRight
                       size="2rem"
