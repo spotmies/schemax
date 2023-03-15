@@ -19,15 +19,16 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative">
+      className="relative"
+    >
       <img
         src={Image6}
         alt="Product 2"
         className="h-full w-full object-cover"
       />
-      <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 text-white px-6 py-4">
-        <h3 className="text-xl font-medium mb-2">BIOWAX</h3>
-        <p className="text-base">
+      <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+        <h3 className="text-sm md:text-xl gil-med mb-0 md:mb-2">BIOWAX</h3>
+        <p className="text-xs md:text-base opacity-50 ">
           SLA based Vehicle Tracking solution for Service Stations
         </p>
       </div>
@@ -38,15 +39,16 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative">
+      className="relative"
+    >
       <img
         src={Image6}
         alt="Product 2"
         className="h-full w-full object-cover"
       />
-      <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 text-white px-6 py-4">
-        <h3 className="text-xl font-medium mb-2">TRACX</h3>
-        <p className="text-base">
+      <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+        <h3 className="text-sm md:text-xl gil-med mb-0 md:mb-2">BIOWAX</h3>
+        <p className="text-xs md:text-base opacity-50 ">
           SLA based Vehicle Tracking solution for Service Stations
         </p>
       </div>
@@ -55,35 +57,31 @@ const ProductsListSlide = () => {
 
   const gridd = () => {
     return (
-      <div className="grid grid-cols-2 grid-rows-2 gap-4 h-full w-full">
-        <div
-          className="col-span-2 row-span-1 h-1/2 bg-cover bg-center"
-          //   style={{
-          //     backgroundImage: Image2,
-          //   }}
-        >
+      <div className="grid grid-cols-2 grid-rows-2 gap-1 md:gap-4 h-[420px] md:h-full w-full mt-4 md:mt-0 ">
+        <div className="col-span-2 row-span-1 h-1/2 bg-cover bg-center">
           <motion.div
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
-            className="relative h-[200px]">
+            className="relative h-[200px]"
+          >
             <img
               src={Image6}
               alt="Product 2"
               className="h-full w-full object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 text-white px-6 py-4">
-              <h3 className="text-xl font-medium mb-2">AUTOXPERT</h3>
-              <p className="text-base">
+            <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+              <h3 className="text-sm md:text-xl gil-med mb-2">AUTOXPERT</h3>
+              <p className="text-xs md:text-base opacity-50">
                 Easy to use, Hassle Free end-to-end ERP System for Auto
                 Dealership
               </p>
             </div>
           </motion.div>
         </div>
-        <div className="col-span-1 row-span-1 h-1/2 bg-cover bg-center">
+        <div className="col-span-1 row-span-1  bg-cover bg-center">
           {imgComp}
         </div>
-        <div className="col-span-1 row-span-1 h-1/2 bg-cover bg-center">
+        <div className="col-span-1 row-span-1  bg-cover bg-center">
           {imgComp2}
         </div>
       </div>
@@ -93,68 +91,76 @@ const ProductsListSlide = () => {
   return (
     <div className="w-[100vw]">
       <div className="w-[90%] m-auto">
-        <p className="gil-bold text-5xl text-primary">Products We offer</p>
-        <p className="gil-reg text-md opacity-60 w-[50%] pt-4 text-primary">
+        <p className="gil-bold text-3xl md:text-5xl text-primary">
+          Products We offer
+        </p>
+        <p className="gil-reg text-md opacity-60 w-full md:w-[50%] pt-4 text-primary">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
           consequuntur deserunt dignissimos iure hic quas asperiores, in nostrum
           a vero, porro velit voluptas deleniti nam repellat aliquam saepe quo
           corrupti.
         </p>
         <div className="pt-4 w-full">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2  gap-0 md:gap-4 w-full">
             <div className="col-span-2 sm:col-span-1">
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-full">
+                className="relative h-full"
+              >
                 <img
                   src={Image1}
                   alt="Product 1"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 text-white px-6 py-4">
-                  <h3 className="text-xl font-medium mb-2">XPPAREL</h3>
-                  <p className="text-base">
+                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+                  <h3 className="text-sm md:text-xl gil-med mb-2">XPPAREL</h3>
+                  <p className="text-xs md:text-base opacity-50">
                     Integrated Shop Floor solution with IoT based grament level
                     tracking
                   </p>
                 </div>
               </motion.div>
             </div>
+
             {gridd()}
 
-            <div className="col-span-2 sm:col-span-1">
+            <div className="col-span-2 sm:col-span-1 mt-[-60px] md:mt-0">
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2">
+                className="relative h-1/2"
+              >
                 <img
                   src={Image3}
                   alt="Product 3"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 text-white px-6 py-4">
-                  <h3 className="text-xl font-medium mb-2">eCommeX</h3>
-                  <p className="text-base">
+                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+                  <h3 className="text-sm md:text-xl gil-med mb-2 ">eCommeX</h3>
+                  <p className="text-xs md:text-base opacity-50">
                     Building your fully functional online store, quick and
                     effective
                   </p>
                 </div>
               </motion.div>
             </div>
-            <div className="col-span-2 sm:col-span-1">
+            <div className="col-span-2 sm:col-span-1 mt-[-80px] md:mt-0">
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2">
+                className="relative h-1/2"
+              >
                 <img
                   src={Image5}
                   alt="Product 4"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 text-white px-6 py-4">
-                  <h3 className="text-xl font-medium mb-2">WarehouseXcel</h3>
-                  <p className="text-base   ">
+                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+                  <h3 className="text-sm md:text-xl gil-med mb-2">
+                    WarehouseXcel
+                  </h3>
+                  <p className="text-xs md:text-base opacity-50">
                     Reliable and Efficient Warehouse Management Solution to
                     manage your logistics, better
                   </p>
