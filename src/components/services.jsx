@@ -73,10 +73,13 @@ export default function Services() {
   };
 
   return (
-    <div className="w-[100vw] h-[100vh] bg-slate-200" >
+    <div className="w-[100vw] h-[100vh] bg-slate-200">
       <div className="pt-10 m-auto w-[90%]">
         <p className="text-5xl gil-bold pb-4 text-primary"> Our services</p>
-        <p className="text-lg opacity-60 pb-5 w-[60%] text-primary" id="services">
+        <p
+          className="text-lg opacity-60 pb-5 w-[60%] text-primary"
+          id="services"
+        >
           lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
           lorem et augue porta aliquet.lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Duis non lorem et augue porta aliquet.
@@ -84,7 +87,7 @@ export default function Services() {
         <Carousel responsive={responsive} partialVisible={true}>
           {services.map((service) => (
             <div className="relative industry-card">
-              {/* <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div> */}
+              <div className="absolute inset-0 bg-primary opacity-40 w-[330px] rounded-md "></div>
               <div
                 className="h-[500px]  text-white w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
                 style={{
@@ -92,15 +95,18 @@ export default function Services() {
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
-                }}>
-                <p className="text-4xl gil-med">{service.title}</p>
-                <p className="text-xs opacity-60 pt-4">
-                  We work closely with our clients to formulate an effective
-                  approach
-                </p>
-                <div className="flex flex-row items-center w-full justify-start pt-4">
-                  <AiOutlineRead />
-                  <p className="pl-2 opacity-60"> Learn More</p>
+                }}
+              >
+                <div className="z-50">
+                  <p className="text-4xl gil-med">{service.title}</p>
+                  <p className="text-xs opacity-60 pt-4">
+                    We work closely with our clients to formulate an effective
+                    approach
+                  </p>
+                  <div className="flex flex-row items-center w-full justify-start pt-4">
+                    <AiOutlineRead />
+                    <p className="pl-2 opacity-60"> Learn More</p>
+                  </div>
                 </div>
               </div>
             </div>
