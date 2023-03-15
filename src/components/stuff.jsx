@@ -39,12 +39,12 @@ const AboutUsSlide = () => {
     },
   ];
 
-  const cardComp = (icon, title, description,key) => {
+  const cardComp = (icon, title, description, key) => {
     return (
-      <div key={key} className="p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-[300px] cursor-pointer hover:shadow-md">
-        {/* <div className="flex flex-row items-center justify-center w-[100px] h-[100px] rounded-sm bg-[#ececec] text-white mb-4"> */}
-
-        {/* </div> */}
+      <div
+        key={key}
+        className="p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-[300px] cursor-pointer hover:shadow-md"
+      >
         <div className="w-[20%]">{icon}</div>
         <div className="flex flex-col items-start justify-center pl-4">
           <h3 className="text-xl gil-med text-gray-900 mb-2">{title}</h3>
@@ -62,14 +62,14 @@ const AboutUsSlide = () => {
               src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1784&q=80"
               alt="About Us Image"
               layout="responsive"
-              className="w-full h-[600px] object-cover"
+              className="w-full h-[300px] md:h-[600px] object-cover rounded-sm"
             />
-            {/* <div className="absolute top-0 left-0 w-full h-full bg-white bg-opacity-50 z-10"></div> */}
+            <div className="absolute top-0 left-0 w-full h-full bg-primary rounded-sm bg-opacity-50 z-10"></div>
             <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center z-20">
-              <h1 className="text-5xl md:text-5xl lg:text-6xl gil-bold text-white mb-2">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl gil-bold text-white mb-2">
                 Who We Are
               </h1>
-              <p className="text-xl lg:text-2xl font-semibold text-white">
+              <p className="text-base md:text-xl lg:text-2xl font-semibold text-white">
                 We are a team of experts who are passionate about creating
                 solutions for businesses of all sizes.
               </p>
@@ -77,10 +77,23 @@ const AboutUsSlide = () => {
           </div>
           <div className="w-full flex flex-wrap justify-center items-center">
             <div className="w-full mb-10">
-              <div className="w-full flex flex-row items-center justify-between">
-                {cardArray.map((item,key) =>
-                  cardComp(item.icon, item.title, item.description,key)
-                )}
+              <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-between">
+                {cardArray.map((item, key) => (
+                  <div
+                    key={key}
+                    className="mb-2 md:mb-0 p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-full md:w-[300px]  cursor-pointer hover:shadow-md"
+                  >
+                    <div className="w-1/4 md:w-[20%]">{item.icon}</div>
+                    <div className="flex flex-col items-start justify-center pl-4">
+                      <h3 className="text-base md:text-xl gil-med text-gray-900 mb-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-gray-700 opacity-70 text-sm md:text-base">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
