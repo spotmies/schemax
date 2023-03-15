@@ -73,23 +73,58 @@ export default function Services() {
   };
 
   return (
-    <div className="w-[100vw] h-[100vh] bg-slate-200">
-      <div className="pt-10 m-auto w-[90%]">
-        <p className="text-5xl gil-bold pb-4 text-primary"> Our services</p>
+    <div className="w-[100vw] h-fit md:h-[100vh] bg-slate-200">
+      <div className="pt-10 m-auto w-[95%] md:w-[90%]">
+        <p className="text-3xl md:text-5xl gil-bold pb-4 text-primary">
+          {" "}
+          Our services
+        </p>
         <p
-          className="text-lg opacity-60 pb-5 w-[60%] text-primary"
+          className="text-base md:text-lg opacity-60 pb-5 w-full md:w-[60%] text-primary"
           id="services"
         >
           lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
           lorem et augue porta aliquet.lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Duis non lorem et augue porta aliquet.
         </p>
-        <Carousel responsive={responsive} partialVisible={true}>
+        <div className="md:block hidden">
+          <Carousel responsive={responsive} partialVisible={true}>
+            {services.map((service) => (
+              <div className="relative industry-card md:mb-0 mb-6">
+                <div className="absolute inset-0 bg-primary opacity-40 w-full h-full md:w-[330px] rounded-md "></div>
+                <div
+                  className="h-[200px] md:h-[500px] text-white w-full md:w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
+                  style={{
+                    backgroundImage: `url(${service.image})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                  }}
+                >
+                  <div className="z-50">
+                    <p className="text-base md:text-4xl gil-med">
+                      {service.title}
+                    </p>
+                    <p className="text-xs md:text-base opacity-60 pt-4">
+                      We work closely with our clients to formulate an effective
+                      approach
+                    </p>
+                    <div className="flex flex-row items-center w-full justify-start pt-4">
+                      <AiOutlineRead />
+                      <p className="pl-2 opacity-60"> Learn More</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Carousel>
+        </div>
+        <div className="md:hidden block">
           {services.map((service) => (
-            <div className="relative industry-card">
-              <div className="absolute inset-0 bg-primary opacity-40 w-[330px] rounded-md "></div>
+            <div className="relative industry-card md:mb-0 mb-6">
+              <div className="absolute inset-0 bg-primary opacity-40 w-full h-full md:w-[330px] rounded-md "></div>
               <div
-                className="h-[500px]  text-white w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
+                className="h-[200px] md:h-[500px] text-white w-full md:w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
                 style={{
                   backgroundImage: `url(${service.image})`,
                   backgroundSize: "cover",
@@ -98,8 +133,10 @@ export default function Services() {
                 }}
               >
                 <div className="z-50">
-                  <p className="text-4xl gil-med">{service.title}</p>
-                  <p className="text-xs opacity-60 pt-4">
+                  <p className="text-base md:text-4xl gil-med">
+                    {service.title}
+                  </p>
+                  <p className="text-xs md:text-base opacity-60 pt-4">
                     We work closely with our clients to formulate an effective
                     approach
                   </p>
@@ -111,7 +148,7 @@ export default function Services() {
               </div>
             </div>
           ))}
-        </Carousel>
+        </div>
       </div>
     </div>
   );
