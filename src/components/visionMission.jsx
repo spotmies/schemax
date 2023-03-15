@@ -7,20 +7,20 @@ const missionImage =
 
 const VisionMissionSection = () => {
   return (
-    <div className="w-[100vw] h-[100vh] bg-white">
-      <section className="w-[90%] m-auto h-full flex flex-col items-center justify-between py-16">
-        <p className="text-5xl text-center gil-bold text-primary">
+    <div className="w-[100vw] h-fit md:h-[100vh] bg-white">
+      <section className="w-[90%] m-auto h-full flex flex-col items-center justify-between py-8 md:py-16">
+        <p className="text-3xl md:text-5xl text-center gil-bold text-primary mb-8 md:mb-16">
           Empowering People to Achieve Their Goals
         </p>
         <div className="container mx-auto px-4 ">
-          <div className="flex flex-wrap -mx-4">
-            <div className="w-full md:w-1/2 px-4 mb-12 md:mb-0">
+          <div className="flex flex-col md:flex-row md:-mx-4">
+            <div className="w-full md:w-1/2 md:px-4 mb-12 md:mb-0">
               <img
                 src={visionImage}
                 alt="Vision"
                 className="object-cover h-[350px] w-full rounded-sm mb-4"
               />
-              <h2 className="text-4xl gil-bold mb-4">Our Vision</h2>
+              <h2 className="text-3xl md:text-4xl gil-bold mb-4">Our Vision</h2>
               <p className="text-primary mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                 non lorem et augue porta aliquet. Nam ut ornare orci. Nullam ut
@@ -33,20 +33,22 @@ const VisionMissionSection = () => {
                 Fusce euismod augue eget neque ultrices auctor.
               </p>
             </div>
-            <div className="w-full md:w-1/2 px-4">
+            <div className="w-full md:w-1/2 md:px-4">
               <img
                 src={missionImage}
                 alt="Mission"
                 className="object-cover h-[350px] w-full rounded-sm mb-4"
               />
-              <h2 className="text-4xl gil-bold mb-4">Our Mission</h2>
-              <p className="text-gray-700 mb-4">
+              <h2 className="text-3xl md:text-4xl gil-bold mb-4">
+                Our Mission
+              </h2>
+              <p className="text-primary mb-4">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                 non lorem et augue porta aliquet. Nam ut ornare orci. Nullam ut
                 augue eget eros fermentum egestas. Suspendisse vitae mi felis.
                 Praesent vel magna ut tortor volutpat eleifend.
               </p>
-              <p className="text-gray-700 mb-4">
+              <p className="text-primary mb-4">
                 Morbi sit amet nibh volutpat, laoreet ipsum a, ornare odio. Sed
                 lacinia leo euismod magna molestie, vel rutrum lectus varius.
                 Fusce euismod augue eget neque ultrices auctor.
