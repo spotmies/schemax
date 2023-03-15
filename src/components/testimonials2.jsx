@@ -39,24 +39,24 @@ export default function Testimonials2() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
       partialVisibilityGutter: 70,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 1,
+      items: 2,
       partialVisibilityGutter: 0,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 2,
       partialVisibilityGutter: 0,
     },
   };
 
   return (
     <section
-      className={`${styles.paddings} relative z-10 bg-primary`}
+      className={`${styles.paddings}  relative z-10 bg-primary`}
       id="testimonials"
     >
       <motion.div
@@ -66,11 +66,11 @@ export default function Testimonials2() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} h-[100vh] mx-auto flex flex-col`}
       >
-        <p className="w-[100%] md:w-[70%] gil-bold text-5xl text-white">
+        <p className="w-[100%] md:w-[70%] gil-bold text-3xl md:text-5xl text-white">
           Helping our client to succeed with speed
         </p>
 
-        <p className="gil-reg text-md opacity-60 w-[50%] text-white pt-4">
+        <p className="gil-reg text-md opacity-60 w-full md:w-[50%] text-white pt-4">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
           consequuntur deserunt dignissimos iure hic quas asperiores, in nostrum
           a vero, porro velit voluptas deleniti nam repellat aliquam saepe quo
@@ -92,11 +92,10 @@ export default function Testimonials2() {
               )}
             </Carousel>
             {/* </div> */}
-            <p className="w-[100%] md:w-[70%] gil-bold text-5xl text-white mt-[50px]">
-                Our collabrations
-              </p>
-            <div className="pt-[100px] m-auto w-full">
-             
+            <p className="w-[100%] md:w-[70%]  gil-bold text-3xl md:text-5xl text-white mt-[50px]">
+              Our collabrations
+            </p>
+            <div className="pt-[30px] md:pt-[100px] m-auto w-full">
               <Carousel
                 responsive={responsive2}
                 arrows={false}
