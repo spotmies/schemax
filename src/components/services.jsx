@@ -94,8 +94,8 @@ export default function Services() {
             infinite={false}
             autoPlay={true}
           >
-            {services.map((service) => (
-              <div className="relative industry-card md:mb-0 mb-6">
+            {services.map((service, key) => (
+              <div className="relative industry-card md:mb-0 mb-6" key={key}>
                 <div className="absolute inset-0 bg-primary opacity-40 w-full h-full md:w-[330px] rounded-md "></div>
                 <div
                   className="h-[200px] md:h-[500px] text-white w-full md:w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
