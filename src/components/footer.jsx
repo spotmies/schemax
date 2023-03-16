@@ -66,7 +66,7 @@ export default function FooterBar() {
                 </li>
               </ul>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/5">
+            <div className="w-full md:w-1/3 lg:w-1/4">
               <h2 className="text-lg gil-bold mb-4">Newsletter</h2>
               <p className="mb-4">
                 Sign up for our newsletter and stay up-to-date with our latest
