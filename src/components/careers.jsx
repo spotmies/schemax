@@ -21,26 +21,26 @@ function CareerSection() {
   };
 
   return (
-    <div className="w-[100vw] h-[100vh]">
+    <div className="w-[100vw] h-fit md:h-[100vh]">
       <div
-        className="relative bg-cover bg-center bg-gray-800 py-24 w-[90%] m-auto rounded-sm"
+        className="relative bg-cover bg-center bg-gray-800 py-24 w-[90%] m-auto rounded-sm z-10"
         style={{
           backgroundImage:
             "url(https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
         }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-row items-end justify-end">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-row items-end justify-end z-50">
           <div className="mt-2">
             <div className="">
-              <h1 className="text-5xl gil-med tracking-tight text-white sm:text-5xl lg:text-6xl">
+              <h1 className="text-4xl md:text-5xl gil-med tracking-tight text-white sm:text-5xl lg:text-6xl">
                 Join our team
               </h1>
-              <p className="mt-4 max-w-3xl text-xl text-gray-300">
+              <p className="mt-4 max-w-3xl md:text-xl text-gray-300 text-md opacity-70">
                 We're always looking for talented individuals to help us build
                 amazing things.
               </p>
             </div>
-            <form onSubmit={handleSubmit} className="z-70">
+            <form onSubmit={handleSubmit} className="z-70 pt-2">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label
