@@ -57,24 +57,23 @@ export default function Testimonials2() {
   return (
     <section
       className={`${styles.paddings} h-fit  relative z-10 bg-primary`}
-      id="testimonials"
-    >
+      id="testimonials">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} h-[100vh] mx-auto flex flex-col`}
-      >
+        className={`${styles.innerWidth} h-[100vh] mx-auto flex flex-col`}>
         <p className="w-[100%] md:w-[70%] gil-bold text-3xl md:text-5xl text-white">
           Helping our client to succeed with speed
         </p>
 
         <p className="gil-reg text-md opacity-60 w-full md:w-[50%] text-white pt-4">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-          consequuntur deserunt dignissimos iure hic quas asperiores, in nostrum
-          a vero, porro velit voluptas deleniti nam repellat aliquam saepe quo
-          corrupti.
+          Our commitment to delivering high-quality software solutions within a
+          quick turnaround time helps our clients achieve success faster. By
+          leveraging the latest technologies and innovative approaches, we
+          enable our clients to stay ahead of the competition and achieve their
+          business objectives.
         </p>
 
         <motion.div
@@ -82,8 +81,7 @@ export default function Testimonials2() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className={`w-[90vw] m-auto mt-[50px]`}
-        >
+          className={`w-[90vw] m-auto mt-[50px]`}>
           <motion.div variants={fadeIn("left", "tween", 0.2, 1)}>
             {/* <div className="w-[90vw] m-auto"> */}
             <Carousel responsive={responsive} partialVisible={true}>
@@ -100,8 +98,7 @@ export default function Testimonials2() {
                 responsive={responsive2}
                 arrows={false}
                 infinite={true}
-                autoPlay={true}
-              >
+                autoPlay={true}>
                 {dummyClients.map((testimonial, index) => (
                   <div key={index}>
                     <img

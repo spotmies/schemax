@@ -29,8 +29,10 @@ const TeamSlide = () => {
             Meet Our Team
           </h2>
           <p className="mt-4 max-w-2xl text-md text-primary opacity-60">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            This is our team of experts, consisting of skilled developers,
+            designers, and technology specialists from around the world, who
+            collaborate to deliver exceptional software solutions with
+            innovation and expertise.
           </p>
 
           <img

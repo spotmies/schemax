@@ -139,10 +139,10 @@ export default function Services() {
                     <p className="text-xs md:text-base opacity-60 pt-4">
                       {service.description}
                     </p>
-                    <div className="flex flex-row items-center w-full justify-start pt-4">
+                    {/* <div className="flex flex-row items-center w-full justify-start pt-4">
                       <AiOutlineRead />
                       <p className="pl-2 opacity-60"> Learn More</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

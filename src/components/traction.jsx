@@ -14,7 +14,9 @@ export default function Traction() {
       <div className="grid grid-cols-2 grid-rows-2 gap-4">
         {data.map((item) => (
           <div key={item.label} className="p-4 text-start">
-            <div className="text-3xl md:text-5xl gil-bold text-primary">{item.value}+</div>
+            <div className="text-3xl md:text-5xl gil-bold text-primary">
+              {item.value}+
+            </div>
             <div className="text-primary text-sm opacity-60">{item.label}</div>
           </div>
         ))}
@@ -31,9 +33,10 @@ export default function Traction() {
             Over The World
           </p>
           <p className="gil-reg text-sm opacity-40 pt-4 w-full md:w-[60%] text-primary">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptatem expedita officia Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Quisquam voluptatem expedita officia
+            With a global presence, our company brings a diverse range of
+            perspectives and experiences to every project, delivering software
+            solutions that meet the unique needs of clients from all corners of
+            the world.
           </p>
           {/* <button className="gil-reg text-sm bg-sky-400 text-white rounded-sm w-[100px] h-[40px] mt-4">
             Contact Us

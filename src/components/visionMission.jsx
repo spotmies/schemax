@@ -22,15 +22,18 @@ const VisionMissionSection = () => {
               />
               <h2 className="text-3xl md:text-4xl gil-bold mb-4">Our Vision</h2>
               <p className="text-primary mb-4">
-                To be a leading software development company, delivering
-                innovative and cutting-edge solutions that empower businesses
-                and individuals to succeed in a rapidly-evolving digital world.
+                Our vision is to be a leading software development company,
+                recognized for delivering innovative solutions that empower
+                businesses and individuals to succeed in a rapidly-evolving
+                digital world.
               </p>
-              {/* <p className="text-primary mb-4">
-                Morbi sit amet nibh volutpat, laoreet ipsum a, ornare odio. Sed
-                lacinia leo euismod magna molestie, vel rutrum lectus varius.
-                Fusce euismod augue eget neque ultrices auctor.
-              </p> */}
+              <p className="text-primary mb-4">
+                We aim to make a positive impact on society by creating
+                high-quality, reliable, and scalable software solutions. Our
+                collaborative approach and commitment to rigorous testing ensure
+                that we exceed our clients' expectations and build long-lasting
+                partnerships.
+              </p>
             </div>
             <div className="w-full md:w-1/2 md:px-4">
               <img

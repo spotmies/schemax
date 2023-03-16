@@ -28,13 +28,13 @@ const AboutUsSlide = () => {
     {
       title: "High Level Testing",
       description:
-        "Our rigorous testing processes ensure top-notch quality and reliability.",
+        "From functional to security and performance testing, our commitment to rigorous testing ensures high-quality, reliable.",
       icon: <AiOutlineExperiment size="3rem" className="text-amber-400 mb-2" />,
     },
     {
       title: "Easy Integration",
       description:
-        "Seamless integration with your existing systems, for hassle-free implementation and deployment.",
+        "Hassle-free integration of your software solutions with existing systems, ensured through our seamless integration approach.",
       icon: <AiOutlineApi size="3rem" className="text-red-400 mb-2" />,
     },
   ];

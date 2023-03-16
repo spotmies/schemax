@@ -3,11 +3,15 @@ import HoverButton from "./reusableComponent/hoverButton";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const video =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video.mp4?alt=media&token=e5bab7cd-0077-4974-a2b2-88dd82358a02";
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video2.mp4?alt=media&token=e89efa63-b71f-4a0a-a8fb-3159d9b0a970";
+// "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video.mp4?alt=media&token=e5bab7cd-0077-4974-a2b2-88dd82358a02";
 
 const LandingSlide = () => {
   return (
     <section className="h-screen w-full flex flex-col justify-center items-center relative">
+      <div
+        className="absolute inset-0 bg-primary opacity-40 w-full h-full rounded-md "
+        style={{ zIndex: "9" }}></div>
       <div className="absolute top-0 left-0 h-full w-full z-10">
         <Navbarr />
       </div>
