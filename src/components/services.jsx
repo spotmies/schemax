@@ -88,7 +88,12 @@ export default function Services() {
           adipiscing elit. Duis non lorem et augue porta aliquet.
         </p>
         <div className="md:block hidden">
-          <Carousel responsive={responsive} partialVisible={true}>
+          <Carousel
+            responsive={responsive}
+            partialVisible={true}
+            infinite={false}
+            autoPlay={true}
+          >
             {services.map((service) => (
               <div className="relative industry-card md:mb-0 mb-6">
                 <div className="absolute inset-0 bg-primary opacity-40 w-full h-full md:w-[330px] rounded-md "></div>
