@@ -17,7 +17,7 @@ const LandingSlide = () => {
         muted
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white animated">
         <h1 className="text-4xl md:text-6xl lg:text-7xl gil-bold mb-4">
           Creative solutions for better business
         </h1>
