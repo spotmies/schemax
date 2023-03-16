@@ -20,7 +20,7 @@ const VisionMissionSection = () => {
                 alt="Vision"
                 className="object-cover h-[350px] w-full rounded-sm mb-4"
               />
-              <h2 className="text-3xl md:text-4xl gil-bold mb-4">Our Vision</h2>
+              <h2 className="text-3xl md:text-4xl gil-bold mb-4 text-primary">Our Vision</h2>
               <p className="text-primary mb-4">
                 To be a leading software development company, delivering
                 innovative and cutting-edge solutions that empower businesses
@@ -38,7 +38,7 @@ const VisionMissionSection = () => {
                 alt="Mission"
                 className="object-cover h-[350px] w-full rounded-sm mb-4"
               />
-              <h2 className="text-3xl md:text-4xl gil-bold mb-4">
+              <h2 className="text-3xl md:text-4xl gil-bold mb-4 text-primary">
                 Our Mission
               </h2>
               <p className="text-primary mb-4">
