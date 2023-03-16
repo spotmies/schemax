@@ -2,7 +2,8 @@ import React from "react";
 import HoverButton from "./reusableComponent/hoverButton";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-const video = "/assets/images/video.mp4";
+const video =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video.mp4?alt=media&token=e5bab7cd-0077-4974-a2b2-88dd82358a02";
 
 const LandingSlide = () => {
   return (
@@ -51,56 +52,47 @@ export const Navbarr = () => {
         <div className="flex items-center md:hidden">
           <button
             className="text-white hover:text-secundary focus:outline-none"
-            aria-label="Menu"
-          >
+            aria-label="Menu">
             <svg
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="menu w-6 h-6"
-            >
+              className="menu w-6 h-6">
               <path
                 fillRule="evenodd"
                 d="M2 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm0 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm1 4a1 1 0 100 2h14a1 1 0 100-2H3z"
-                clipRule="evenodd"
-              ></path>
+                clipRule="evenodd"></path>
             </svg>
           </button>
         </div>
         <div className="hidden md:flex items-center">
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Services
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Industries
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Career
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Blogs
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             About Us
           </a>
           <a
             href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary"
-          >
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
             Contact Us
           </a>
         </div>

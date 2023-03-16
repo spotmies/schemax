@@ -4,13 +4,26 @@ import "react-multi-carousel/lib/styles.css";
 
 import React from "react";
 import { AiOutlineRead } from "react-icons/ai";
-const strategy = "/assets/images/strategy3.jpg";
-const product = "/assets/images/design.jpg";
-const web = "/assets/images/web-designs.jpg";
-const mobile = "/assets/images/mobile2.jpg";
-const support = "/assets/images/support.jpg";
-const augmentation = "/assets/images/augmentation.jpg";
-const industry = "/assets/images/industry.jpg";
+const strategy =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy3-min.jpg?alt=media&token=4a534055-3433-461a-83e6-fc3c993151ee";
+// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy-min.jpg?alt=media&token=2d7ccd17-c1dd-47e8-8e72-c163c2d7df9c
+// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy2-min.jpg?alt=media&token=bc14141b-31dd-4245-802d-269b8204e4c2
+const product =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/design-min.jpg?alt=media&token=01369911-648e-4edb-b4fe-d4a14702da92";
+// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/product-design-min.jpg?alt=media&token=cdd082fd-4412-475b-8b19-eeba196cac31
+// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/product-design2-min.jpg?alt=media&token=e9f1baa2-7ec1-437b-b473-63bf2b44010b
+const web =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/web-design2-min.jpg?alt=media&token=1190e422-13af-4b9f-ba24-eb33a07af3a1";
+// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/web-designs-min.jpg?alt=media&token=9710104e-ffe1-4d7b-84be-456c31ef8ec7
+const mobile =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/mobile2-min.jpg?alt=media&token=7213ea1b-0931-4084-b6aa-951a234a1470";
+// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/mobile-min.jpg?alt=media&token=949bd70e-a498-4e10-971a-8d55248693bb
+const support =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/support-min.jpg?alt=media&token=99571f68-bcbe-4559-87cb-46622966bf5a";
+const augmentation =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/augmentation.jpg?alt=media&token=3360e789-2665-43ee-96b1-2796298a85d8";
+const industry =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/industry-min.jpg?alt=media&token=dc2fe118-aea0-4824-8f94-d554d91ea0a5";
 
 export default function Services() {
   const services = [
@@ -81,8 +94,7 @@ export default function Services() {
         </p>
         <p
           className="text-sm md:text-lg opacity-60 pb-5 w-full md:w-[60%] text-primary"
-          id="services"
-        >
+          id="services">
           lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
           lorem et augue porta aliquet.lorem ipsum dolor sit amet, consectetur
           adipiscing elit. Duis non lorem et augue porta aliquet.
@@ -92,8 +104,7 @@ export default function Services() {
             responsive={responsive}
             partialVisible={true}
             infinite={false}
-            autoPlay={true}
-          >
+            autoPlay={true}>
             {services.map((service, key) => (
               <div className="relative industry-card md:mb-0 mb-6" key={key}>
                 <div className="absolute inset-0 bg-primary opacity-40 w-full h-full md:w-[330px] rounded-md "></div>
@@ -104,8 +115,7 @@ export default function Services() {
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                  }}
-                >
+                  }}>
                   <div className="z-50">
                     <p className="text-base md:text-4xl gil-med">
                       {service.title}
@@ -135,8 +145,7 @@ export default function Services() {
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
-                }}
-              >
+                }}>
                 <div className="z-50">
                   <p className="text-base md:text-4xl gil-med">
                     {service.title}

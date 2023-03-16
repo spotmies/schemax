@@ -1,12 +1,17 @@
 import React from "react";
-const teamMember1 = "/assets/images/team1.jpg";
+const teamMember1 =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team1-min.jpg?alt=media&token=33b2799e-8fcd-412e-8202-7e0440c3167d";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember2 = "/assets/images/team2.jpg";
+const teamMember2 =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team2-min.jpg?alt=media&token=0fc2f289-6d7b-4bde-9d35-57c697f697e5";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember3 = "/assets/images/team3.jpg";
+const teamMember3 =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team3-min.jpg?alt=media&token=6d1a8dde-fbd0-498c-b623-801421f098dd";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
-const teamMember4 = "/assets/images/team4.jpg";
+const teamMember4 =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team4-min.jpg?alt=media&token=5cfebf8f-0701-412e-837d-7b7b33dd4daa";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
+// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team5-min.jpg?alt=media&token=d86b34e5-fef2-45b2-8558-7806af95fd5d
 
 const TeamSlide = () => {
   const teamMembers = [
