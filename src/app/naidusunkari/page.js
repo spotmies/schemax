@@ -1,4 +1,5 @@
 import AboutMe from "@/components/portfolio_ceo/aboutme";
+import AwardsSection from "@/components/portfolio_ceo/awards";
 import Philosophy from "@/components/portfolio_ceo/philosophy";
 import Slide1 from "@/components/portfolio_ceo/slide1";
 
@@ -10,6 +11,7 @@ const Portfolio = () => {
       <Slide1 />
       <AboutMe />
       <Philosophy />
+      <AwardsSection />
     </div>
   );
 };
