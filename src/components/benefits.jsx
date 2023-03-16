@@ -42,19 +42,55 @@ export default function Benefits() {
     </div>
   );
   return (
-    <div className="w-[100vw] min-h-[100vh] h-fit bg-white py-14">
-      <p className="text-5xl text-center gil-bold text-primary">Benefit of choosing us</p>
-      <div className="flex flex-row items-center justify-between w-[90%] m-auto pt-12">
-        {item}
-        {item}
-        {item}
+    <div className="min-h-[100vh] w-[100vw] bg-white">
+      <div className="w-[90%] m-auto min-h-screen  py-8 sm:py-14">
+        <p className="text-4xl md:text-5xl text-center gil-bold text-primary">
+          Benefit of choosing us
+        </p>
+        <div className="flex flex-col md:flex-row items-center justify-between w-90 mx-auto pt-8 sm:pt-12">
+          <div className="flex flex-col items-start md:items-start w-full md:w-[30%] mb-6 md:mb-0">
+            <p className="gil-bold text-3xl text-primary">01</p>
+            <p className="gil-med text-lg md:text-xl text-primary text-left md:text-left">
+              Access to exclusive projects
+            </p>
+            <p className="opacity-40 text-sm text-primary text-left md:text-left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatem expedita officia
+            </p>
+          </div>{" "}
+          <div className="flex flex-col items-start md:items-start w-full md:w-[30%] mb-6 md:mb-0">
+            <p className="gil-bold text-3xl text-primary">02</p>
+            <p className="gil-med text-lg md:text-xl text-primary text-left md:text-left">
+              Fast turnaround time
+            </p>
+            <p className="opacity-40 text-sm text-primary text-left md:text-left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatem expedita officia
+            </p>
+          </div>{" "}
+          <div className="flex flex-col items-start md:items-start w-full md:w-[30%]">
+            <p className="gil-bold text-3xl text-primary">03</p>
+            <p className="gil-med text-lg md:text-xl text-primary text-left md:text-left">
+              Dedicated support team
+            </p>
+            <p className="opacity-40 text-sm text-primary text-left md:text-left">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+              voluptatem expedita officia
+            </p>
+          </div>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+          alt="industry"
+          className="mt-8 w-full h-64 md:h-96 object-cover rounded-md mx-auto"
+        />
       </div>
-      <img
-        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-        alt="industry"
-        className=" mt-8 w-[90%] h-[500px] object-cover rounded-md m-auto"
-      />
-      <div className="pt-[70px] m-auto w-[90%]">
+    </div>
+  );
+}
+
+{
+  /* <div className="pt-[70px] m-auto w-[90%]">
         <Carousel
           responsive={responsive2}
           arrows={false}
@@ -71,7 +107,5 @@ export default function Benefits() {
             </div>
           ))}
         </Carousel>
-      </div>
-    </div>
-  );
+      </div> */
 }

@@ -139,7 +139,6 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-
 .industry-card:hover .onHoverShow {
   opacity: 1;
   transform: translateY(0);
@@ -156,7 +155,28 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+/* Apply the animation to the element */
+.animated {
+  animation-name: slideInUpp;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  visibility: visible;
+}
 
+/* Hide the element until the user scrolls to it */
+.hiddenn {
+  visibility: hidden;
+}
+@keyframes slideInUpp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   html {

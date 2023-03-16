@@ -6,14 +6,17 @@ export default function FooterBar() {
       <footer className="bg-gray-900 text-gray-400 pt-16 pb-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between mb-12">
-            <div className="w-full md:w-1/3 lg:w-1/4">
+            <div className="w-full md:w-1/3 lg:w-1/3 pr-4">
               <h2 className="text-lg gil-bold mb-4">About Us</h2>
-              <p className="mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                eget mi euismod, dignissim lorem id, congue justo.
+              <p className="mb-4 text-justify">
+                Schemax is a software product and technology services company
+                based out of India (Hyderabad & Visakhapatnam), that started its
+                operations in the year 2011, Schemax mission is to enable our
+                customers with business value driven technology products, custom
+                developed solutions and services.
               </p>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4">
+            <div className="w-full md:w-1/3 lg:w-1/5">
               <h2 className="text-lg gil-bold mb-4">Useful Links</h2>
               <ul className="list-reset">
                 <li className="mb-2">
@@ -38,7 +41,7 @@ export default function FooterBar() {
                 </li>
               </ul>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4">
+            <div className="w-full md:w-1/3 lg:w-1/5">
               <h2 className="text-lg gil-bold mb-4">More</h2>
               <ul className="list-reset">
                 <li className="mb-2">

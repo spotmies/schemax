@@ -1,5 +1,12 @@
 import { MdPhone } from "react-icons/md";
 
+const satish =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/testi1-min.jpg?alt=media&token=0c4ad93a-2cea-4fa4-b59e-d3f2ad0d6a36";
+const ravi =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/testi2-min.jpg?alt=media&token=7bb7b719-a0f8-40e5-9eb8-1b0397514dc2";
+const surya =
+  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/testi3-min.jpg?alt=media&token=75de35c3-0bce-4185-aca2-a4a1c9239adf";
+
 export const exploreWorlds = [
   {
     id: "world-1",
@@ -151,29 +158,29 @@ export const socials = [
 
 export const testimonials = [
   {
-    name: "Vamsi Gummadi",
-    position: "CEO at Sweken",
+    name: "Satish Kumar",
+    position: "CEO at Spotmies",
     when: "8 months ago",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=6572dc5b-d900-4060-88f7-e3feff77d479",
-    text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
+    image: satish,
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=6572dc5b-d900-4060-88f7-e3feff77d479",
+    text: "Schemax team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
   },
   {
-    name: "Ravi Unukuru",
+    name: "Ravi",
     position: "Web3 Entrepreneur",
     when: "1 months ago",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
-    text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
+    image: ravi,
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
+    text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the cloud devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
   {
-    name: "Anand Boddeti",
-    position: "A Square Entertainment",
+    name: "surya",
+    position: "Surya Technologies",
     when: "2 months ago",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
-    text: "We chose spotmies because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
+    image: surya,
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
+    text: "We chose Schemax because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
   },
 ];
 
