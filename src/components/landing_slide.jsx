@@ -23,8 +23,8 @@ const LandingSlide = () => {
           Creative solutions for better business
         </h1>
         <p className="text-sm md:text-lg lg:text-xl mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
-          lorem et augue porta aliquet.
+          We offer innovative software solutions that fuel business growth
+          through creative problem-solving.
         </p>
         <div className="w-full flex flex-row items-center justify-center">
           <HoverButton

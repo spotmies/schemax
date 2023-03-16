@@ -33,7 +33,7 @@ const IndustriesSection = () => {
       icon: <FaBuilding />,
       title: "Manufacturing",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
+        "As manufacturing evolves to embrace the digital age, we help businesses thrive in the Industry 4.0 era with innovative technology solutions and unparalleled expertise.",
       image: manufacturing,
       // image:
       //   "https://images.unsplash.com/photo-1511454493857-0a29f2c023c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
@@ -42,7 +42,7 @@ const IndustriesSection = () => {
       icon: <FaIndustry />,
       title: "Retail",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
+        "We help retail stores stay ahead of the curve with technology-driven solutions that enhance customer experiences and streamline operations.",
       image: retail,
       // image:
       //   "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
@@ -51,21 +51,21 @@ const IndustriesSection = () => {
       icon: <FaGlobe />,
       title: "Health Care",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
+        "We empower healthcare providers with technology solutions that improve patient care, optimize workflows, and enhance operational efficiency.",
       image: healthcare,
     },
     {
       icon: <FaUsers />,
       title: "Logistics & Warehouse",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
+        "Our logistics and warehouse solutions leverage the latest technology to optimize supply chain operations, reduce costs, and enhance overall efficiency.",
       image: logistics,
     },
     {
       icon: <FaLaptop />,
       title: "Government",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
+        "We partner with government agencies to deliver secure, scalable, and cost-effective technology solutions that enable streamlined operations, increased transparency, and improved citizen services.",
       image:
         "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
     },
@@ -73,7 +73,7 @@ const IndustriesSection = () => {
       icon: <FaCogs />,
       title: "EduTech",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in finibus nulla. Integer convallis tortor vitae elit faucibus, at sagittis erat facilisis.",
+        "Our innovative edutech solutions help educational institutions transform the way they teach and engage students, creating immersive and effective learning experiences.",
       image: edutech,
     },
   ];
@@ -86,9 +86,8 @@ const IndustriesSection = () => {
             Industries We Serve
           </h2>
           <p className="text-sm md:text-lg text-primary opacity-60 text-justify ml-4 w-[60%]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptas, quod, quia, voluptate quae voluptates quibusdam
-            voluptatibus quos quas quidem quia voluptates quibusdam
+            Our expertise across various industries will help you to bridge the
+            gaps with our innovative solutions
           </p>
           <div className="flex flex-wrap">
             {industries.map((industry, index) => (

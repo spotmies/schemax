@@ -22,16 +22,15 @@ const VisionMissionSection = () => {
               />
               <h2 className="text-3xl md:text-4xl gil-bold mb-4">Our Vision</h2>
               <p className="text-primary mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                non lorem et augue porta aliquet. Nam ut ornare orci. Nullam ut
-                augue eget eros fermentum egestas. Suspendisse vitae mi felis.
-                Praesent vel magna ut tortor volutpat eleifend.
+                To be a leading software development company, delivering
+                innovative and cutting-edge solutions that empower businesses
+                and individuals to succeed in a rapidly-evolving digital world.
               </p>
-              <p className="text-primary mb-4">
+              {/* <p className="text-primary mb-4">
                 Morbi sit amet nibh volutpat, laoreet ipsum a, ornare odio. Sed
                 lacinia leo euismod magna molestie, vel rutrum lectus varius.
                 Fusce euismod augue eget neque ultrices auctor.
-              </p>
+              </p> */}
             </div>
             <div className="w-full md:w-1/2 md:px-4">
               <img
@@ -43,15 +42,16 @@ const VisionMissionSection = () => {
                 Our Mission
               </h2>
               <p className="text-primary mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                non lorem et augue porta aliquet. Nam ut ornare orci. Nullam ut
-                augue eget eros fermentum egestas. Suspendisse vitae mi felis.
-                Praesent vel magna ut tortor volutpat eleifend.
+                We strive to transform ideas into exceptional software
+                solutions, through collaborative teamwork, user-centered design,
+                and cutting-edge technology. We aim to exceed our clients'
+                expectations by delivering high-quality, reliable and scalable
+                software solutions, and to foster a culture of innovation and
+                continuous improvement in all that we do.
               </p>
               <p className="text-primary mb-4">
-                Morbi sit amet nibh volutpat, laoreet ipsum a, ornare odio. Sed
-                lacinia leo euismod magna molestie, vel rutrum lectus varius.
-                Fusce euismod augue eget neque ultrices auctor.
+                Our ultimate goal is to empower businesses and individuals to
+                achieve their full potential through the power of technology.
               </p>
             </div>
           </div>

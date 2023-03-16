@@ -101,10 +101,7 @@ const ProductsListSlide = () => {
           Products We offer
         </p>
         <p className="gil-reg text-md opacity-60 w-full md:w-[50%] pt-4 text-primary">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-          consequuntur deserunt dignissimos iure hic quas asperiores, in nostrum
-          a vero, porro velit voluptas deleniti nam repellat aliquam saepe quo
-          corrupti.
+          A few of the wide range of proven products from the house of Schemax
         </p>
         <div className="pt-4 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2  gap-0 md:gap-4 w-full">
