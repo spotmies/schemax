@@ -44,7 +44,8 @@ export default function ArticlesList() {
     },
     {
       title: "Stock Market",
-      image: "/assets/images/factory2.jpg",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/factory2-min.jpg?alt=media&token=b2aa7e3f-9b12-4db1-bf87-e2513b411ef9",
     },
   ];
 
