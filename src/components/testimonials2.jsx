@@ -64,7 +64,7 @@ export default function Testimonials2() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} h-[100vh] mx-auto flex flex-col`}
+        className={`${styles.innerWidth} h-fit min-h-[100vh] mx-auto flex flex-col`}
       >
         <p className="w-[100%] md:w-[70%] gil-bold text-3xl md:text-5xl text-white">
           Helping our client to succeed with speed
