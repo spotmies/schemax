@@ -7,7 +7,7 @@ const missionImage =
 
 const VisionMissionSection = () => {
   return (
-    <div className="w-[100vw] h-fit md:h-[100vh] bg-white">
+    <div className="w-[100vw] h-fit  md:min-h-[100vh] bg-white">
       <section className="w-[90%] m-auto h-full flex flex-col items-center justify-between py-8 md:py-16">
         <p className="text-3xl md:text-5xl text-center gil-bold text-primary mb-8 md:mb-16">
           Empowering People to Achieve Their Goals
@@ -20,7 +20,9 @@ const VisionMissionSection = () => {
                 alt="Vision"
                 className="object-cover h-[350px] w-full rounded-sm mb-4"
               />
-              <h2 className="text-3xl md:text-4xl gil-bold mb-4">Our Vision</h2>
+              <h2 className="text-3xl md:text-4xl gil-bold mb-4 text-primary">
+                Our Vision
+              </h2>
               <p className="text-primary mb-4">
                 Our vision is to be a leading software development company,
                 recognized for delivering innovative solutions that empower
@@ -41,7 +43,7 @@ const VisionMissionSection = () => {
                 alt="Mission"
                 className="object-cover h-[350px] w-full rounded-sm mb-4"
               />
-              <h2 className="text-3xl md:text-4xl gil-bold mb-4">
+              <h2 className="text-3xl md:text-4xl gil-bold mb-4 text-primary">
                 Our Mission
               </h2>
               <p className="text-primary mb-4">

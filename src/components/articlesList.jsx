@@ -157,7 +157,10 @@ export default function ArticlesList() {
                     client expectations.
                   </p>
                   <div className="flex flex-row items-center w-full justify-center">
-                    <HoverButton text="Learn More" />
+                    <HoverButton
+                      text="Learn More"
+                      className="bg-transparent  border hover:text-primary hover:bg-white border-white hover:border-white"
+                    />
                   </div>
                 </div>
               </div>
