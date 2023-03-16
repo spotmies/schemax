@@ -16,25 +16,25 @@ const AboutUsSlide = () => {
     {
       title: "Idea Enhancement",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "Transforming your ideas into exceptional software solutions, through collaborative teamwork and user-centered design.",
       icon: <AiOutlineBulb size="3rem" className="text-secundary mb-2" />,
     },
     {
       title: "Best Tech",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "Our top-notch tech team delivers innovative solutions with skill and expertise, empowering your business for success.",
       icon: <AiOutlineDashboard size="3rem" className="text-green-400 mb-2" />,
     },
     {
       title: "High Level Testing",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "Our rigorous testing processes ensure top-notch quality and reliability.",
       icon: <AiOutlineExperiment size="3rem" className="text-amber-400 mb-2" />,
     },
     {
       title: "Easy Integration",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "Seamless integration with your existing systems, for hassle-free implementation and deployment.",
       icon: <AiOutlineApi size="3rem" className="text-red-400 mb-2" />,
     },
   ];
@@ -43,8 +43,7 @@ const AboutUsSlide = () => {
     return (
       <div
         key={key}
-        className="p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-[300px] cursor-pointer hover:shadow-md"
-      >
+        className="p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-[300px] cursor-pointer hover:shadow-md">
         <div className="w-[20%]">{icon}</div>
         <div className="flex flex-col items-start justify-center pl-4">
           <h3 className="text-xl gil-med text-gray-900 mb-2">{title}</h3>
@@ -81,8 +80,7 @@ const AboutUsSlide = () => {
                 {cardArray.map((item, key) => (
                   <div
                     key={key}
-                    className="mb-2 md:mb-0 p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-full md:w-[300px]  cursor-pointer hover:shadow-md"
-                  >
+                    className="mb-2 md:mb-0 p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-full md:w-[300px]  cursor-pointer hover:shadow-md">
                     <div className="w-1/4 md:w-[20%]">{item.icon}</div>
                     <div className="flex flex-col items-start justify-center pl-4">
                       <h3 className="text-base md:text-xl gil-med text-gray-900 mb-2">
