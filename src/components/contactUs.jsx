@@ -31,10 +31,13 @@ export default function ContactUs() {
           <div className="absolute top-0 left-0 w-full h-full bg-primary rounded-sm bg-opacity-50 z-10"></div>
           <div className="absolute h-full md:h-full flex flex-row items-end z-20">
             <div className="flex flex-col pl-6 text-white pb-4">
-              <div className="text-3xl gil-med text">Schemax</div>
+              <div className="text-2xl md:text-3xl gil-med text">Schemax</div>
               <p className="gil-light text-xs opacity-70 w-[70%]">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipisicing elit.
-                Voluptatibus saepe nostrum accusantium! Labore iure
+                AU incubation centre, Andhra university, Visakhapatnam - 530003,
+                <br />
+                +91 9030069351
+                <br />
+                info@schemaxtech.com
               </p>
               <div className="flex flex-row w-[50%] pt-4 justify-between">
                 <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer ">

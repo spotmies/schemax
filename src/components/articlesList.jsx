@@ -106,7 +106,7 @@ export default function ArticlesList() {
             {article.map((item, index) => (
               <div
                 key={index}
-                className="text-primary bg-white flex flex-col items-start  h-[430px] w-[400px] rounded-sm  p-3 md:m-0 m-2"
+                className="text-primary bg-white flex flex-col items-start  h-[430px] w-full md:w-[400px] rounded-sm  p-3 md:m-0 m-2"
               >
                 <img
                   src={item.image}

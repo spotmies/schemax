@@ -56,7 +56,7 @@ export default function Testimonials2() {
 
   return (
     <section
-      className={`${styles.paddings}  relative z-10 bg-primary`}
+      className={`${styles.paddings} h-fit  relative z-10 bg-primary`}
       id="testimonials"
     >
       <motion.div
@@ -93,9 +93,9 @@ export default function Testimonials2() {
             </Carousel>
             {/* </div> */}
             <p className="w-[100%] md:w-[70%]  gil-bold text-3xl md:text-5xl text-white mt-[50px]">
-              Our collabrations
+              Our Clients
             </p>
-            <div className="pt-[30px] md:pt-[100px] m-auto w-full">
+            <div className="pt-[30px] md:pt-[100px] m-auto w-full pb-4 md:pb-0">
               <Carousel
                 responsive={responsive2}
                 arrows={false}
@@ -107,7 +107,7 @@ export default function Testimonials2() {
                     <img
                       src={testimonial.image}
                       alt=""
-                      className="cursor-pointer h-[60px] w-[160px] object-contain m-auto "
+                      className="cursor-pointer h-[40px] w-[120px] md:h-[60px] md:w-[160px] object-contain m-auto "
                     />
                   </div>
                 ))}

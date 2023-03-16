@@ -80,7 +80,7 @@ export default function Services() {
           Our services
         </p>
         <p
-          className="text-base md:text-lg opacity-60 pb-5 w-full md:w-[60%] text-primary"
+          className="text-sm md:text-lg opacity-60 pb-5 w-full md:w-[60%] text-primary"
           id="services"
         >
           lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
