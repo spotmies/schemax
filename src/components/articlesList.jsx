@@ -15,26 +15,32 @@ export default function ArticlesList() {
   const article = [
     {
       title: "Manufacturing",
-      image: "/assets/images/industry3.jpg",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/industry3-min.jpg?alt=media&token=e8243cdc-476d-4025-bf57-a8dddf289478",
     },
     {
       title: "City Infrastructure",
-      image: "/assets/images/factory.jpg",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/factory-min.jpg?alt=media&token=e01d57f9-727e-46a3-a449-2122e28caca2",
     },
     {
       title: "Shippind & Logistics",
-      image: "/assets/images/ship.jpg",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/ship-min.jpg?alt=media&token=be6a9b01-6735-44e1-92e1-6ca6f3a3409d",
     },
   ];
 
   const article2 = [
     {
       title: "Shipping Indutry",
-      image: "/assets/images/ship2.jpg",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/ship2-min.jpg?alt=media&token=3601d12e-cc13-4e08-b400-6d2e8624698f",
     },
     {
       title: "City Highlights",
-      image: "/assets/images/city2.jpg",
+      // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/city-min.jpg?alt=media&token=845056f6-664a-4535-baad-d7bc6c114782
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/city2-min.jpg?alt=media&token=c88d0ef0-ad3c-49ec-b410-c1d75864d0b9",
     },
     {
       title: "Stock Market",
@@ -106,8 +112,7 @@ export default function ArticlesList() {
             {article.map((item, index) => (
               <div
                 key={index}
-                className="text-primary bg-white flex flex-col items-start  h-[430px] w-full md:w-[400px] rounded-sm  p-3 md:m-0 m-2"
-              >
+                className="text-primary bg-white flex flex-col items-start  h-[430px] w-full md:w-[400px] rounded-sm  p-3 md:m-0 m-2">
                 <img
                   src={item.image}
                   alt={item.title}
