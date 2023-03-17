@@ -40,7 +40,7 @@ export default function Benefits() {
     </div>
   );
   return (
-    <div className="min-h-[100vh] w-[100vw] bg-white">
+    <div className="min-h-[100vh] w-[100vw] bg-white" id="benefits">
       <div className="w-[90%] m-auto min-h-screen  py-8 sm:py-14">
         <p className="text-4xl md:text-5xl text-center gil-bold text-primary">
           Benefit of choosing us

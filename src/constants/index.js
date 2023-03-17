@@ -184,6 +184,35 @@ export const testimonials = [
   },
 ];
 
+export const ceoTestimonials = [
+  {
+    name: "Narasimhan",
+    position: "AP EX-Governor",
+    when: "2 months ago",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/E._S._L._Narasimhan_at_Telangana_Jagruthi_Program.jpg/1200px-E._S._L._Narasimhan_at_Telangana_Jagruthi_Program.jpg",
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
+    text: "Working with Naidu Sunkari has been an absolute pleasure. Their leadership and vision have been instrumental in driving positive change for our state, and I have no doubt that their continued success will have a lasting impact on our community.",
+  },
+  {
+    name: "Ashroff Omar",
+    position: "CEO at Brandix",
+    when: "8 months ago",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYDZvfS8_zSmkaTyEJgkmKGkpT9hyDkSt1zIpPAL3sr4H--n5ccaB5eek1vAbXfY2Z7qo&usqp=CAU",
+    text: "Schemax team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
+  },
+  {
+    name: "Ravi",
+    position: "Web3 Entrepreneur",
+    when: "1 months ago",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
+    text: "I have had the pleasure of working with Naidu Sunkari for several years now and can confidently say that he is an exceptional leader. His strategic vision, commitment to excellence, and ability to inspire and motivate others are truly unparalleled.",
+  },
+];
+
 export const dummyClients = [
   {
     name: "HIM",

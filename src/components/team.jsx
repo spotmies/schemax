@@ -22,7 +22,7 @@ const TeamSlide = () => {
   ];
 
   return (
-    <div className="w-[100vw] bg-white">
+    <div className="w-[100vw] bg-white" id="team"> 
       <div className="py-10  w-[90%] m-auto">
         <div className="w-full">
           <h2 className="text-3xl gil-bold tracking-tight text-primary sm:text-5xl">

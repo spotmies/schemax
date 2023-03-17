@@ -97,7 +97,7 @@ export default function ArticlesList() {
   };
 
   return (
-    <div className="min-h-[100vh] h-fit w-[100vw]">
+    <div className="min-h-[100vh] h-fit w-[100vw]" id="articles">
       <div className="pt-10 w-full text-black gil-reg">
         <div className="w-[90%] m-auto">
           <div className="flex flex-row justify-between items-center w-full pb-8">

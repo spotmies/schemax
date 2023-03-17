@@ -17,7 +17,7 @@ import HoverButton from "./reusableComponent/hoverButton";
 
 export default function ContactUs() {
   return (
-    <div className="w-[100vw] h-fit md:h-[550px] text-black">
+    <div className="w-[100vw] h-fit md:h-[550px] text-black" id="contactUs">
       <div className="m-auto w-[90%] bg-white h-full flex flex-col md:flex-row items-center justify-center rounded-sm">
         <div
           className="relative h-[300px] md:h-full w-full md:w-[30%] z-20"

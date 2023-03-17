@@ -29,7 +29,8 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative">
+      className="relative"
+    >
       <img
         src={Image6}
         alt="Product 2"
@@ -48,7 +49,8 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative">
+      className="relative"
+    >
       <img
         src={Image6}
         alt="Product 2"
@@ -70,7 +72,8 @@ const ProductsListSlide = () => {
           <motion.div
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
-            className="relative h-[200px]">
+            className="relative h-[200px]"
+          >
             <img
               src={Image6}
               alt="Product 2"
@@ -96,7 +99,7 @@ const ProductsListSlide = () => {
   };
 
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100vw]" id="products">
       <div className="w-[90%] m-auto">
         <p className="gil-bold text-3xl md:text-5xl text-primary">
           Products We offer
@@ -110,7 +113,8 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-full">
+                className="relative h-full"
+              >
                 <img
                   src={Image1}
                   alt="Product 1"
@@ -132,7 +136,8 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2">
+                className="relative h-1/2"
+              >
                 <img
                   src={Image3}
                   alt="Product 3"
@@ -151,7 +156,8 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2">
+                className="relative h-1/2"
+              >
                 <img
                   src={Image5}
                   alt="Product 4"

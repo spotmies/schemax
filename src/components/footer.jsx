@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FooterBar() {
   return (
-    <div className=" w-[100vw]">
+    <div className=" w-[100vw]" id="footer">
       <footer className="bg-gray-900 text-gray-400 pt-16 pb-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between mb-12">
@@ -20,22 +20,22 @@ export default function FooterBar() {
               <h2 className="text-lg gil-bold mb-4">Useful Links</h2>
               <ul className="list-reset">
                 <li className="mb-2">
-                  <a href="#" className="hover:text-white">
+                  <a href="/#home" className="hover:text-white">
                     Home
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:text-white">
+                  <a href="/#aboutUs" className="hover:text-white">
                     About Us
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:text-white">
+                  <a href="/#services" className="hover:text-white">
                     Services
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:text-white">
+                  <a href="/#articles" className="hover:text-white">
                     Blog
                   </a>
                 </li>
@@ -45,12 +45,12 @@ export default function FooterBar() {
               <h2 className="text-lg gil-bold mb-4">More</h2>
               <ul className="list-reset">
                 <li className="mb-2">
-                  <a href="#" className="hover:text-white">
+                  <a href="/#faq" className="hover:text-white">
                     FAQ
                   </a>
                 </li>
                 <li className="mb-2">
-                  <a href="#" className="hover:text-white">
+                  <a href="/#contactUs" className="hover:text-white">
                     Contact Us
                   </a>
                 </li>

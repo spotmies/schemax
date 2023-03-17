@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import HoverButton from "./reusableComponent/hoverButton";
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -8,10 +9,14 @@ const video =
 
 const LandingSlide = () => {
   return (
-    <section className="h-screen w-full flex flex-col justify-center items-center relative">
+    <section
+      className="h-screen w-full flex flex-col justify-center items-center relative"
+      id="home"
+    >
       <div
         className="absolute inset-0 bg-primary opacity-40 w-full h-full rounded-md "
-        style={{ zIndex: "9" }}></div>
+        style={{ zIndex: "9" }}
+      ></div>
       <div className="absolute top-0 left-0 h-full w-full z-10">
         <Navbarr />
       </div>
@@ -32,6 +37,12 @@ const LandingSlide = () => {
         </p>
         <div className="w-full flex flex-row items-center justify-center">
           <HoverButton
+            onClick={() => {
+              // scroll to view by id
+              window.document
+                .getElementById("services")
+                .scrollIntoView({ behavior: "smooth" });
+            }}
             text="Read More"
             className="bg-transparent  border hover:text-primary hover:bg-white border-white hover:border-white"
             icon={<AiOutlineArrowRight className="ml-2" />}
@@ -43,6 +54,12 @@ const LandingSlide = () => {
 };
 
 export const Navbarr = () => {
+  const navigation = (id) => {
+    // navigation by id
+    window.document
+      .getElementById(id ?? "services")
+      .scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <nav className="bg-transparent py-4 w-[100vw] px-[5%]">
       <div className="container mx-auto flex justify-between items-center">
@@ -56,47 +73,57 @@ export const Navbarr = () => {
         <div className="flex items-center md:hidden">
           <button
             className="text-white hover:text-secundary focus:outline-none"
-            aria-label="Menu">
+            aria-label="Menu"
+          >
             <svg
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="menu w-6 h-6">
+              className="menu w-6 h-6"
+            >
               <path
                 fillRule="evenodd"
                 d="M2 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm0 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm1 4a1 1 0 100 2h14a1 1 0 100-2H3z"
-                clipRule="evenodd"></path>
+                clipRule="evenodd"
+              ></path>
             </svg>
           </button>
         </div>
         <div className="hidden md:flex items-center">
           <a
-            href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
+            // href="/"
+            onClick={() => navigation("services")}
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          >
             Services
           </a>
           <a
-            href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
+            onClick={() => navigation("industries")}
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          >
             Industries
           </a>
           <a
-            href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
+            onClick={() => navigation("career")}
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          >
             Career
           </a>
           <a
-            href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
+            onClick={() => navigation("articles")}
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          >
             Blogs
           </a>
           <a
-            href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
+            onClick={() => navigation("aboutUs")}
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          >
             About Us
           </a>
           <a
-            href="/"
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary">
+            onClick={() => navigation("contactUs")}
+            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          >
             Contact Us
           </a>
         </div>
