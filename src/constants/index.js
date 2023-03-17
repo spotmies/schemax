@@ -186,32 +186,74 @@ export const testimonials = [
 
 export const dummyClients = [
   {
-    name: "Apple",
-    image: "https://pngimg.com/d/ibm_PNG19658.png",
+    name: "HIM",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F1.png?alt=media&token=4aa86eb7-6fa0-451d-b9ff-056ded349126",
   },
   {
-    name: "Microsoft",
+    name: "RivetLogic",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F2.png?alt=media&token=720d1c33-3da4-475b-888b-151debcd0b7c",
+  },
+  {
+    name: "Yudezine",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F3.png?alt=media&token=0a786aa8-9516-436e-8114-b8c34600f7de",
+  },
+  {
+    name: "Rapiddox",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F4.png?alt=media&token=d606974c-c4de-459f-a0ef-a0ee0cb39953",
+  },
+  {
+    name: "Alma Bank",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FalmaBank.png?alt=media&token=181e53e1-e4cf-46fa-9217-4d10966cd3e1",
+  },
+  {
+    name: "IBM",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F5.png?alt=media&token=1261dfba-6a4a-49b1-a17f-da735ea52b49",
+  },
+  {
+    name: "softwareAG",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FSoftware_AG.png?alt=media&token=60369e0c-7515-42bf-bf04-2c18138205b7",
+  },
+  {
+    name: "MasterCard",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png",
   },
   {
-    name: "Amazon",
+    name: "Varun motors",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fvarun%20motors.png?alt=media&token=a023ecd3-ef52-41cf-9299-f53ab0ef25b4",
   },
   {
-    name: "Google",
+    name: "Japan Automatic Machine Co. LTD.",
     image:
-      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fjapan.png?alt=media&token=9967cdf2-841b-4c11-9508-c14435030687",
   },
   {
-    name: "Facebook",
+    name: "DC Mun",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F11.png?alt=media&token=6b3fc216-1d08-46f5-a231-2b17400ea4ea",
   },
   {
-    name: "Apple",
-    image: "https://www.freepnglogos.com/uploads/tesla-logo-png-20.png",
+    name: "Brandix",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F12.png?alt=media&token=278515f1-5706-4fba-b9d6-210c3bb0a56a",
+  },
+  {
+    name: "PENA4",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F13.png?alt=media&token=f968dded-fc38-4a6f-ae3f-c42f75016b8d",
+  },
+  {
+    name: "Minte",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F14.png?alt=media&token=5e257a74-9de8-4e85-8017-0432a4cbb222",
   },
 ];
 

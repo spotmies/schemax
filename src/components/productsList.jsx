@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const Image1 =
   "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/apparels.jpg?alt=media&token=816ac441-a8fa-4083-a0a3-86957a2ab4aa";
+// https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fapparels.jpg?alt=media&token=78ff2c70-2e45-46f5-af05-5076d90fae35
 // "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80";
 const Image2 =
   "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/automobiles-min.jpg?alt=media&token=e7252c8a-39ff-4c95-8eb8-fd4cf81dfca3";
