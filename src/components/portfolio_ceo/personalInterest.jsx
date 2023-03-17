@@ -10,23 +10,23 @@ import {
 const interests = [
   {
     name: "Music",
-    icon: <MdOutlineQueueMusic size="3rem" />,
+    icon: <MdOutlineQueueMusic className="h-[2rem] w-[2rem] md:h-[3rem] md:w-[3rem]" />,
   },
   {
     name: "Gaming",
-    icon: <MdOutlineVideogameAsset size="3rem" />,
+    icon: <MdOutlineVideogameAsset className="h-[2rem] w-[2rem] md:h-[3rem] md:w-[3rem]" />,
   },
   {
     name: "Movies",
-    icon: <MdOutlineMovie size="3rem" />,
+    icon: <MdOutlineMovie className="h-[2rem] w-[2rem] md:h-[3rem] md:w-[3rem]" />,
   },
   {
     name: "Reading",
-    icon: <MdOutlineBook size="3rem" />,
+    icon: <MdOutlineBook className="h-[2rem] w-[2rem] md:h-[3rem] md:w-[3rem]" />,
   },
   {
     name: "Photography",
-    icon: <MdOutlineCamera size="3rem" />,
+    icon: <MdOutlineCamera className="h-[2rem] w-[2rem] md:h-[3rem] md:w-[3rem]" />,
   },
 ];
 
@@ -35,7 +35,7 @@ const PersonalInterests = () => {
     <div className="w-[100vw]">
       <div className="w-full bg-gray-100 py-16">
         <div className="w-[90%] mx-auto">
-          <h2 className="text-5xl gil-bold mb-12 text-primary">
+          <h2 className="text-3xl md:text-5xl gil-bold mb-12 text-primary">
             Personal Interests
           </h2>
           <div className="flex flex-wrap">
@@ -45,7 +45,7 @@ const PersonalInterests = () => {
                 className="w-1/2 md:w-1/3 lg:w-1/5 flex flex-col items-center mb-8 hover:scale-110 transition duration-300 transform cursor-pointer text-primary opacity-60 hover:opacity-100"
               >
                 {interest.icon}
-                <h3 className="text-2xl font-bold mt-2">{interest.name}</h3>
+                <h3 className="text-lg md:text-2xl font-bold mt-2">{interest.name}</h3>
               </div>
             ))}
           </div>
