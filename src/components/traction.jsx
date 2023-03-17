@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import HoverButton from "./reusableComponent/hoverButton";
 
@@ -45,7 +46,14 @@ export default function Traction() {
           {/* <button className="gil-reg text-sm bg-[#142440] text-white rounded-sm w-[100px] h-[40px] mt-4 hover:bg-white hover:text-[#142440] hover:border hover:border-[#142440]">
             Contact Us
           </button> */}
-          <HoverButton text="Contact Us" />
+          <HoverButton
+            onClick={() => {
+              window.document.getElementById("contactUs").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
+            text="Contact Us"
+          />
         </div>
         <div className="w-full md:w-[40%] pt-4 md:p-4 bg-slate-100 rounded-sm">
           {Grid()}

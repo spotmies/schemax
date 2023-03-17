@@ -61,7 +61,7 @@ const AwardsSection = () => {
       <section className="bg-white py-12 m-auto w-[90%] md:block hidden">
         <div className="container mx-auto w-full">
           <h2 className="text-5xl gil-bold text-primary mb-8 ml-4">
-            Achievements
+            Awards & Recognition
           </h2>
           <p className="text-sm md:text-lg text-primary opacity-60 text-justify ml-4 w-[60%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -108,7 +108,7 @@ const AwardsSection = () => {
       <section className="bg-white py-12 px-4 sm:px-8 lg:px-16 xl:px-32 md:hidden block">
         <div className="max-w-screen-lg mx-auto">
           <h2 className="text-4xl sm:text-5xl gil-bold text-primary mb-8 ml-4">
-            Achievements
+            Awards & Recognition
           </h2>
           <p className="text-primary opacity-60 text-justify ml-4 md:ml-0 md:w-2/3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam

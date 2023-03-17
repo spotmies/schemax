@@ -100,7 +100,7 @@ export default function CeoTestimonials() {
 
   function testimonialCard({ text, image, name, position, when }) {
     return (
-      <div className="bg-slate-100 flex flex-col justify-between w-[80vw] min-h-[300px] max-h-[350px] md:max-h-[350px] md:min-h-[300px] md:w-[500px] gradient-05 rounded-md m-2 md:p-6 p-4 shadow-sm">
+      <div className="bg-gradient-to-r to-slate-100 from-slate-300 flex flex-col justify-between w-[80vw] min-h-[300px] max-h-[350px] md:max-h-[350px] md:min-h-[300px] md:w-[500px] gradient-05 rounded-md m-2 md:p-6 p-4 shadow-sm">
         {/* <div className="flex flex-col h-full justify-between"> */}
         <p className="text-primary opacity-80 text-md  md:text-xl  text-justify text-ellipsis">
           "{text}"
