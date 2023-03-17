@@ -43,7 +43,8 @@ const AboutUsSlide = () => {
     return (
       <div
         key={key}
-        className="p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-[300px] cursor-pointer hover:shadow-md">
+        className="p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-[300px] cursor-pointer hover:shadow-md"
+      >
         <div className="w-[20%]">{icon}</div>
         <div className="flex flex-col items-start justify-center pl-4">
           <h3 className="text-xl gil-med text-gray-900 mb-2">{title}</h3>
@@ -53,7 +54,7 @@ const AboutUsSlide = () => {
     );
   };
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100vw]" id="aboutUs">
       <div className="bg-gray-100 py-16 m-auto w-[90%]">
         <div className="container mx-auto px-2 lg:px-4 flex flex-col items-center">
           <div className="relative w-full mb-10">
@@ -80,7 +81,8 @@ const AboutUsSlide = () => {
                 {cardArray.map((item, key) => (
                   <div
                     key={key}
-                    className="mb-2 md:mb-0 p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-full md:w-[300px]  cursor-pointer hover:shadow-md">
+                    className="mb-2 md:mb-0 p-4 flex flex-row items-start justify-center bg-white rounded-sm shadow-sm w-full md:w-[300px]  cursor-pointer hover:shadow-md"
+                  >
                     <div className="w-1/4 md:w-[20%]">{item.icon}</div>
                     <div className="flex flex-col items-start justify-center pl-4">
                       <h3 className="text-base md:text-xl gil-med text-gray-900 mb-2">

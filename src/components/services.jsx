@@ -102,7 +102,7 @@ export default function Services() {
   };
 
   return (
-    <div className="w-[100vw] h-fit md:h-[100vh] bg-slate-200">
+    <div className="w-[100vw] h-fit md:h-[100vh] bg-slate-200" id="services">
       <div className="pt-10 m-auto w-[95%] md:w-[90%]">
         <p className="text-3xl md:text-5xl gil-bold pb-4 text-primary">
           {" "}

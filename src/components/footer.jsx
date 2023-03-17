@@ -2,7 +2,7 @@ import React from "react";
 
 export default function FooterBar() {
   return (
-    <div className=" w-[100vw]">
+    <div className=" w-[100vw]" id="footer">
       <footer className="bg-gray-900 text-gray-400 pt-16 pb-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between mb-12">

@@ -25,7 +25,7 @@ export default function Traction() {
   };
 
   return (
-    <div className="w-[100vw] h-fit md:h-[40vh]">
+    <div className="w-[100vw] h-fit md:h-[40vh]" id="traction">
       <div className="w-[90%] h-full flex flex-col md:flex-row justify-between m-auto items-center">
         <div className="w-full md:w-[60%]">
           <p className="gil-bold text-3xl md:text-5xl text-primary">

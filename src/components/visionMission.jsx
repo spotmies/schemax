@@ -7,7 +7,10 @@ const missionImage =
 
 const VisionMissionSection = () => {
   return (
-    <div className="w-[100vw] h-fit  md:min-h-[100vh] bg-white">
+    <div
+      className="w-[100vw] h-fit  md:min-h-[100vh] bg-white"
+      id="visionMission"
+    >
       <section className="w-[90%] m-auto h-full flex flex-col items-center justify-between py-8 md:py-16">
         <p className="text-3xl md:text-5xl text-center gil-bold text-primary mb-8 md:mb-16">
           Empowering People to Achieve Their Goals

@@ -79,7 +79,7 @@ const IndustriesSection = () => {
   ];
 
   return (
-    <div className="w-[100vw] bg-white">
+    <div className="w-[100vw] bg-white" id="industries">
       <section className="bg-white py-12 m-auto w-[90%] md:block hidden">
         <div className="container mx-auto w-full">
           <h2 className="text-5xl gil-bold text-primary mb-8 ml-4">
@@ -95,7 +95,8 @@ const IndustriesSection = () => {
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 p-6 flex flex-col"
                 // whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}>
+                whileTap={{ scale: 0.95 }}
+              >
                 <div className="flex-2 bg-white  rounded-b-none overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
@@ -140,7 +141,8 @@ const IndustriesSection = () => {
               <motion.div
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-6 flex flex-col"
-                whileTap={{ scale: 0.95 }}>
+                whileTap={{ scale: 0.95 }}
+              >
                 <div className="flex-2 bg-white rounded-b-none overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">

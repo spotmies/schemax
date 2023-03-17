@@ -77,7 +77,7 @@ function Faq() {
   };
 
   return (
-    <div className="w-[100vw] bg-slate-200">
+    <div className="w-[100vw] bg-slate-200" id="faq">
       <div className="w-[90%] container mx-auto py-12  rounded-sm m-auto ">
         <h2 className="text-3xl md:text-5xl gil-bold mb-8 text-center text-primary">
           Frequently Asked Questions

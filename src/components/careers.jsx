@@ -21,7 +21,7 @@ function CareerSection() {
   };
 
   return (
-    <div className="w-[100vw] h-fit md:h-[100vh]">
+    <div className="w-[100vw] h-fit md:h-[100vh]" id="career">
       <div
         className="relative bg-cover bg-center bg-gray-800 py-24 w-[90%] m-auto rounded-sm z-10"
         style={{
