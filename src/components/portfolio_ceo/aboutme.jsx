@@ -24,7 +24,7 @@ const AboutMeSlide = () => {
     );
   };
   return (
-    <div className="w-[100vw] h-[100vh] bg-white">
+    <div className="w-[100vw] h-[100vh] bg-white" id="naiduAbout">
       <div className="w-[90%] m-auto flex flex-col items-center justify-center py-20 bg-white">
         <div className="w-full">
           <h2 className="text-5xl gil-bold text-gray-800 mb-6">About Me</h2>

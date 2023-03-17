@@ -9,7 +9,10 @@ const video =
 
 const LandingSlide = () => {
   return (
-    <section className="h-screen w-full flex flex-col justify-center items-center relative">
+    <section
+      className="h-screen w-full flex flex-col justify-center items-center relative"
+      id="home"
+    >
       <div
         className="absolute inset-0 bg-primary opacity-40 w-full h-full rounded-md "
         style={{ zIndex: "9" }}

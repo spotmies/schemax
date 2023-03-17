@@ -1,3 +1,5 @@
+import ContactUs from "@/components/contactUs";
+import FooterBar from "@/components/footer";
 import AboutMe from "@/components/portfolio_ceo/aboutme";
 import AwardsSection from "@/components/portfolio_ceo/awards";
 import BoardPositions from "@/components/portfolio_ceo/boardPosition";
@@ -23,6 +25,8 @@ const Portfolio = () => {
       <IndustryExpertise /> */}
       <CeoTestimonials />
       <PersonalInterests />
+      <ContactUs />
+      <FooterBar />
     </div>
   );
 };
