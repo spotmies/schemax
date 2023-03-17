@@ -27,67 +27,46 @@ const logistics =
 const edutech =
   "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/edu-min.jpg?alt=media&token=54d58c5b-24bf-4d6a-819d-460b378f8951";
 
-const IndustriesSection = () => {
+const AwardsSection = () => {
   const industries = [
     {
       icon: <FaBuilding />,
-      title: "Manufacturing",
+      title: "Business person of the year 2021",
       description:
-        "As manufacturing evolves to embrace the digital age, we help businesses thrive in the Industry 4.0 era with innovative technology solutions and unparalleled expertise.",
+        "Award from A.P Governor for creation of Poor Rural youth job creations",
       image: manufacturing,
       // image:
       //   "https://images.unsplash.com/photo-1511454493857-0a29f2c023c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
     },
     {
       icon: <FaIndustry />,
-      title: "Retail",
+      title: "Guinness world record",
       description:
-        "We help retail stores stay ahead of the curve with technology-driven solutions that enhance customer experiences and streamline operations.",
+        "Guinness world record (www.ysrcpblooddonation.com) - Blood donation Project almost 1.5 lacs of blood donation pledge initiation in 24 hours",
       image: retail,
       // image:
       //   "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
     },
     {
       icon: <FaGlobe />,
-      title: "Health Care",
+      title: "Business excellence 2022",
       description:
-        "We empower healthcare providers with technology solutions that improve patient care, optimize workflows, and enhance operational efficiency.",
+        "Business excellence 2022 - Award from A.P Governor for BEST INNOVATIVE AND CREATIVE USE OF TECHNOLOGY. ",
       image: healthcare,
-    },
-    {
-      icon: <FaUsers />,
-      title: "Logistics & Warehouse",
-      description:
-        "Our logistics and warehouse solutions leverage the latest technology to optimize supply chain operations, reduce costs, and enhance overall efficiency.",
-      image: logistics,
-    },
-    {
-      icon: <FaLaptop />,
-      title: "Government",
-      description:
-        "We partner with government agencies to deliver secure, scalable, and cost-effective technology solutions that enable streamlined operations, increased transparency, and improved citizen services.",
-      image:
-        "https://images.unsplash.com/photo-1557232651-49a0b560fea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-    },
-    {
-      icon: <FaCogs />,
-      title: "EduTech",
-      description:
-        "Our innovative edutech solutions help educational institutions transform the way they teach and engage students, creating immersive and effective learning experiences.",
-      image: edutech,
     },
   ];
 
   return (
-    <div className="w-[100vw] bg-white" id="industries">
+    <div className="w-[100vw] bg-white">
       <section className="bg-white py-12 m-auto w-[90%] md:block hidden">
         <div className="container mx-auto w-full">
           <h2 className="text-5xl gil-bold text-primary mb-8 ml-4">
-            Industries We Serve
+            Awards & Recognition
           </h2>
           <p className="text-sm md:text-lg text-primary opacity-60 text-justify ml-4 w-[60%]">
-            Our expertise across various industries will help you to bridge the
-            gaps with our innovative solutions
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptas, quod, quia, voluptate quae voluptates quibusdam
+            voluptatibus quos quas quidem quia voluptates quibusdam
           </p>
           <div className="flex flex-wrap">
             {industries.map((industry, index) => (
@@ -129,7 +108,7 @@ const IndustriesSection = () => {
       <section className="bg-white py-12 px-4 sm:px-8 lg:px-16 xl:px-32 md:hidden block">
         <div className="max-w-screen-lg mx-auto">
           <h2 className="text-4xl sm:text-5xl gil-bold text-primary mb-8 ml-4">
-            Industries We Serve
+            Awards & Recognition
           </h2>
           <p className="text-primary opacity-60 text-justify ml-4 md:ml-0 md:w-2/3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
@@ -176,4 +155,4 @@ const IndustriesSection = () => {
   );
 };
 
-export default IndustriesSection;
+export default AwardsSection;

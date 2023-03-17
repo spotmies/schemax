@@ -97,7 +97,7 @@ export default function ArticlesList() {
   };
 
   return (
-    <div className="min-h-[100vh] h-fit w-[100vw]">
+    <div className="min-h-[100vh] h-fit w-[100vw]" id="articles">
       <div className="pt-10 w-full text-black gil-reg">
         <div className="w-[90%] m-auto">
           <div className="flex flex-row justify-between items-center w-full pb-8">
@@ -151,9 +151,10 @@ export default function ArticlesList() {
                 <div className="text-center text-white z-10">
                   <h1 className="text-4xl gil-bold mb-4">About Us</h1>
                   <p className="text-md mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    nec odio ac sapien rhoncus auctor sed vel mi. Pellentesque
-                    dictum augue a purus maximus ultrices.
+                    We are a global technology company that specializes in
+                    delivering exceptional software solutions through
+                    innovation, collaboration, and a commitment to exceeding
+                    client expectations.
                   </p>
                   <div className="flex flex-row items-center w-full justify-center">
                     <HoverButton

@@ -25,11 +25,11 @@ const AboutUsSection = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         <div className="relative flex justify-center items-center h-screen">
           <div className="text-center text-white z-10">
-            <h1 className="text-5xl gil-bold mb-4">About Us</h1>
+            <h1 className="text-5xl gil-bold mb-4">About Us!</h1>
             <p className="text-lg mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-              odio ac sapien rhoncus auctor sed vel mi. Pellentesque dictum
-              augue a purus maximus ultrices.
+              We are a global technology company that specializes in delivering
+              exceptional software solutions through innovation, collaboration,
+              and a commitment to exceeding client expectations.
             </p>
             <div className="flex flex-row items-center w-full justify-center">
               <HoverButton text="Learn More" />

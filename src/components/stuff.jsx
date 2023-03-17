@@ -16,25 +16,25 @@ const AboutUsSlide = () => {
     {
       title: "Idea Enhancement",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "Transforming your ideas into exceptional software solutions, through collaborative teamwork and user-centered design.",
       icon: <AiOutlineBulb size="3rem" className="text-secundary mb-2" />,
     },
     {
       title: "Best Tech",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "Our top-notch tech team delivers innovative solutions with skill and expertise, empowering your business for success.",
       icon: <AiOutlineDashboard size="3rem" className="text-green-400 mb-2" />,
     },
     {
       title: "High Level Testing",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "From functional to security and performance testing, our commitment to rigorous testing ensures high-quality, reliable.",
       icon: <AiOutlineExperiment size="3rem" className="text-amber-400 mb-2" />,
     },
     {
       title: "Easy Integration",
       description:
-        "We specialize in building custom web applications to meet your business needs.",
+        "Hassle-free integration of your software solutions with existing systems, ensured through our seamless integration approach.",
       icon: <AiOutlineApi size="3rem" className="text-red-400 mb-2" />,
     },
   ];
@@ -54,7 +54,7 @@ const AboutUsSlide = () => {
     );
   };
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100vw]" id="aboutUs">
       <div className="bg-gray-100 py-16 m-auto w-[90%]">
         <div className="container mx-auto px-2 lg:px-4 flex flex-col items-center">
           <div className="relative w-full mb-10">

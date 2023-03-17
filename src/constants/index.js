@@ -184,34 +184,105 @@ export const testimonials = [
   },
 ];
 
-export const dummyClients = [
+export const ceoTestimonials = [
   {
-    name: "Apple",
-    image: "https://pngimg.com/d/ibm_PNG19658.png",
+    name: "Narasimhan",
+    position: "AP EX-Governor",
+    when: "2 months ago",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/E._S._L._Narasimhan_at_Telangana_Jagruthi_Program.jpg/1200px-E._S._L._Narasimhan_at_Telangana_Jagruthi_Program.jpg",
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
+    text: "Working with Naidu Sunkari has been an absolute pleasure. Their leadership and vision have been instrumental in driving positive change for our state, and I have no doubt that their continued success will have a lasting impact on our community.",
   },
   {
-    name: "Microsoft",
+    name: "Ashroff Omar",
+    position: "CEO at Brandix",
+    when: "8 months ago",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYDZvfS8_zSmkaTyEJgkmKGkpT9hyDkSt1zIpPAL3sr4H--n5ccaB5eek1vAbXfY2Z7qo&usqp=CAU",
+    text: "Schemax team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
+  },
+  {
+    name: "Ravi",
+    position: "Web3 Entrepreneur",
+    when: "1 months ago",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
+    text: "I have had the pleasure of working with Naidu Sunkari for several years now and can confidently say that he is an exceptional leader. His strategic vision, commitment to excellence, and ability to inspire and motivate others are truly unparalleled.",
+  },
+];
+
+export const dummyClients = [
+  {
+    name: "HIM",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F1.png?alt=media&token=4aa86eb7-6fa0-451d-b9ff-056ded349126",
+  },
+  {
+    name: "RivetLogic",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F2.png?alt=media&token=720d1c33-3da4-475b-888b-151debcd0b7c",
+  },
+  {
+    name: "Yudezine",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F3.png?alt=media&token=0a786aa8-9516-436e-8114-b8c34600f7de",
+  },
+  {
+    name: "Rapiddox",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F4.png?alt=media&token=d606974c-c4de-459f-a0ef-a0ee0cb39953",
+  },
+  {
+    name: "Alma Bank",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FalmaBank.png?alt=media&token=181e53e1-e4cf-46fa-9217-4d10966cd3e1",
+  },
+  {
+    name: "IBM",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F5.png?alt=media&token=1261dfba-6a4a-49b1-a17f-da735ea52b49",
+  },
+  {
+    name: "softwareAG",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FSoftware_AG.png?alt=media&token=60369e0c-7515-42bf-bf04-2c18138205b7",
+  },
+  {
+    name: "MasterCard",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png",
   },
   {
-    name: "Amazon",
+    name: "Varun motors",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fvarun%20motors.png?alt=media&token=a023ecd3-ef52-41cf-9299-f53ab0ef25b4",
   },
   {
-    name: "Google",
+    name: "Japan Automatic Machine Co. LTD.",
     image:
-      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fjapan.png?alt=media&token=9967cdf2-841b-4c11-9508-c14435030687",
   },
   {
-    name: "Facebook",
+    name: "DC Mun",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F11.png?alt=media&token=6b3fc216-1d08-46f5-a231-2b17400ea4ea",
   },
   {
-    name: "Apple",
-    image: "https://www.freepnglogos.com/uploads/tesla-logo-png-20.png",
+    name: "Brandix",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F12.png?alt=media&token=278515f1-5706-4fba-b9d6-210c3bb0a56a",
+  },
+  {
+    name: "PENA4",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F13.png?alt=media&token=f968dded-fc38-4a6f-ae3f-c42f75016b8d",
+  },
+  {
+    name: "Minte",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F14.png?alt=media&token=5e257a74-9de8-4e85-8017-0432a4cbb222",
   },
 ];
 

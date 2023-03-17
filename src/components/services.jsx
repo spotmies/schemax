@@ -30,34 +30,50 @@ export default function Services() {
     {
       title: "It strategy & Technology consultancy",
       image: strategy,
+      description:
+        "Our IT strategy and consultancy services help businesses develop and implement effective technology solutions to drive growth and success.",
     },
     {
       title: "Custom Product Development",
       image: product,
+      description:
+        "We specialize in custom product development, delivering innovative and unique solutions that meet the specific needs of each client.",
     },
     {
       title: "Web Application Development",
       image: web,
+      description:
+        "We craft high-performing websites that engage users, drive conversions, and elevate brands to new heights.",
     },
     {
       title: "Mobile Application Development",
       image: mobile,
+      description:
+        "We build cutting-edge mobile applications that provide exceptional user experiences and deliver tangible business results.",
     },
     {
       title: "Custom Industrial IOT Solutions",
       image: industry,
+      description:
+        "Our IoT solutions enable businesses to optimize their operations, increase efficiency, and gain valuable insights through advanced data analytics and automation.",
     },
     {
       title: "Application / Product Maintenance & Support",
       image: support,
+      description:
+        "We provide expert product maintenance and support services to ensure that businesses can focus on growth and success while we take care of their technology needs.",
     },
     {
       title: "IT Infrastructure Management",
       image: strategy,
+      description:
+        "Our comprehensive IT infrastructure services help businesses optimize their technology resources, increase productivity, and minimize downtime through proactive monitoring.",
     },
     {
       title: "Resource Augmentation",
       image: augmentation,
+      description:
+        "Our resource augmentation services provide businesses with the specialized talent they need to accelerate their technology projects and achieve their goals.",
     },
   ];
 
@@ -86,7 +102,7 @@ export default function Services() {
   };
 
   return (
-    <div className="w-[100vw] h-fit md:h-[100vh] bg-slate-200">
+    <div className="w-[100vw] h-fit md:h-[100vh] bg-slate-200" id="services">
       <div className="pt-10 m-auto w-[95%] md:w-[90%]">
         <p className="text-3xl md:text-5xl gil-bold pb-4 text-primary">
           {" "}
@@ -95,9 +111,9 @@ export default function Services() {
         <p
           className="text-sm md:text-lg opacity-60 pb-5 w-full md:w-[60%] text-primary"
           id="services">
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non
-          lorem et augue porta aliquet.lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Duis non lorem et augue porta aliquet.
+          Our solutions are designed to meet the unique needs of each client,
+          providing a tailored approach to software development and
+          implementation.
         </p>
         <div className="md:block hidden">
           <Carousel
@@ -121,13 +137,12 @@ export default function Services() {
                       {service.title}
                     </p>
                     <p className="text-xs md:text-base opacity-60 pt-4">
-                      We work closely with our clients to formulate an effective
-                      approach
+                      {service.description}
                     </p>
-                    <div className="flex flex-row items-center w-full justify-start pt-4">
+                    {/* <div className="flex flex-row items-center w-full justify-start pt-4">
                       <AiOutlineRead />
                       <p className="pl-2 opacity-60"> Learn More</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -150,14 +165,14 @@ export default function Services() {
                   <p className="text-base md:text-4xl gil-med">
                     {service.title}
                   </p>
-                  <p className="text-xs md:text-base opacity-60 pt-4">
+                  {/* <p className="text-xs md:text-base opacity-60 pt-4">
                     We work closely with our clients to formulate an effective
                     approach
-                  </p>
-                  <div className="flex flex-row items-center w-full justify-start pt-4">
+                  </p> */}
+                  {/* <div className="flex flex-row items-center w-full justify-start pt-4">
                     <AiOutlineRead />
                     <p className="pl-2 opacity-60"> Learn More</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

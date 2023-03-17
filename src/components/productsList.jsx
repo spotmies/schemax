@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const Image1 =
   "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/apparels.jpg?alt=media&token=816ac441-a8fa-4083-a0a3-86957a2ab4aa";
+// https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fapparels.jpg?alt=media&token=78ff2c70-2e45-46f5-af05-5076d90fae35
 // "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80";
 const Image2 =
   "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/automobiles-min.jpg?alt=media&token=e7252c8a-39ff-4c95-8eb8-fd4cf81dfca3";
@@ -28,7 +29,8 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative">
+      className="relative"
+    >
       <img
         src={Image6}
         alt="Product 2"
@@ -47,7 +49,8 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative">
+      className="relative"
+    >
       <img
         src={Image6}
         alt="Product 2"
@@ -69,7 +72,8 @@ const ProductsListSlide = () => {
           <motion.div
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
-            className="relative h-[200px]">
+            className="relative h-[200px]"
+          >
             <img
               src={Image6}
               alt="Product 2"
@@ -95,16 +99,13 @@ const ProductsListSlide = () => {
   };
 
   return (
-    <div className="w-[100vw]">
+    <div className="w-[100vw]" id="products">
       <div className="w-[90%] m-auto">
         <p className="gil-bold text-3xl md:text-5xl text-primary">
           Products We offer
         </p>
         <p className="gil-reg text-md opacity-60 w-full md:w-[50%] pt-4 text-primary">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
-          consequuntur deserunt dignissimos iure hic quas asperiores, in nostrum
-          a vero, porro velit voluptas deleniti nam repellat aliquam saepe quo
-          corrupti.
+          A few of the wide range of proven products from the house of Schemax
         </p>
         <div className="pt-4 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2  gap-0 md:gap-4 w-full">
@@ -112,7 +113,8 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-full">
+                className="relative h-full"
+              >
                 <img
                   src={Image1}
                   alt="Product 1"
@@ -134,7 +136,8 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2">
+                className="relative h-1/2"
+              >
                 <img
                   src={Image3}
                   alt="Product 3"
@@ -153,7 +156,8 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2">
+                className="relative h-1/2"
+              >
                 <img
                   src={Image5}
                   alt="Product 4"

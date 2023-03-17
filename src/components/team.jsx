@@ -22,15 +22,17 @@ const TeamSlide = () => {
   ];
 
   return (
-    <div className="w-[100vw] bg-white">
+    <div className="w-[100vw] bg-white" id="team"> 
       <div className="py-10  w-[90%] m-auto">
         <div className="w-full">
           <h2 className="text-3xl gil-bold tracking-tight text-primary sm:text-5xl">
             Meet Our Team
           </h2>
           <p className="mt-4 max-w-2xl text-md text-primary opacity-60">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
+            This is our team of experts, consisting of skilled developers,
+            designers, and technology specialists from around the world, who
+            collaborate to deliver exceptional software solutions with
+            innovation and expertise.
           </p>
 
           <img
