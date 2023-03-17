@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Philosophy() {
   return (
-    <div className="w-[100vw] h-[100vh] bg-bg2">
+    <div className="w-[100vw] h-[100vh] bg-bg2 hidden md:block">
       <div className="w-[90%] m-auto h-[100vh] flex flex-row items-center justify-center">
         <p className="w-[60%] text-6xl text-primary gil-bold">
           I believe that leadership is about serving others and putting their

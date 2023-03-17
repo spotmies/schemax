@@ -52,7 +52,7 @@ const BoardPositionSlider = () => {
 
   return (
     <div className="h-fit min-h-[100vh] w-[100vw] bg-bg2">
-      <h2 className="text-5xl gil-bold py-8 text-center">Board positions</h2>
+      <h2 className="text-3xl md:text-5xl gil-bold py-8 text-center text-primary">Board positions</h2>
       <div className="relative overflow-hidden">
         <div className="relative h-[65vh]">
           <div className="absolute inset-0">
@@ -66,19 +66,19 @@ const BoardPositionSlider = () => {
           </div>
 
           <div className=" z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex justify-between items-center py-4 md:py-8 absolute inset-0 px-10">
+            <div className="flex justify-between items-center py-4 md:py-8 absolute inset-0 px-2 md:px-10">
               <button
                 className="text-white bg-primary rounded-full p-4 transition duration-300 hover:bg-opacity-90 focus:outline-none"
                 onClick={prevPosition}
               >
-                <AiOutlineLeft className="h-6 w-6" />
+                <AiOutlineLeft className="h-4 w-4 md:h-6 md:w-6" />
                 <span className="sr-only">Previous</span>
               </button>
               <div className="flex flex-col items-center justify-center">
-                <h2 className="text-3xl font-bold tracking-tight text-white md:text-5xl">
+                <h2 className="text-2xl font-bold tracking-tight text-white md:text-5xl">
                   {positions[currentIndex].title}
                 </h2>
-                <p className="gil-regular text-white text-2xl text-center">
+                <p className="gil-regular text-white text-sm md:text-2xl text-center opacity-75">
                   {positions[currentIndex].description}
                 </p>
               </div>
@@ -86,7 +86,7 @@ const BoardPositionSlider = () => {
                 className="text-white bg-primary rounded-full p-4 transition duration-300 hover:bg-opacity-90 focus:outline-none"
                 onClick={nextPosition}
               >
-                <AiOutlineRight className="h-6 w-6" />
+                <AiOutlineRight className="h-4 w-4 md:h-6 md:w-6" />
                 <span className="sr-only">Next</span>
               </button>
             </div>

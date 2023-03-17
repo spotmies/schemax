@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 import HoverButton from "../reusableComponent/hoverButton";
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -20,13 +20,13 @@ function IntroductionSlide() {
       ></div>
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 rounded-md"></div>
       <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center ">
-        <p className="text-3xl text-white gil-reg opacity-80 animated">
+        <p className="text-xl md:text-3xl text-white gil-reg opacity-80 animated">
           Hi There
         </p>
-        <p className="text-6xl text-white gil-bold animated">
+        <p className="text-4xl md:text-6xl text-white gil-bold animated">
           I'm <span className="text-white">Naidu Sunkari</span>
         </p>
-        <p className="text-2xl text-white gil-reg w-[70%] text-center opacity-50 animated">
+        <p className="text-sm md:text-2xl text-white gil-reg w-[70%] text-center opacity-50 animated">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quo
           distinctio tenetur perspiciatis aut, consectetur vel sapiente
           inventore esse tempore minus repellat aliquid quaerat, reiciendis quos
