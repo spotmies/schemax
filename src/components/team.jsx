@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 const teamMember1 =
   "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466-min.jpeg?alt=media&token=985478b3-d226-439b-b39d-6155e9fbb499";
@@ -7,13 +7,13 @@ const teamMember1 =
 // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team1-min.jpg?alt=media&token=33b2799e-8fcd-412e-8202-7e0440c3167d";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember2 =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team2-min.jpg?alt=media&token=0fc2f289-6d7b-4bde-9d35-57c697f697e5";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-3.jpg?alt=media&token=56eb6449-fa99-435f-a51b-d55ba1492894";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember3 =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-1.jpeg?alt=media&token=3ecf8a44-9b6e-4eea-b6be-4f5927c9642b";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-1-cropped.jpeg?alt=media&token=88f6275b-4e11-4129-bb75-e1765cb6b9c0";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember4 =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-2.jpeg?alt=media&token=fc8162d3-67c6-4e80-a662-dcb52cd48df2";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-2-cropped.jpeg?alt=media&token=d9a484fc-075b-4aa9-93c9-707ce6e3e174";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team5-min.jpg?alt=media&token=d86b34e5-fef2-45b2-8558-7806af95fd5d
 
@@ -25,9 +25,13 @@ const TeamSlide = () => {
       image: teamMember1,
       path: "/naidusunkari",
     },
-    { name: "Ravi Eswarapu", position: "COO", image: teamMember2 },
-    { name: "Bob Smith", position: "CTO", image: teamMember3 },
-    { name: "Samantha Johnson", position: "CMO", image: teamMember4 },
+    { name: "Rama krishna", position: "Director", image: teamMember2 },
+    {
+      name: "Swathi",
+      position: "Domestic Cost center head",
+      image: teamMember3,
+    },
+    { name: "Sunitha", position: "HR head", image: teamMember4 },
   ];
 
   return (
@@ -54,7 +58,7 @@ const TeamSlide = () => {
             {teamMembers.map((member, key) => (
               <div
                 onClick={() => {
-                  if (member?.path) {  
+                  if (member?.path) {
                     // redirect to member path using href
                     window.location.href = member?.path;
                   }

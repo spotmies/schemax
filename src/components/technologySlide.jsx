@@ -98,7 +98,7 @@ const TechnologySlide = () => {
       <div className=" py-16 w-[90%] m-auto">
         <div className="container mx-auto">
           <h2 className="text-3xl md:text-5xl gil-bold mb-8 ">Technologies</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-8 gap-2 md:gap-8">
             {technologyData.map((technology, index) => (
               <div
                 key={index}

@@ -2,7 +2,7 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { clients, dummyClients, testimonials } from "../constants";
+import { ceoTestimonials, clients, dummyClients, testimonials } from "../constants";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { staggerContainer, fadeIn } from "../utils/motion";
@@ -85,7 +85,7 @@ export default function Testimonials2() {
           <motion.div variants={fadeIn("left", "tween", 0.2, 1)}>
             {/* <div className="w-[90vw] m-auto"> */}
             <Carousel responsive={responsive} partialVisible={true}>
-              {testimonials.map((testimonial, index) =>
+              {ceoTestimonials.map((testimonial, index) =>
                 testimonialCard({ ...testimonial, key: index })
               )}
             </Carousel>

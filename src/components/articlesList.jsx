@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import {
   BsArrowRightCircle,
@@ -14,19 +15,31 @@ export default function ArticlesList() {
   // };
   const article = [
     {
-      title: "Manufacturing",
+      when: "29 july, 2022",
+      title: "Business person of the year 2021",
+      description:
+        "Award from A.P Governor for creation of Poor Rural youth job creations",
+      link: "https://youtu.be/qnCKT_loJPk",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Findustry3-min.jpg?alt=media&token=d6f278ef-2174-4abe-a713-3c2ba4d09572",
+        "https://www.sakshipost.com/sites/default/files/article_images/2022/10/30/sunkari.jpg",
     },
     {
-      title: "City Infrastructure",
+      when: "29 july, 2022",
+      title: "Guinness world record",
+      description:
+        "Guinness world record (www.ysrcpblooddonation.com) - Blood donation Project almost 1.5 lacs of blood donation pledge initiation in 24 hours",
+
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Ffactory-min.jpg?alt=media&token=e49be05e-c3a9-4aad-91f7-fbdb380e8e82",
+        "https://images.livemint.com/img/2020/10/17/1600x900/Guniness_1602906584585_1602906601231.png",
     },
     {
-      title: "Shipping & Logistics",
+      when: "29 july, 2022",
+      title: "Business excellence 2022",
+      description:
+        "Business excellence 2022 - Award from A.P Governor for BEST INNOVATIVE AND CREATIVE USE OF TECHNOLOGY. ",
+
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fship-min.jpg?alt=media&token=6678916a-5bb1-422f-b76a-4bb1a4659284",
+        "https://www.nichemarket.co.za/Content/images/metaDisplayImages/ListingLogo/0/Business%20Excellence%20Awards-01.jpg",
     },
   ];
 
@@ -114,7 +127,8 @@ export default function ArticlesList() {
             {article.map((item, index) => (
               <div
                 key={index}
-                className="text-primary bg-white flex flex-col items-start  h-[430px] w-full md:w-[400px] rounded-sm  p-3 md:m-0 m-2">
+                className="text-primary bg-white flex flex-col items-start  h-[430px] w-full md:w-[400px] rounded-sm  p-3 md:m-0 m-2"
+              >
                 <img
                   src={item.image}
                   alt={item.title}
@@ -128,10 +142,16 @@ export default function ArticlesList() {
                     {item.title}
                   </p>
                   <p className="opacity-70 text-sm text-primary">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Placeat iusto unde, nemo tempore iusto unde, nemo tempore
+                    {item.description}
                   </p>
-                  <div className="flex flex-row items-center justify-start pt-6">
+                  <div
+                    className="flex flex-row items-center justify-start pt-6 cursor-pointer"
+                    onClick={() => {
+                      // open in new tab
+                      if (!item.link) return;
+                      window.open(item.link, "_blank");
+                    }}
+                  >
                     <p className="gil-bold text-sm text-primary">READ MORE</p>
                     <BsArrowRightCircleFill className="inline-block text-md ml-2 text-primary" />
                   </div>
