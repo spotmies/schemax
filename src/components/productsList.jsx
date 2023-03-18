@@ -29,8 +29,7 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative"
-    >
+      className="relative">
       <img
         src={Image6}
         alt="Product 2"
@@ -39,7 +38,8 @@ const ProductsListSlide = () => {
       <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
         <h3 className="text-sm md:text-xl gil-med mb-0 md:mb-2">BIOWAX</h3>
         <p className="text-xs md:text-base opacity-50 ">
-          SLA based Vehicle Tracking solution for Service Stations
+          Bio Medical Waste Management Solution with tracking and automated
+          weight management for collection and disposal
         </p>
       </div>
     </motion.div>
@@ -49,15 +49,14 @@ const ProductsListSlide = () => {
     <motion.div
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.95 }}
-      className="relative"
-    >
+      className="relative">
       <img
         src={Image6}
         alt="Product 2"
         className="h-full w-full object-cover"
       />
       <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
-        <h3 className="text-sm md:text-xl gil-med mb-0 md:mb-2">BIOWAX</h3>
+        <h3 className="text-sm md:text-xl gil-med mb-0 md:mb-2">TracX</h3>
         <p className="text-xs md:text-base opacity-50 ">
           SLA based Vehicle Tracking solution for Service Stations
         </p>
@@ -72,8 +71,7 @@ const ProductsListSlide = () => {
           <motion.div
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.95 }}
-            className="relative h-[200px]"
-          >
+            className="relative h-[200px]">
             <img
               src={Image6}
               alt="Product 2"
@@ -113,8 +111,7 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-full"
-              >
+                className="relative h-full">
                 <img
                   src={Image1}
                   alt="Product 1"
@@ -136,8 +133,7 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2"
-              >
+                className="relative h-1/2">
                 <img
                   src={Image3}
                   alt="Product 3"
@@ -156,8 +152,7 @@ const ProductsListSlide = () => {
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative h-1/2"
-              >
+                className="relative h-1/2">
                 <img
                   src={Image5}
                   alt="Product 4"
