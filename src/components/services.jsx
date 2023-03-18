@@ -111,7 +111,8 @@ export default function Services() {
         </p>
         <p
           className="text-sm md:text-lg opacity-60 pb-5 w-full md:w-[60%] text-primary"
-          id="services">
+          id="services"
+        >
           Our solutions are designed to meet the unique needs of each client,
           providing a tailored approach to software development and
           implementation.
@@ -121,9 +122,22 @@ export default function Services() {
             responsive={responsive}
             partialVisible={true}
             infinite={false}
-            autoPlay={true}>
+            autoPlay={true}
+          >
             {services.map((service, key) => (
-              <div className="relative industry-card md:mb-0 mb-6" key={key}>
+              <div
+                className="relative industry-card md:mb-0 mb-6"
+                key={key}
+                // on hover show description
+                onMouseEnter={() => {
+                  document.getElementById(`description` + key).style.display =
+                    "block";
+                }}
+                onMouseLeave={() => {
+                  document.getElementById(`description` + key).style.display =
+                  "none";
+                }}
+              >
                 <div className="absolute inset-0 bg-primary opacity-40 w-full h-full md:w-[330px] rounded-md "></div>
                 <div
                   className="h-[200px] md:h-[500px] text-white w-full md:w-[330px] rounded-md cursor-pointer flex flex-col items-center justify-end p-4 "
@@ -132,12 +146,19 @@ export default function Services() {
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
-                  }}>
-                  <div className="z-50">
-                    <p className="text-base md:text-4xl gil-med">
+                  }}
+                >
+                  <div
+                    className="z-50 transition-all duration-500 ease-in-out"
+                    id={`card1` + key}
+                  >
+                    <p className="text-base md:text-3xl gil-bold">
                       {service.title}
                     </p>
-                    <p className="text-xs md:text-base opacity-60 pt-4">
+                    <p
+                      className="text-xs md:text-base opacity-60 pt-4 hidden transition-all duration-500 ease-in-out"
+                      id={`description` + key}
+                    >
                       {service.description}
                     </p>
                     {/* <div className="flex flex-row items-center w-full justify-start pt-4">
@@ -161,7 +182,8 @@ export default function Services() {
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                   backgroundRepeat: "no-repeat",
-                }}>
+                }}
+              >
                 <div className="z-50">
                   <p className="text-base md:text-4xl gil-med">
                     {service.title}
