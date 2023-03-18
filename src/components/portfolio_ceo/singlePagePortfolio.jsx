@@ -30,9 +30,12 @@ const cardsData = [
 ];
 
 const Slide = () => {
-  const Card = ({ title, description }) => {
+  const Card = ({ title, description, key }) => {
     return (
-      <div className=" bg-white shadow-sm p-6 hover:shadow-lg transition duration-300 w-[340px] h-[300px] flex flex-col justify-between">
+      <div
+        key={key}
+        className=" bg-white shadow-sm p-6 hover:shadow-lg transition duration-300 w-[340px] h-[300px] flex flex-col justify-between"
+      >
         <h2 className="text-3xl gil-bold text-primary">{title}</h2>
         <p className="text-gray-600">{description}</p>
 
@@ -43,23 +46,38 @@ const Slide = () => {
     );
   };
   return (
-    <div
-      className="relative h-screen w-full bg-cover bg-center flex flex-col justify-center items-start"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
-    >
-      <div className="absolute top-0 left-0 w-full h-full bg-primary opacity-40 z-10" />
-      <div className="w-[55%] p-8 z-20">
-        <div className="grid grid-cols-2 gap-4">
-          {cardsData.map((card) => (
-            <Card
-              key={card.id}
-              title={card.title}
-              description={card.description}
-            />
-          ))}
+    <>
+      <div
+        className="relative min-h-screen h-fit md:h-screen w-full bg-cover bg-center flex flex-col justify-center items-start"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
+        <div className="absolute top-0 left-0 w-full h-full bg-primary opacity-40 z-10" />
+        <div className="w-[55%] p-8 z-20 hidden md:block">
+          <div className="grid grid-cols-2 gap-4">
+            {cardsData.map((card) => (
+              <Card
+                key={card.id}
+                title={card.title}
+                description={card.description}
+              />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+      <div className="h-[100vh] block md:hidden">
+        <div className="w-[100vw] p-8 z-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {cardsData.map((card) => (
+              <Card
+                key={card.id}
+                title={card.title}
+                description={card.description}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
