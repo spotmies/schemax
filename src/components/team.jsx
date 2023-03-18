@@ -1,3 +1,4 @@
+'use client';
 import React from "react";
 const teamMember1 =
   "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466-min.jpeg?alt=media&token=985478b3-d226-439b-b39d-6155e9fbb499";
@@ -18,7 +19,12 @@ const teamMember4 =
 
 const TeamSlide = () => {
   const teamMembers = [
-    { name: "Naidu Sunkari", position: "CEO", image: teamMember1 },
+    {
+      name: "Naidu Sunkari",
+      position: "CEO",
+      image: teamMember1,
+      path: "/naidusunkari",
+    },
     { name: "Ravi Eswarapu", position: "COO", image: teamMember2 },
     { name: "Bob Smith", position: "CTO", image: teamMember3 },
     { name: "Samantha Johnson", position: "CMO", image: teamMember4 },
@@ -45,10 +51,17 @@ const TeamSlide = () => {
           />
 
           <div className="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-            {teamMembers.map((member) => (
+            {teamMembers.map((member, key) => (
               <div
-                key={member.name}
-                className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out">
+                onClick={() => {
+                  if (member?.path) {  
+                    // redirect to member path using href
+                    window.location.href = member?.path;
+                  }
+                }}
+                key={key}
+                className="relative group cursor-pointer hover:scale-105 transition-all duration-500 ease-in-out"
+              >
                 <div className="overflow-hidden rounded-sm shadow-lg">
                   <img
                     src={member.image}
