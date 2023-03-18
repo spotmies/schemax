@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import HoverButton from "./reusableComponent/hoverButton";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -54,11 +54,17 @@ const LandingSlide = () => {
 };
 
 export const Navbarr = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function toggleMenu() {
+    setIsOpen(!isOpen);
+  }
   const navigation = (id) => {
     // navigation by id
     window.document
       .getElementById(id ?? "services")
       .scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
   };
 
   useEffect(() => {
@@ -78,8 +84,8 @@ export const Navbarr = () => {
   }, []);
 
   return (
-    <nav className="bg-transparent py-4 w-[100vw] px-[5%]" id="navigationBar">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-transparent fixed w-full z-10 px-5" id="navigationBar">
+      <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
           <img
             src="/assets/images/schemax_logo.png"
@@ -87,10 +93,11 @@ export const Navbarr = () => {
             className="h-10 cursor-pointer"
           />
         </div>
-        <div className="flex items-center md:hidden">
+        <div className="flex items-center">
           <button
-            className="text-primary hover:text-secundary focus:outline-none"
+            className="text-primary hover:text-secundary focus:outline-none md:hidden"
             aria-label="Menu"
+            onClick={toggleMenu}
           >
             <svg
               viewBox="0 0 20 20"
@@ -144,8 +151,52 @@ export const Navbarr = () => {
           </a>
         </div>
       </div>
+      <div
+        className={`${
+          isOpen ? "" : "hidden"
+        } md:hidden bg-white transition-all duration-500 ease-in-out`}
+      >
+        <a
+          onClick={() => navigation("services")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Services
+        </a>
+        <a
+          onClick={() => navigation("industries")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Industries
+        </a>
+        <a
+          onClick={() => navigation("career")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Career
+        </a>
+        <a
+          onClick={() => navigation("articles")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Blogs
+        </a>
+        <a
+          onClick={() => navigation("aboutUs")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          About Us
+        </a>
+        <a
+          onClick={() => navigation("contactUs")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Contact Us
+        </a>
+      </div>
     </nav>
   );
 };
 
 export default LandingSlide;
+
+// hidden md:flex items-center
