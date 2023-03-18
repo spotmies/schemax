@@ -16,17 +16,17 @@ export default function ArticlesList() {
     {
       title: "Manufacturing",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/industry3-min.jpg?alt=media&token=e8243cdc-476d-4025-bf57-a8dddf289478",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Findustry3-min.jpg?alt=media&token=d6f278ef-2174-4abe-a713-3c2ba4d09572",
     },
     {
       title: "City Infrastructure",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/factory-min.jpg?alt=media&token=e01d57f9-727e-46a3-a449-2122e28caca2",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Ffactory-min.jpg?alt=media&token=e49be05e-c3a9-4aad-91f7-fbdb380e8e82",
     },
     {
-      title: "Shippind & Logistics",
+      title: "Shipping & Logistics",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/ship-min.jpg?alt=media&token=be6a9b01-6735-44e1-92e1-6ca6f3a3409d",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fship-min.jpg?alt=media&token=6678916a-5bb1-422f-b76a-4bb1a4659284",
     },
   ];
 
@@ -34,18 +34,19 @@ export default function ArticlesList() {
     {
       title: "Shipping Indutry",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/ship2-min.jpg?alt=media&token=3601d12e-cc13-4e08-b400-6d2e8624698f",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fship2-min.jpg?alt=media&token=89cf1fd5-c4d0-4b35-b2d0-63eeac85d185",
     },
     {
       title: "City Highlights",
-      // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/city-min.jpg?alt=media&token=845056f6-664a-4535-baad-d7bc6c114782
+      // https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fcity-min.jpg?alt=media&token=487ca509-e6ff-47c8-991c-879f9d9ef109
       image:
-        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/city2-min.jpg?alt=media&token=c88d0ef0-ad3c-49ec-b410-c1d75864d0b9",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fcity2-min.jpg?alt=media&token=67b0beb5-07f0-4ecb-9e8e-e7b3f45594e1",
+      // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/city2-min.jpg?alt=media&token=c88d0ef0-ad3c-49ec-b410-c1d75864d0b9",
     },
     {
       title: "Stock Market",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/factory2-min.jpg?alt=media&token=b2aa7e3f-9b12-4db1-bf87-e2513b411ef9",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Ffactory2-min.jpg?alt=media&token=2a48d603-795e-4f8c-9972-c68b450720c4",
     },
   ];
 

@@ -11,21 +11,20 @@ import {
 } from "react-icons/fa";
 
 const manufacturing =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/manufacturing-min.jpg?alt=media&token=72964973-72e0-4cc5-81d0-653be963043e";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fmanufacturing-min.jpg?alt=media&token=c3a48d7b-9990-45b6-96c0-ac00a252c990";
 const retail =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/retail2-min.jpg?alt=media&token=c16c9fcb-eb34-4793-8d06-cc4e311d5503";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fretail2-min.jpg?alt=media&token=bb104994-13c6-4528-a2fe-4b8930a80100";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/retail-min.jpg?alt=media&token=8178a760-7959-4e00-ada5-af47509104ca
 const healthcare =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/health-min.jpg?alt=media&token=22b2b4a6-e12b-4ec8-9b40-e95084205816";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fhealth-min.jpg?alt=media&token=11407b8e-ec87-4262-bd07-20d8921ff345";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/health2-min.jpg?alt=media&token=4119cfbe-ef09-4648-8e2f-09492d660b2f
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/health3-min.jpg?alt=media&token=3c573c10-8e0d-4361-9d88-6f304409a4c4
 const logistics =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/logistics3-min.jpg?alt=media&token=d0600f58-2cb4-40b6-85df-960c951098cd";
-// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/logistics2-min.jpg?alt=media&token=9af193a5-e86d-492a-9e9a-93fb8a9a68b3
-// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/logistics-min.jpg?alt=media&token=8006139f-9bd0-40b8-bdd4-9ec07ce1922f
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Flogistics3-min.jpg?alt=media&token=1451e0ae-89a1-4c2a-baac-3413b2a35f69";
+// https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Flogistics2-min.jpg?alt=media&token=984b6bc3-0c42-4815-b6fc-03b9d8084ee4
 // const government = "/assets/images/government.jpg";
 const edutech =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/edu-min.jpg?alt=media&token=54d58c5b-24bf-4d6a-819d-460b378f8951";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fedu-min.jpg?alt=media&token=1b30bc92-ee4e-4979-8281-b2916a171efa";
 
 const IndustriesSection = () => {
   const industries = [
@@ -95,8 +94,7 @@ const IndustriesSection = () => {
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 p-6 flex flex-col"
                 // whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
+                whileTap={{ scale: 0.95 }}>
                 <div className="flex-2 bg-white  rounded-b-none overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
@@ -141,8 +139,7 @@ const IndustriesSection = () => {
               <motion.div
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-6 flex flex-col"
-                whileTap={{ scale: 0.95 }}
-              >
+                whileTap={{ scale: 0.95 }}>
                 <div className="flex-2 bg-white rounded-b-none overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">

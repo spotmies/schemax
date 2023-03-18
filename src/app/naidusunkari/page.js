@@ -9,6 +9,7 @@ import IndustryExpertise from "@/components/portfolio_ceo/industryExpertise";
 import ThoughtLeadershipSlide from "@/components/portfolio_ceo/leadershipThoughts";
 import PersonalInterests from "@/components/portfolio_ceo/personalInterest";
 import Philosophy from "@/components/portfolio_ceo/philosophy";
+import SlideWithCards from "@/components/portfolio_ceo/singlePagePortfolio";
 import Slide1 from "@/components/portfolio_ceo/slide1";
 
 import React from "react";
@@ -16,18 +17,16 @@ import React from "react";
 const Portfolio = () => {
   return (
     <div className="w-[100vw] min-h-[100vh] h-fit gil-reg">
-      <Slide1 />
+      <SlideWithCards />
+      {/* <Slide1 />
       <AboutMe />
       <Philosophy />
       <AwardsSection />
       <BoardPositions />
-
-      {/* <ThoughtLeadershipSlide />
-      <IndustryExpertise /> */}
       <CeoTestimonials />
       <PersonalInterests />
       <ContactUsCeo />
-      <FooterBar />
+      <FooterBar /> */}
     </div>
   );
 };

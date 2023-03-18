@@ -1,10 +1,10 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import HoverButton from "./reusableComponent/hoverButton";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 const video =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video2.mp4?alt=media&token=e89efa63-b71f-4a0a-a8fb-3159d9b0a970";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fvideo2.mp4?alt=media&token=d11e2881-1e5a-4952-8d65-97fbed0fb6f4";
 // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/video.mp4?alt=media&token=e5bab7cd-0077-4974-a2b2-88dd82358a02";
 
 const LandingSlide = () => {
@@ -17,7 +17,7 @@ const LandingSlide = () => {
         className="absolute inset-0 bg-primary opacity-40 w-full h-full rounded-md "
         style={{ zIndex: "9" }}
       ></div>
-      <div className="absolute top-0 left-0 h-full w-full z-10">
+      <div className="fixed top-0 left-0 h-fit w-full z-50">
         <Navbarr />
       </div>
       <video
@@ -27,7 +27,7 @@ const LandingSlide = () => {
         muted
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
-      <div className="relative z-10 text-center text-white animated">
+      <div className="absolute z-10 text-center text-white animated">
         <h1 className="text-4xl md:text-6xl lg:text-7xl gil-bold mb-4">
           Creative solutions for better business
         </h1>
@@ -35,7 +35,7 @@ const LandingSlide = () => {
           We offer innovative software solutions that fuel business growth
           through creative problem-solving.
         </p>
-        <div className="w-full flex flex-row items-center justify-center">
+        <div className="w-full flex flex-row items-center justify-center z-50">
           <HoverButton
             onClick={() => {
               // scroll to view by id
@@ -54,15 +54,38 @@ const LandingSlide = () => {
 };
 
 export const Navbarr = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  function toggleMenu() {
+    setIsOpen(!isOpen);
+  }
   const navigation = (id) => {
     // navigation by id
     window.document
       .getElementById(id ?? "services")
       .scrollIntoView({ behavior: "smooth" });
+    setIsOpen(false);
   };
+
+  useEffect(() => {
+    const navigationBar = document.getElementById("navigationBar");
+    // navigation bar color change when it's reach to 100vh from top
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > window.innerHeight - 80) {
+        navigationBar.classList.remove("bg-transparent");
+        navigationBar.classList.add("bg-white");
+        navigationBar.classList.add("shadow-md");
+      } else {
+        navigationBar.classList.remove("bg-white");
+        navigationBar.classList.add("bg-transparent");
+        navigationBar.classList.remove("shadow-md");
+      }
+    });
+  }, []);
+
   return (
-    <nav className="bg-transparent py-4 w-[100vw] px-[5%]">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-transparent fixed w-full z-10 px-5" id="navigationBar">
+      <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
           <img
             src="/assets/images/schemax_logo.png"
@@ -70,10 +93,11 @@ export const Navbarr = () => {
             className="h-10 cursor-pointer"
           />
         </div>
-        <div className="flex items-center md:hidden">
+        <div className="flex items-center">
           <button
-            className="text-white hover:text-secundary focus:outline-none"
+            className="text-primary hover:text-secundary focus:outline-none md:hidden"
             aria-label="Menu"
+            onClick={toggleMenu}
           >
             <svg
               viewBox="0 0 20 20"
@@ -90,46 +114,89 @@ export const Navbarr = () => {
         </div>
         <div className="hidden md:flex items-center">
           <a
-            // href="/"
             onClick={() => navigation("services")}
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
           >
             Services
           </a>
           <a
             onClick={() => navigation("industries")}
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
           >
             Industries
           </a>
           <a
             onClick={() => navigation("career")}
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
           >
             Career
           </a>
           <a
             onClick={() => navigation("articles")}
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
           >
             Blogs
           </a>
           <a
             onClick={() => navigation("aboutUs")}
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
           >
             About Us
           </a>
           <a
             onClick={() => navigation("contactUs")}
-            className="text-white  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
           >
             Contact Us
           </a>
         </div>
+      </div>
+      <div
+        className={`${
+          isOpen ? "" : "hidden"
+        } md:hidden bg-white transition-all duration-500 ease-in-out`}
+      >
+        <a
+          onClick={() => navigation("services")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Services
+        </a>
+        <a
+          onClick={() => navigation("industries")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Industries
+        </a>
+        <a
+          onClick={() => navigation("career")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Career
+        </a>
+        <a
+          onClick={() => navigation("articles")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Blogs
+        </a>
+        <a
+          onClick={() => navigation("aboutUs")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          About Us
+        </a>
+        <a
+          onClick={() => navigation("contactUs")}
+          className="block px-4 py-2 text-primary border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Contact Us
+        </a>
       </div>
     </nav>
   );
 };
 
 export default LandingSlide;
+
+// hidden md:flex items-center
