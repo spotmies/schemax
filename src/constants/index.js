@@ -1,11 +1,11 @@
 import { MdPhone } from "react-icons/md";
 
 const satish =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/testi1-min.jpg?alt=media&token=0c4ad93a-2cea-4fa4-b59e-d3f2ad0d6a36";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Ftesti1-min.jpg?alt=media&token=2088b786-9897-427e-b226-8fe01806b5c7";
 const ravi =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/testi2-min.jpg?alt=media&token=7bb7b719-a0f8-40e5-9eb8-1b0397514dc2";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Ftesti3-min.jpg?alt=media&token=7c2bccd6-dab0-4621-89a3-17d99fb5abd4";
 const surya =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/testi3-min.jpg?alt=media&token=75de35c3-0bce-4185-aca2-a4a1c9239adf";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Ftesti2-min.jpg?alt=media&token=0d38c101-31a2-4503-b0b0-2a88ac1e8ad0";
 
 export const exploreWorlds = [
   {

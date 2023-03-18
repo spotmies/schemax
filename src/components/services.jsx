@@ -5,25 +5,26 @@ import "react-multi-carousel/lib/styles.css";
 import React from "react";
 import { AiOutlineRead } from "react-icons/ai";
 const strategy =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy3-min.jpg?alt=media&token=4a534055-3433-461a-83e6-fc3c993151ee";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fstrategy3-min.jpg?alt=media&token=fe44d0dc-6ec3-4af1-b38c-9b0e202f7a75";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy-min.jpg?alt=media&token=2d7ccd17-c1dd-47e8-8e72-c163c2d7df9c
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy2-min.jpg?alt=media&token=bc14141b-31dd-4245-802d-269b8204e4c2
 const product =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/design-min.jpg?alt=media&token=01369911-648e-4edb-b4fe-d4a14702da92";
-// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/product-design-min.jpg?alt=media&token=cdd082fd-4412-475b-8b19-eeba196cac31
-// https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/product-design2-min.jpg?alt=media&token=e9f1baa2-7ec1-437b-b473-63bf2b44010b
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fdesign-min.jpg?alt=media&token=ba08f334-2427-4255-b940-5adac1d5b978";
+// https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fproduct-design2-min.jpg?alt=media&token=8e4a974b-476f-4a89-9085-4e0dfd2087e0
 const web =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/web-design2-min.jpg?alt=media&token=1190e422-13af-4b9f-ba24-eb33a07af3a1";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fweb-design2-min.jpg?alt=media&token=91f56a02-e436-4cd2-9133-3908b455bec3";
+// https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fweb-designs-min.jpg?alt=media&token=d1ac1d7f-dd76-444f-9c67-bb497937acd7
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/web-designs-min.jpg?alt=media&token=9710104e-ffe1-4d7b-84be-456c31ef8ec7
 const mobile =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/mobile2-min.jpg?alt=media&token=7213ea1b-0931-4084-b6aa-951a234a1470";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fmobile2-min.jpg?alt=media&token=afd0dc11-1a1e-4d0d-8cd0-46e8d6bd7db8";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/mobile-min.jpg?alt=media&token=949bd70e-a498-4e10-971a-8d55248693bb
 const support =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/support-min.jpg?alt=media&token=99571f68-bcbe-4559-87cb-46622966bf5a";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fsupport-min.jpg?alt=media&token=2b12ce62-4405-4615-8d51-bb4b8c5c41cf";
 const augmentation =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/augmentation.jpg?alt=media&token=3360e789-2665-43ee-96b1-2796298a85d8";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Faugmentation.jpg?alt=media&token=22423295-1b5e-4b32-afad-c15a6387d8d8";
+// "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/augmentation.jpg?alt=media&token=3360e789-2665-43ee-96b1-2796298a85d8";
 const industry =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/industry-min.jpg?alt=media&token=dc2fe118-aea0-4824-8f94-d554d91ea0a5";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Findustry-min.jpg?alt=media&token=6fd76c78-ae43-4a1b-9b1b-421f6c9896d4";
 
 export default function Services() {
   const services = [

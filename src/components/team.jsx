@@ -1,16 +1,18 @@
 import React from "react";
 const teamMember1 =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/ceo3.JPG?alt=media&token=3207307d-4ede-46ea-9ecf-dd3b5419b7de";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466-min.jpeg?alt=media&token=985478b3-d226-439b-b39d-6155e9fbb499";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466%20copy-min.jpeg?alt=media&token=d6594b57-5101-4f4c-b54a-93c7ccce5207";
+// "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/ceo3.JPG?alt=media&token=3207307d-4ede-46ea-9ecf-dd3b5419b7de";
 // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team1-min.jpg?alt=media&token=33b2799e-8fcd-412e-8202-7e0440c3167d";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember2 =
   "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team2-min.jpg?alt=media&token=0fc2f289-6d7b-4bde-9d35-57c697f697e5";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember3 =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team3-min.jpg?alt=media&token=6d1a8dde-fbd0-498c-b623-801421f098dd";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-1.jpeg?alt=media&token=3ecf8a44-9b6e-4eea-b6be-4f5927c9642b";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember4 =
-  "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team4-min.jpg?alt=media&token=5cfebf8f-0701-412e-837d-7b7b33dd4daa";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-2.jpeg?alt=media&token=fc8162d3-67c6-4e80-a662-dcb52cd48df2";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team5-min.jpg?alt=media&token=d86b34e5-fef2-45b2-8558-7806af95fd5d
 
@@ -37,7 +39,7 @@ const TeamSlide = () => {
           </p>
 
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/Team-pic.JPG?alt=media&token=738adb0e-aa90-4d3b-936d-2d33a3b06ec8"
+            src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-pic.JPG?alt=media&token=4de25b11-a4f9-4ca6-909e-5dae0e36673f"
             alt="industry"
             className=" mt-8 w-full h-[500px] object-cover rounded-md m-auto"
           />
