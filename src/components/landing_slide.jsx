@@ -17,7 +17,7 @@ const LandingSlide = () => {
         className="absolute inset-0 bg-primary opacity-40 w-full h-full rounded-md "
         style={{ zIndex: "9" }}
       ></div>
-      <div className="fixed top-0 left-0 h-full w-full z-50">
+      <div className="fixed top-0 left-0 h-fit w-full z-50">
         <Navbarr />
       </div>
       <video
@@ -27,7 +27,7 @@ const LandingSlide = () => {
         muted
         className="absolute top-0 left-0 h-full w-full object-cover z-0"
       />
-      <div className="relative z-10 text-center text-white animated">
+      <div className="absolute z-10 text-center text-white animated">
         <h1 className="text-4xl md:text-6xl lg:text-7xl gil-bold mb-4">
           Creative solutions for better business
         </h1>
@@ -35,7 +35,7 @@ const LandingSlide = () => {
           We offer innovative software solutions that fuel business growth
           through creative problem-solving.
         </p>
-        <div className="w-full flex flex-row items-center justify-center">
+        <div className="w-full flex flex-row items-center justify-center z-50">
           <HoverButton
             onClick={() => {
               // scroll to view by id
