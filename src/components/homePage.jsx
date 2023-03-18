@@ -19,6 +19,7 @@ import AboutUsSlide from "./stuff";
 import Testimonials2 from "./testimonials2";
 import IndustriesSection from "./industries";
 import ProductsListSlide from "./productsList";
+import TechnologySlide from "./technologySlide";
 
 export default function HomePage() {
   const space = () => {
@@ -49,8 +50,10 @@ export default function HomePage() {
       {/* <TermsAndConditionsPage />
       {space()} */}
       <TeamSlide />
-      {space()}
+
       <Testimonials2 />
+
+      <TechnologySlide />
       {space()}
       <ArticlesList />
       {space()}
