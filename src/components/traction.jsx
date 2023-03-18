@@ -4,10 +4,10 @@ import HoverButton from "./reusableComponent/hoverButton";
 
 export default function Traction() {
   const data = [
-    { label: "Clients", value: "20" },
-    { label: "Projects", value: "50" },
-    { label: "Users", value: "100" },
-    { label: "Revenue", value: "190" },
+    { label: "Clients", value: "18" },
+    { label: "Projects", value: "30" },
+    { label: "Employees", value: "100" },
+    { label: "Awards", value: "3" },
   ];
 
   const Grid = () => {

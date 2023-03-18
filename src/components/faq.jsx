@@ -6,57 +6,57 @@ import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 const faqs = [
   {
     id: 1,
-    question: "What is your return policy?",
+    question: "What services do you offer?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo feugiat leo, eu venenatis augue consequat quis. Vestibulum nec iaculis eros. Suspendisse potenti.",
+      "Our company offers a range of IT services, including software development, web design and development, mobile app development, cloud computing, and IT consulting.",
   },
   {
     id: 2,
-    question: "How do I track my order?",
+    question: "How can I request a quote for your services?",
     answer:
-      "Pellentesque aliquet velit ac mi venenatis scelerisque. Nulla accumsan volutpat dolor, eu feugiat massa fringilla eu. Suspendisse nec libero vitae metus pharetra ultricies at a arcu.",
+      "You can request a quote for our services by filling out our online contact form or by giving us a call. We'll get back to you as soon as possible with a quote based on your specific needs.",
   },
   {
     id: 3,
-    question: "Do you offer international shipping?",
+    question: "What industries do you specialize in?",
     answer:
-      "Cras at aliquam nibh. Fusce imperdiet euismod orci, in aliquam nunc dignissim ut. Sed eget ullamcorper orci, sit amet blandit neque. Proin ultricies ligula in metus laoreet, eget facilisis sapien dapibus.",
+      "We have experience working with clients in a range of industries, including healthcare, finance, education, and e-commerce. However, we are always open to working with new clients in any industry.",
   },
   {
     id: 4,
-    question: "What is your return policy?",
+    question: "What is your approach to project management?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo feugiat leo, eu venenatis augue consequat quis. Vestibulum nec iaculis eros. Suspendisse potenti.",
+      "We use an agile project management approach, which allows us to be flexible and adapt to changing client needs throughout the development process. Our project managers work closely with clients to ensure that projects are completed on time and within budget.",
   },
   {
     id: 5,
-    question: "How do I track my order?",
+    question: "Do you offer ongoing support and maintenance for your projects?",
     answer:
-      "Pellentesque aliquet velit ac mi venenatis scelerisque. Nulla accumsan volutpat dolor, eu feugiat massa fringilla eu. Suspendisse nec libero vitae metus pharetra ultricies at a arcu.",
+      "Yes, we offer ongoing support and maintenance for all of our projects. We understand that technology is constantly evolving, and we want to make sure that our clients' projects continue to function properly and meet their needs over time.",
   },
   {
     id: 6,
-    question: "Do you offer international shipping?",
+    question: "What is your process for ensuring the security of client data?",
     answer:
-      "Cras at aliquam nibh. Fusce imperdiet euismod orci, in aliquam nunc dignissim ut. Sed eget ullamcorper orci, sit amet blandit neque. Proin ultricies ligula in metus laoreet, eget facilisis sapien dapibus.",
+      "We take the security of our clients' data very seriously. We use industry-standard security protocols and take measures to ensure that all client data is stored and transmitted securely.",
   },
   {
     id: 7,
-    question: "What is your return policy?",
+    question: "Can you work with clients outside of your geographic region?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo feugiat leo, eu venenatis augue consequat quis. Vestibulum nec iaculis eros. Suspendisse potenti.",
+      "Yes, we can work with clients anywhere in the world. We use video conferencing and other collaboration tools to communicate with clients remotely and ensure that projects are completed on time and within budget.",
   },
   {
     id: 8,
-    question: "How do I track my order?",
+    question: "What is your pricing structure?",
     answer:
-      "Pellentesque aliquet velit ac mi venenatis scelerisque. Nulla accumsan volutpat dolor, eu feugiat massa fringilla eu. Suspendisse nec libero vitae metus pharetra ultricies at a arcu.",
+      "Our pricing structure varies depending on the specific project and client needs. We offer competitive pricing and work with clients to ensure that projects are completed within their budgetary constraints.",
   },
   {
     id: 9,
-    question: "Do you offer international shipping?",
+    question: "How long does it typically take to complete a project?",
     answer:
-      "Cras at aliquam nibh. Fusce imperdiet euismod orci, in aliquam nunc dignissim ut. Sed eget ullamcorper orci, sit amet blandit neque. Proin ultricies ligula in metus laoreet, eget facilisis sapien dapibus.",
+      "The timeline for a project can vary depending on the complexity of the project and client needs. We work closely with clients to establish project timelines and ensure that projects are completed on time and within budget.",
   },
 ];
 
