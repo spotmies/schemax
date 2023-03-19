@@ -49,7 +49,7 @@ const TeamSlide = () => {
           </p>
 
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-pic.JPG?alt=media&token=4de25b11-a4f9-4ca6-909e-5dae0e36673f"
+            src="https://images.unsplash.com/photo-1679214376411-a86bc5702f2a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
             alt="industry"
             className=" mt-8 w-full h-[500px] object-cover rounded-md m-auto"
           />

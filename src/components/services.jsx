@@ -5,26 +5,33 @@ import "react-multi-carousel/lib/styles.css";
 import React from "react";
 import { AiOutlineRead } from "react-icons/ai";
 const strategy =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fstrategy3-min.jpg?alt=media&token=fe44d0dc-6ec3-4af1-b38c-9b0e202f7a75";
+  "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fstrategy3-min.jpg?alt=media&token=fe44d0dc-6ec3-4af1-b38c-9b0e202f7a75";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy-min.jpg?alt=media&token=2d7ccd17-c1dd-47e8-8e72-c163c2d7df9c
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/strategy2-min.jpg?alt=media&token=bc14141b-31dd-4245-802d-269b8204e4c2
 const product =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fdesign-min.jpg?alt=media&token=ba08f334-2427-4255-b940-5adac1d5b978";
+  "https://images.unsplash.com/photo-1571101628768-6bae026844b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fdesign-min.jpg?alt=media&token=ba08f334-2427-4255-b940-5adac1d5b978";
 // https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fproduct-design2-min.jpg?alt=media&token=8e4a974b-476f-4a89-9085-4e0dfd2087e0
 const web =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fweb-design2-min.jpg?alt=media&token=91f56a02-e436-4cd2-9133-3908b455bec3";
+  "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1055&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fweb-design2-min.jpg?alt=media&token=91f56a02-e436-4cd2-9133-3908b455bec3";
 // https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fweb-designs-min.jpg?alt=media&token=d1ac1d7f-dd76-444f-9c67-bb497937acd7
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/web-designs-min.jpg?alt=media&token=9710104e-ffe1-4d7b-84be-456c31ef8ec7
 const mobile =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fmobile2-min.jpg?alt=media&token=afd0dc11-1a1e-4d0d-8cd0-46e8d6bd7db8";
+  "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fmobile2-min.jpg?alt=media&token=afd0dc11-1a1e-4d0d-8cd0-46e8d6bd7db8";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/mobile-min.jpg?alt=media&token=949bd70e-a498-4e10-971a-8d55248693bb
 const support =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fsupport-min.jpg?alt=media&token=2b12ce62-4405-4615-8d51-bb4b8c5c41cf";
+  "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fsupport-min.jpg?alt=media&token=2b12ce62-4405-4615-8d51-bb4b8c5c41cf";
 const augmentation =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Faugmentation.jpg?alt=media&token=22423295-1b5e-4b32-afad-c15a6387d8d8";
+  "https://images.unsplash.com/photo-1577415124269-fc1140a69e91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Faugmentation.jpg?alt=media&token=22423295-1b5e-4b32-afad-c15a6387d8d8";
 // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/augmentation.jpg?alt=media&token=3360e789-2665-43ee-96b1-2796298a85d8";
 const industry =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Findustry-min.jpg?alt=media&token=6fd76c78-ae43-4a1b-9b1b-421f6c9896d4";
+  "https://images.unsplash.com/photo-1569852573858-03c9e2877792?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Findustry-min.jpg?alt=media&token=6fd76c78-ae43-4a1b-9b1b-421f6c9896d4";
 
 export default function Services() {
   const services = [
@@ -135,7 +142,7 @@ export default function Services() {
                 }}
                 onMouseLeave={() => {
                   document.getElementById(`description` + key).style.display =
-                  "none";
+                    "none";
                 }}
               >
                 <div className="absolute inset-0 bg-primary opacity-40 w-full h-full md:w-[330px] rounded-md "></div>

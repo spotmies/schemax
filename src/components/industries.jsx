@@ -13,18 +13,22 @@ import {
 const manufacturing =
   "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fmanufacturing-min.jpg?alt=media&token=c3a48d7b-9990-45b6-96c0-ac00a252c990";
 const retail =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fretail2-min.jpg?alt=media&token=bb104994-13c6-4528-a2fe-4b8930a80100";
+  "https://images.unsplash.com/photo-1567958451986-2de427a4a0be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fretail2-min.jpg?alt=media&token=bb104994-13c6-4528-a2fe-4b8930a80100";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/retail-min.jpg?alt=media&token=8178a760-7959-4e00-ada5-af47509104ca
 const healthcare =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fhealth-min.jpg?alt=media&token=11407b8e-ec87-4262-bd07-20d8921ff345";
+  "https://images.unsplash.com/photo-1666214276389-393fb7dbc75c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fhealth-min.jpg?alt=media&token=11407b8e-ec87-4262-bd07-20d8921ff345";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/health2-min.jpg?alt=media&token=4119cfbe-ef09-4648-8e2f-09492d660b2f
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/health3-min.jpg?alt=media&token=3c573c10-8e0d-4361-9d88-6f304409a4c4
 const logistics =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Flogistics3-min.jpg?alt=media&token=1451e0ae-89a1-4c2a-baac-3413b2a35f69";
+  "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Flogistics3-min.jpg?alt=media&token=1451e0ae-89a1-4c2a-baac-3413b2a35f69";
 // https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Flogistics2-min.jpg?alt=media&token=984b6bc3-0c42-4815-b6fc-03b9d8084ee4
 // const government = "/assets/images/government.jpg";
 const edutech =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fedu-min.jpg?alt=media&token=1b30bc92-ee4e-4979-8281-b2916a171efa";
+  "https://images.unsplash.com/photo-1594312915251-48db9280c8f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fedu-min.jpg?alt=media&token=1b30bc92-ee4e-4979-8281-b2916a171efa";
 
 const IndustriesSection = () => {
   const industries = [
@@ -33,9 +37,9 @@ const IndustriesSection = () => {
       title: "Manufacturing",
       description:
         "As manufacturing evolves to embrace the digital age, we help businesses thrive in the Industry 4.0 era with innovative technology solutions and unparalleled expertise.",
-      image: manufacturing,
-      // image:
-      //   "https://images.unsplash.com/photo-1511454493857-0a29f2c023c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      // image: manufacturing,
+      image:
+        "https://images.unsplash.com/photo-1639980430320-e97db37f167c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
     },
     {
       icon: <FaIndustry />,
@@ -94,7 +98,8 @@ const IndustriesSection = () => {
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 p-6 flex flex-col"
                 // whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}>
+                whileTap={{ scale: 0.95 }}
+              >
                 <div className="flex-2 bg-white  rounded-b-none overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
@@ -139,7 +144,8 @@ const IndustriesSection = () => {
               <motion.div
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 p-4 sm:p-6 flex flex-col"
-                whileTap={{ scale: 0.95 }}>
+                whileTap={{ scale: 0.95 }}
+              >
                 <div className="flex-2 bg-white rounded-b-none overflow-hidden shadow-sm hover:shadow-md relative industry-card">
                   <div className="absolute inset-0 bg-primary opacity-20 hover:opacity-70 opacity-layer"></div>
                   <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
