@@ -88,7 +88,7 @@ export default function FooterBar() {
             </div>
           </div>
           <div className="text-sm text-gray-400 mb-8">
-            © 2023 Schemax tech. All Rights Reserved.
+            © 2023 Schemax Expert Techno Crafts Pvt. Ltd. All Rights Reserved.
           </div>
         </div>
       </footer>

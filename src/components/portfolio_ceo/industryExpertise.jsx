@@ -60,7 +60,7 @@ const IndustryExpertise = () => {
           <div className="flex items-center space-x-4">
             {expertiseList.map((expertise, index) => (
               <button
-                key={expertise.icon}
+                key={index}
                 className={`h-8 w-8 rounded-full ${
                   index === currentIndex
                     ? "bg-blue-500"

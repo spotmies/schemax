@@ -34,11 +34,11 @@ const cardsData = [
 ];
 
 const Slide = () => {
-  const Card = ({ title, description, key }) => {
+  const Card = ({ title, description }) => {
     return (
       <div
-        key={key}
-        className=" bg-white shadow-sm p-6 hover:shadow-lg transition duration-300 w-[340px] h-[300px] flex flex-col justify-between"
+        // key={key}
+        className=" bg-white z-50 shadow-sm p-6 hover:shadow-lg transition duration-300 w-[85vw] md:w-[340px] h-[300px] flex flex-col justify-between"
       >
         <h2 className="text-3xl gil-bold text-primary">{title}</h2>
         <p className="text-gray-600">{description}</p>
@@ -73,12 +73,12 @@ const Slide = () => {
 
         // }
       >
-        <div className="absolute top-0 left-0 w-full h-full bg-primary opacity-40 z-10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-primary opacity-60 z-10" />
         <div className="w-[55%] p-8 z-20 hidden md:block">
           <div className="grid grid-cols-2 gap-4">
-            {cardsData.map((card) => (
+            {cardsData.map((card,key) => (
               <Card
-                key={card.id}
+                key={key}
                 title={card.title}
                 description={card.description}
               />
@@ -86,12 +86,12 @@ const Slide = () => {
           </div>
         </div>
       </div>
-      <div className="h-[100vh] block md:hidden">
+      <div className="h-[100vh] block md:hidden mt-[-80%]">
         <div className="w-[100vw] p-8 z-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {cardsData.map((card) => (
+            {cardsData.map((card,key) => (
               <Card
-                key={card.id}
+                key={key}
                 title={card.title}
                 description={card.description}
               />

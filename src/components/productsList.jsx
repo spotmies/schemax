@@ -47,7 +47,7 @@ const ProductsListSlide = () => {
         alt="Product 2"
         className="h-full w-full object-cover"
       />
-      <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-2 md:px-6 py-2 md:py-4">
+      <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-60 text-white px-2 md:px-6 py-2 md:py-4">
         <h3 className="text-sm md:text-xl gil-med mb-0 md:mb-2">BIOWAX</h3>
         <p className="text-xs md:text-base opacity-50 ">
           Bio Medical Waste Management Solution with tracking and automated
@@ -68,7 +68,7 @@ const ProductsListSlide = () => {
         alt="Product 2"
         className="h-full w-full object-cover"
       />
-      <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-2 md:px-6 py-4">
+      <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-60 text-white px-2 md:px-6 py-4">
         <h3 className="text-sm md:text-xl gil-med mb-0 md:mb-2">TracX</h3>
         <p className="text-xs md:text-base opacity-50 ">
           SLA based Vehicle Tracking solution for Service Stations
@@ -91,7 +91,7 @@ const ProductsListSlide = () => {
               alt="Product 2"
               className="h-full w-full object-cover"
             />
-            <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+            <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-60 text-white px-6 py-4">
               <h3 className="text-sm md:text-xl gil-med mb-2">AUTOXPERT</h3>
               <p className="text-xs md:text-base opacity-50">
                 Easy to use, Hassle Free end-to-end ERP System for Auto
@@ -132,7 +132,7 @@ const ProductsListSlide = () => {
                   alt="Product 1"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-60 text-white px-6 py-4">
                   <h3 className="text-sm md:text-xl gil-med mb-2">XPPAREL</h3>
                   <p className="text-xs md:text-base opacity-50">
                     Integrated Shop Floor solution with IoT based grament level
@@ -155,7 +155,7 @@ const ProductsListSlide = () => {
                   alt="Product 3"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-60 text-white px-6 py-4">
                   <h3 className="text-sm md:text-xl gil-med mb-2 ">eCommeX</h3>
                   <p className="text-xs md:text-base opacity-50">
                     Building your fully functional online store, quick and
@@ -175,7 +175,7 @@ const ProductsListSlide = () => {
                   alt="Product 4"
                   className="h-full w-full object-cover"
                 />
-                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-40 text-white px-6 py-4">
+                <div className="absolute bottom-0 left-0 right-0 bg-primary bg-opacity-60 text-white px-6 py-4">
                   <h3 className="text-sm md:text-xl gil-med mb-2">
                     WarehouseXcel
                   </h3>
