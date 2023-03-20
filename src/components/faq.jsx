@@ -93,9 +93,9 @@ function Faq() {
             {/* <h2 className="text-3xl gil-bold mb-4 text-center">
               Frequently Asked Questions
             </h2> */}
-            {faqs.map((faq) => (
+            {faqs.map((faq,key) => (
               <div
-                key={faq.id}
+                key={key}
                 className="bg-white rounded-sm shadow-sm overflow-hidden mb-4"
               >
                 <button

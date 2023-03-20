@@ -2,7 +2,12 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { ceoTestimonials, clients, dummyClients, testimonials } from "../constants";
+import {
+  ceoTestimonials,
+  clients,
+  dummyClients,
+  testimonials,
+} from "../constants";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { staggerContainer, fadeIn } from "../utils/motion";
@@ -57,13 +62,15 @@ export default function Testimonials2() {
   return (
     <section
       className={`${styles.paddings} h-fit  relative z-10 bg-primary`}
-      id="testimonials">
+      id="testimonials"
+    >
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`${styles.innerWidth} h-fit min-h-[100vh] mx-auto flex flex-col`}>
+        className={`${styles.innerWidth} h-fit min-h-[100vh] mx-auto flex flex-col`}
+      >
         <p className="w-[100%] md:w-[70%] gil-bold text-3xl md:text-5xl text-white">
           Helping our client to succeed with speed
         </p>
@@ -81,7 +88,8 @@ export default function Testimonials2() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className={`w-[90vw] m-auto mt-[50px]`}>
+          className={`w-[90vw] m-auto mt-[50px]`}
+        >
           <motion.div variants={fadeIn("left", "tween", 0.2, 1)}>
             {/* <div className="w-[90vw] m-auto"> */}
             <Carousel responsive={responsive} partialVisible={true}>
@@ -98,7 +106,8 @@ export default function Testimonials2() {
                 responsive={responsive2}
                 arrows={false}
                 infinite={true}
-                autoPlay={true}>
+                autoPlay={true}
+              >
                 {dummyClients.map((testimonial, index) => (
                   <div key={index}>
                     <img
@@ -116,9 +125,12 @@ export default function Testimonials2() {
     </section>
   );
 
-  function testimonialCard({ text, image, name, position, when }) {
+  function testimonialCard({ text, image, name, position, when, key }) {
     return (
-      <div className="bg-slate-100 flex flex-col justify-between w-[80vw] min-h-[300px] max-h-[350px] md:max-h-[350px] md:min-h-[300px] md:w-[500px] gradient-05 rounded-md m-2 md:p-6 p-4 shadow-sm">
+      <div
+        key={key}
+        className="bg-slate-100 flex flex-col justify-between w-[80vw] min-h-[300px] max-h-[350px] md:max-h-[350px] md:min-h-[300px] md:w-[500px] gradient-05 rounded-md m-2 md:p-6 p-4 shadow-sm"
+      >
         {/* <div className="flex flex-col h-full justify-between"> */}
         <p className="text-primary opacity-80 text-md  md:text-xl  text-justify text-ellipsis">
           "{text}"

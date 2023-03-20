@@ -15,7 +15,7 @@ const LandingSlide = () => {
       id="home"
     >
       <div
-        className="absolute inset-0 bg-primary opacity-40 w-full h-full rounded-md "
+        className="absolute inset-0 bg-primary opacity-60 w-full h-full rounded-md "
         style={{ zIndex: "9" }}
       ></div>
       <div className="fixed top-0 left-0 h-fit w-full z-50">
@@ -56,6 +56,7 @@ const LandingSlide = () => {
 
 export const Navbarr = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [toggleNavbar, setToggleNavbar] = useState(false);
 
   function toggleMenu() {
     setIsOpen(!isOpen);
@@ -76,10 +77,12 @@ export const Navbarr = () => {
         navigationBar.classList.remove("bg-transparent");
         navigationBar.classList.add("bg-white");
         navigationBar.classList.add("shadow-md");
+        setToggleNavbar(true);
       } else {
         navigationBar.classList.remove("bg-white");
         navigationBar.classList.add("bg-transparent");
         navigationBar.classList.remove("shadow-md");
+        setToggleNavbar(false);
       }
     });
   }, []);
@@ -89,14 +92,14 @@ export const Navbarr = () => {
       <div className="container mx-auto flex justify-between items-center py-4">
         <div className="flex items-center">
           <img
-            src="/assets/images/schemax_logo.png"
+            src={ toggleNavbar ? "/assets/images/schemax_logo.png" : "/assets/images/schemax_logo2.png"}
             alt="Logo"
             className="h-10 cursor-pointer"
           />
         </div>
         <div className="flex items-center">
           <button
-            className="text-primary hover:text-secundary focus:outline-none md:hidden"
+            className={ `${toggleNavbar ? "text-primary" : "text-white"} hover:text-secundary focus:outline-none md:hidden` }
             aria-label="Menu"
             onClick={toggleMenu}
           >
@@ -116,37 +119,49 @@ export const Navbarr = () => {
         <div className="hidden md:flex items-center">
           <a
             onClick={() => navigation("services")}
-            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Services
           </a>
           <a
             onClick={() => navigation("industries")}
-            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Industries
           </a>
           <a
             onClick={() => navigation("career")}
-            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Career
           </a>
           <a
             onClick={() => navigation("articles")}
-            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Blogs
           </a>
           <a
             onClick={() => navigation("aboutUs")}
-            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             About Us
           </a>
           <a
             onClick={() => navigation("contactUs")}
-            className="text-primary  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Contact Us
           </a>

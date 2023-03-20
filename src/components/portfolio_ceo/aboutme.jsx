@@ -12,8 +12,8 @@ const AboutMeSlide = () => {
   const grid = () => {
     return (
       <div className="grid grid-cols-2 grid-rows-2 gap-4">
-        {data.map((item) => (
-          <div key={item.label} className="p-4 text-start">
+        {data.map((item,key) => (
+          <div key={key} className="p-4 text-start">
             <div className="text-3xl md:text-5xl gil-bold text-primary ">
               {item.value}+
             </div>

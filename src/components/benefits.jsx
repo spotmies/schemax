@@ -33,7 +33,7 @@ export default function Benefits() {
     <div className="flex flex-col items-start w-[30%] ">
       <p className="gil-bold text-3xl text-primary">01</p>
       <p className="gil-med text-xl text-primary">Quality and Reliability</p>
-      <p className="opacity-40 text-sm text-primary">
+      <p className="opacity-70 text-sm text-primary">
         We have a rigorous testing process to ensure that all software solutions
         we deliver are of the highest quality
       </p>
@@ -43,25 +43,25 @@ export default function Benefits() {
     <div className="min-h-[100vh] w-[100vw] bg-white" id="benefits">
       <div className="w-[90%] m-auto min-h-screen  py-8 sm:py-14">
         <p className="text-4xl md:text-5xl text-center gil-bold text-primary">
-          Benefit of choosing us
+          Why Choose Us
         </p>
         <div className="flex flex-col md:flex-row items-center justify-between w-90 mx-auto pt-8 sm:pt-12">
           <div className="flex flex-col items-start md:items-start w-full md:w-[30%] mb-6 md:mb-0">
             <p className="gil-bold text-3xl text-primary">01</p>
-            <p className="gil-med text-lg md:text-xl text-primary text-left md:text-left">
+            <p className="gil-bold text-lg md:text-xl text-primary text-left md:text-left">
               Quality and Reliability
             </p>
-            <p className="opacity-40 text-sm text-primary text-left md:text-left">
+            <p className="opacity-70 text-md text-primary text-left md:text-left">
               We have a rigorous testing process to ensure that all software
               solutions we deliver are of the highest quality
             </p>
           </div>{" "}
           <div className="flex flex-col items-start md:items-start w-full md:w-[30%] mb-6 md:mb-0">
             <p className="gil-bold text-3xl text-primary">02</p>
-            <p className="gil-med text-lg md:text-xl text-primary text-left md:text-left">
+            <p className="gil-bold text-lg md:text-xl text-primary text-left md:text-left">
               Innovative Solutions
             </p>
-            <p className="opacity-40 text-sm text-primary text-left md:text-left">
+            <p className="opacity-70 text-md text-primary text-left md:text-left">
               Our team of skilled developers and designers use the latest
               technologies and innovative approaches to create custom software
               solutions
@@ -69,10 +69,10 @@ export default function Benefits() {
           </div>{" "}
           <div className="flex flex-col items-start md:items-start w-full md:w-[30%]">
             <p className="gil-bold text-3xl text-primary">03</p>
-            <p className="gil-med text-lg md:text-xl text-primary text-left md:text-left">
+            <p className="gil-bold text-lg md:text-xl text-primary text-left md:text-left">
               Dedicated support team
             </p>
-            <p className="opacity-40 text-sm text-primary text-left md:text-left">
+            <p className="opacity-70 text-md text-primary text-left md:text-left">
               We believe in building collaborative partnerships with our
               clients, working closely with them throughout the entire software
               development lifecycle.
