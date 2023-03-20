@@ -1,19 +1,23 @@
 "use client";
 import React from "react";
 const teamMember1 =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466-min.jpeg?alt=media&token=985478b3-d226-439b-b39d-6155e9fbb499";
+  "https://nftstorage.link/ipfs/bafybeibqjwkkouy7r3d2i2gejhdgjis2d2bg6kusu2rsmljafycp5engou";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466-min.jpeg?alt=media&token=985478b3-d226-439b-b39d-6155e9fbb499";
 // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466%20copy-min.jpeg?alt=media&token=d6594b57-5101-4f4c-b54a-93c7ccce5207";
 // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/ceo3.JPG?alt=media&token=3207307d-4ede-46ea-9ecf-dd3b5419b7de";
 // "https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team1-min.jpg?alt=media&token=33b2799e-8fcd-412e-8202-7e0440c3167d";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember2 =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-3.jpg?alt=media&token=56eb6449-fa99-435f-a51b-d55ba1492894";
+  "https://nftstorage.link/ipfs/bafkreibm5zuz57yb43nyhjgqoqsezspslfgmcxy4i5hxmhf3j5isfnw3e4";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-3.jpg?alt=media&token=56eb6449-fa99-435f-a51b-d55ba1492894";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember3 =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-1-cropped.jpeg?alt=media&token=88f6275b-4e11-4129-bb75-e1765cb6b9c0";
+  "https://nftstorage.link/ipfs/bafkreibpl3spsaokcgr74ohxgasvgv73lrqtfow3dolhyamewjesqo3squ";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-1-cropped.jpeg?alt=media&token=88f6275b-4e11-4129-bb75-e1765cb6b9c0";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember4 =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-2-cropped.jpeg?alt=media&token=d9a484fc-075b-4aa9-93c9-707ce6e3e174";
+  "https://nftstorage.link/ipfs/bafkreiglc47pck4u6rfc5brp6zfbyvfday77pczcqa6wwftg3ophi4mxem";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-2-cropped.jpeg?alt=media&token=d9a484fc-075b-4aa9-93c9-707ce6e3e174";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 // https://firebasestorage.googleapis.com/v0/b/schemax-875a7.appspot.com/o/team5-min.jpg?alt=media&token=d86b34e5-fef2-45b2-8558-7806af95fd5d
 
