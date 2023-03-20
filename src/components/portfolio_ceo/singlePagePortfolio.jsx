@@ -1,6 +1,10 @@
 import React from "react";
 const backgroundImage =
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466%20copy-min.jpeg?alt=media&token=d6594b57-5101-4f4c-b54a-93c7ccce5207";
+  "https://nftstorage.link/ipfs/bafybeiero6axxjkhsky73do5edhly43qa5wlqwmghetxl4poiczl57oqo4";
+// "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FDSC_1466%20copy-min.jpeg?alt=media&token=d6594b57-5101-4f4c-b54a-93c7ccce5207";
+
+const backgroundImage2 =
+  "https://nftstorage.link/ipfs/bafybeiexl6rv2onlckdjqjezs2rvvmgbzht45mldvzmclpw4cdxsyxsbcu";
 
 const cardsData = [
   {
@@ -45,11 +49,29 @@ const Slide = () => {
       </div>
     );
   };
+
   return (
     <>
       <div
-        className="relative min-h-screen h-fit md:h-screen w-full bg-cover bg-center flex flex-col justify-center items-start"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+        className="relative min-h-screen h-fit md:h-screen w-full bg-cover bg-center flex flex-col justify-center items-start  md:bg-[url('https://nftstorage.link/ipfs/bafybeiero6axxjkhsky73do5edhly43qa5wlqwmghetxl4poiczl57oqo4')] bg-[url('https://nftstorage.link/ipfs/bafybeiexl6rv2onlckdjqjezs2rvvmgbzht45mldvzmclpw4cdxsyxsbcu')] bg-no-repeat "
+        // style={
+        //   size.width > 768 ?
+        //   {
+        //         backgroundImage: `url(${backgroundImage2})`,
+        //         backgroundPosition: "center",
+        //         backgroundRepeat: "no-repeat",
+        //         backgroundSize: "cover",
+        //       }
+        //       :
+        //       {
+        //         backgroundImage: `url(${backgroundImage})`,
+        //         backgroundPosition: "center",
+        //         backgroundRepeat: "no-repeat",
+        //         backgroundSize: "cover",
+
+        //       }
+
+        // }
       >
         <div className="absolute top-0 left-0 w-full h-full bg-primary opacity-40 z-10" />
         <div className="w-[55%] p-8 z-20 hidden md:block">

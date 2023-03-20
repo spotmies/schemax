@@ -104,7 +104,7 @@ export default function Testimonials2() {
                     <img
                       src={testimonial.image}
                       alt=""
-                      className="cursor-pointer h-[40px] w-[120px] md:h-[60px] md:w-[160px] object-contain m-auto "
+                      className="cursor-pointer h-[80px] w-[170px] md:h-[60px] md:w-[160px] object-contain m-auto "
                     />
                   </div>
                 ))}

@@ -217,72 +217,72 @@ export const dummyClients = [
   {
     name: "HIM",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F1.png?alt=media&token=4aa86eb7-6fa0-451d-b9ff-056ded349126",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/1.png",
   },
   {
     name: "RivetLogic",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F2.png?alt=media&token=720d1c33-3da4-475b-888b-151debcd0b7c",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/2.png",
   },
   {
     name: "Yudezine",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F3.png?alt=media&token=0a786aa8-9516-436e-8114-b8c34600f7de",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/14.png",
   },
   {
     name: "Rapiddox",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F4.png?alt=media&token=d606974c-c4de-459f-a0ef-a0ee0cb39953",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/3.png",
   },
   {
     name: "Alma Bank",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FalmaBank.png?alt=media&token=181e53e1-e4cf-46fa-9217-4d10966cd3e1",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/4.png",
   },
   {
     name: "IBM",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F5.png?alt=media&token=1261dfba-6a4a-49b1-a17f-da735ea52b49",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/5.png",
   },
   {
     name: "softwareAG",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FSoftware_AG.png?alt=media&token=60369e0c-7515-42bf-bf04-2c18138205b7",
+      "https://nftstorage.link/ipfs/bafkreiedg3cym3n4omypfk24oc6fb5jotgam5abwr2wq33z237mfhkv25m",
   },
   {
     name: "MasterCard",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/2560px-MasterCard_Logo.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/7/72/MasterCard_early_1990s_logo.png",
   },
   {
     name: "Varun motors",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fvarun%20motors.png?alt=media&token=a023ecd3-ef52-41cf-9299-f53ab0ef25b4",
+      "https://nftstorage.link/ipfs/bafkreihrgc6cb7nkdhtbgizkld2wj4xteffqg2y57otcqojq64o44ctrsq",
   },
   {
     name: "Japan Automatic Machine Co. LTD.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2Fjapan.png?alt=media&token=9967cdf2-841b-4c11-9508-c14435030687",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/almaBank.png",
   },
   {
     name: "DC Mun",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F11.png?alt=media&token=6b3fc216-1d08-46f5-a231-2b17400ea4ea",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/10.png",
   },
   {
     name: "Brandix",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F12.png?alt=media&token=278515f1-5706-4fba-b9d6-210c3bb0a56a",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/11.png",
   },
   {
     name: "PENA4",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F13.png?alt=media&token=f968dded-fc38-4a6f-ae3f-c42f75016b8d",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/12.png",
   },
   {
     name: "Minte",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2F14.png?alt=media&token=5e257a74-9de8-4e85-8017-0432a4cbb222",
+      "https://nftstorage.link/ipfs/bafybeic3iqnrbdvuz6veoq3wogmkh63xrmurbtno36prkazbyavvqd2lci/13.png",
   },
 ];
 
