@@ -12,7 +12,7 @@ const teamMember2 =
 // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-3.jpg?alt=media&token=56eb6449-fa99-435f-a51b-d55ba1492894";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember3 =
-  "https://nftstorage.link/ipfs/bafkreibpl3spsaokcgr74ohxgasvgv73lrqtfow3dolhyamewjesqo3squ";
+  "https://nftstorage.link/ipfs/bafkreicg4hmcikldkejh3bb6mb66bdnt3hltiywdrsct3aazrorogd5vxm";
 // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/schemax%2FTeam-1-cropped.jpeg?alt=media&token=88f6275b-4e11-4129-bb75-e1765cb6b9c0";
 // "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80";
 const teamMember4 =
@@ -74,7 +74,7 @@ const TeamSlide = () => {
                   <img
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-56 object-cover object-center hover:scale-105 group-hover:opacity-75 transition-all duration-500 ease-in-out"
+                    className="w-full h-72 object-cover object-center hover:scale-105 group-hover:opacity-75 transition-all duration-500 ease-in-out"
                   />
                 </div>
                 <div className="mt-4">
