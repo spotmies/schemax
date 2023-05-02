@@ -1,14 +1,24 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "./page.module.css";
 import HomePage from "@/components/homePage";
-import { Navbarr } from "@/components/landing_slide";
-const inter = Inter({ subsets: ["latin"] });
+import Head from "next/head";
 
 export default function Home() {
   return (
     <div className="relative">
-      {/* <Navbarr /> */}
+      <Head>
+        <title>Schemax Tech</title>
+        <meta
+          name="description"
+          content="Schemax is a software product and technology services company
+          based out of India (Hyderabad & Visakhapatnam), that started its
+          operations in the year 2011, Schemax mission is to enable our
+          customers with business value driven technology products, custom
+          developed solutions and services."
+        />
+        <meta
+          name="facebook-domain-verification"
+          content="zh9j2l2ohzd3g8m4u9glb7pqv035l2"
+        />
+      </Head>
 
       <HomePage />
     </div>
