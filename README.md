@@ -5,8 +5,9 @@
 <img src="https://github.com/swastiksuvam55/schemax/assets/90003260/77c1b6bb-b184-4e74-ab4e-f7b51ceb7d0b" width="400" height="400">
 <img src="https://github.com/swastiksuvam55/schemax/assets/90003260/5846e51e-be5b-40e2-a760-6181f3085526" width="400" height="400">
 </div>
-
-
+<p align="center">
+<img src="https://bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue.ipfs.nftstorage.link/" width="800" height="500">
+</p>
 
 ---
 
