@@ -1,10 +1,11 @@
 # Schemax Website
 <div style="display:flex" align="center">
-<img src="https://user-images.githubusercontent.com/90003260/237043444-d1fc8ea3-cb9f-42e8-96fe-b87b106e44ce.jpeg" width="400" height="400">
-<img src="https://user-images.githubusercontent.com/90003260/237042909-a77db967-9a27-4de8-9548-d350e0e96a73.jpeg" width="400" height="400">
-<img src="https://user-images.githubusercontent.com/90003260/236408112-b75a790b-5973-42a5-94df-79247e92a77a.jpeg" width="400" height="400">
-<img src="https://user-images.githubusercontent.com/90003260/237043223-11afe260-62ca-43cc-abae-7dada6ae89d0.jpeg" width="400" height="400">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/28ee5e6d-ef04-41cb-838d-6e85dce39239" width="400" height="400">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/2ef58677-dcbd-42d2-90de-79add331d698" width="400" height="400">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/77c1b6bb-b184-4e74-ab4e-f7b51ceb7d0b" width="400" height="400">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/5846e51e-be5b-40e2-a760-6181f3085526" width="400" height="400">
 </div>
+
 
 
 ---
