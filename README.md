@@ -1,38 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Schemax Website
+<div style="display:flex" align="center">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/28ee5e6d-ef04-41cb-838d-6e85dce39239" width="400" height="400">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/2ef58677-dcbd-42d2-90de-79add331d698" width="400" height="400">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/77c1b6bb-b184-4e74-ab4e-f7b51ceb7d0b" width="400" height="400">
+<img src="https://github.com/swastiksuvam55/schemax/assets/90003260/5846e51e-be5b-40e2-a760-6181f3085526" width="400" height="400">
+</div>
+<p align="center">
+<img src="https://bafybeibjsnejvh7xdfp476olxob7unqkqqegryldr3w4glqprh6pzvwfue.ipfs.nftstorage.link/" width="800" height="500">
+</p>
 
-## Getting Started
+---
 
-First, run the development server:
+## Description
+This is the readme file for the webapp project, version 0.1.0. The project is a web application built with Next.js, React and Tailwind CSS. The project uses several other dependencies, including axios, classnames, framer-motion, react-countup, react-icons, react-multi-carousel, and react-reveal.  
 
+Schemax is a software product and technology services company based out of India (Hyderabad & Visakhapatnam), that started its operations in the year 2011, Schemax mission is to enable our customers with business value driven technology products, custom developed solutions and services.
+
+---
+
+## Installation
+To install the project, you can clone the repository from the project's GitHub page using the following command:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+gh repo clone spotmies/schemax
+```
+After cloning the repository, navigate to the project directory using the following command:
+```bash
+cd schemax
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Once you are in the project directory, run the following command to install all dependencies: 
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Usage
+To run the development server, run:
+```bash
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+This will start a local development server, and you can access the web application on your browser at http://localhost:3000/. You can now start making changes to the project code, and the server will automatically reload with the latest changes.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To build the project for production, run the following command:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+This command will generate an optimized production build of the project that is ready for deployment to a web server.
+To start the production server, run the following command:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
+This command will start the production server, and you can access the web application on your browser at http://localhost:3000/.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To lint the project code, run the following command:
+```bash
+npm run lint
+```
+This command will run a linter on the project code to check for any syntax or formatting issues.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project relies on several dependencies to function correctly. Here's a brief overview of each of the project's dependencies:
+
+`classnames`
+`framer-motion`
+`next`
+`react`
+`react-dom`
+`react-icons`
+`react-multi-carousel`
+
+---
+
+## Dev Dependencies
+The project has the following dev dependencies:
+
+`autoprefixer`
+`postcss`
+`tailwindcss`
+
+---
+
+## License
+
+This project is licensed under the BSD 3-Clause License. See the `LICENSE` file for more information.
+
+
+
