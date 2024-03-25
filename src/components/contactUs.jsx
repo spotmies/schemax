@@ -31,9 +31,10 @@ export default function ContactUs() {
           <div className="absolute top-0 left-0 w-full h-full bg-primary rounded-sm bg-opacity-50 z-10"></div>
           <div className="absolute h-full md:h-full flex flex-row items-end z-20">
             <div className="flex flex-col pl-6 text-white pb-4">
-              <div className="text-2xl md:text-3xl gil-med text">Schemax</div>
+              <div className="text-2xl md:text-3xl gil-med text">Schemax experts techno crafts pvt ltd</div>
               <p className="gil-light text-xs opacity-70 w-[70%]">
-                AU incubation centre, Andhra university, Visakhapatnam - 530003,
+                {/* AU incubation centre, Andhra university, Visakhapatnam - 530003, */}
+                3rd floor, VUDA Building, Seethammadhara, TPT Colony, Balayya Sastri Layout, Visakhapatnam, Andhra Pradesh-530013, India
                 <br />
                 +91 9030069351
                 <br />

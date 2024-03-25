@@ -90,16 +90,18 @@ export const Navbarr = () => {
   return (
     <nav className="bg-transparent fixed w-full z-10 px-5" id="navigationBar">
       <div className="container mx-auto flex justify-between items-center py-4">
-        <div className="flex items-center">
+        <div className="">
           <img
-            src={ toggleNavbar ? "/assets/images/schemax_logo.png" : "/assets/images/schemax_logo2.png"}
+            src={toggleNavbar ? "/assets/images/schemax_logo.png" : "/assets/images/schemax_logo2.png"}
             alt="Logo"
             className="h-10 cursor-pointer"
+            style={{ width: "230px", height: "55px" }}
           />
+          <p className={toggleNavbar ? "text-black text-xs" : "text-white text-xs"}>Schemax experts techno crafts pvt ltd</p>
         </div>
         <div className="flex items-center">
           <button
-            className={ `${toggleNavbar ? "text-primary" : "text-white"} hover:text-secundary focus:outline-none md:hidden` }
+            className={`${toggleNavbar ? "text-primary" : "text-white"} hover:text-secundary focus:outline-none md:hidden`}
             aria-label="Menu"
             onClick={toggleMenu}
           >
@@ -119,58 +121,51 @@ export const Navbarr = () => {
         <div className="hidden md:flex items-center">
           <a
             onClick={() => navigation("services")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Services
           </a>
           <a
             onClick={() => navigation("industries")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Industries
           </a>
           <a
             onClick={() => navigation("career")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Career
           </a>
           <a
             onClick={() => navigation("articles")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Blogs
           </a>
           <a
             onClick={() => navigation("aboutUs")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             About Us
           </a>
           <a
             onClick={() => navigation("contactUs")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer`}
           >
             Contact Us
           </a>
         </div>
       </div>
       <div
-        className={`${
-          isOpen ? "" : "hidden"
-        } md:hidden bg-white transition-all duration-500 ease-in-out`}
+        className={`${isOpen ? "" : "hidden"
+          } md:hidden bg-white transition-all duration-500 ease-in-out`}
       >
         <a
           onClick={() => navigation("services")}
