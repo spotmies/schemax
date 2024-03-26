@@ -39,6 +39,11 @@ export default function ContactUs() {
                 +91 9030069351
                 <br />
                 info@schemaxtech.com
+                <br />
+                <br />
+                Flat No.302, Venkateswara Nilayam, MVP colony, Visakhapatnam, Andhra Pradesh-530017, India
+                <br />
+                +91 9945612838
               </p>
               <div className="flex flex-row w-[50%] pt-4 justify-between">
                 <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer ">
